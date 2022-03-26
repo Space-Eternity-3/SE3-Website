@@ -1,9 +1,8 @@
 ---
 sidebar_position: 1
 slug: ./
+title: "SE3 Documentation"
 ---
-
-# SE3 Docs
 
 This documentation contains:
 
