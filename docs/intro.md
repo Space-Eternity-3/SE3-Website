@@ -6,4 +6,4 @@ title: "SE3 Documentation"
 
 This documentation contains:
 
-- [SE3 Protocol](./Protocol/)
+- [Datapack info](./Datapack/)
