@@ -39,7 +39,7 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: "SE3 Docs",
+                title: "SE3 Documentation",
                 items: [
                     {
                         type: "doc",
