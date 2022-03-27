@@ -2,27 +2,29 @@
 title: "Biome settings"
 ---
 
-Biome settings are used to customize biomes and default generation. They consist of [tags](#tags).
+Biome settings are used to customize biomes and default generation. They consist of [tags](#tags).  
 Datapack will be always imported, even if some tags are incorrect, so put them precisely.
 
 ## Contents
 
 - [Contents](#contents)
 - [Biome settings variable look:](#biome-settings-variable-look)
+- [Switch type](#switch-type)
 - [Tags](#tags)
-  - [min={A}, max={B}](#mina-maxb)
-  - [radius={C}](#radiusc)
-  - [density={D}](#densityd)
+  - [min={integer}](#mininteger)
+  - [max={integer}](#maxinteger)
+  - [radius={integer}](#radiusinteger)
+  - [density={percentage}](#densitypercentage)
   - [ring.inner.change->{E}](#ringinnerchange-e)
   - [ring.outer.change->{F}](#ringouterchange-f)
   - [ring.X.change->{E/F}](#ringxchange-ef)
-  - [swap](#swap)
-  - [priority={G}](#priorityg)
-  - [grid](#grid)
-  - [full](#full)
-  - [precise](#precise)
-  - [structural](#structural)
-  - [arena](#arena)
+  - [swap (switch)](#swap-switch)
+  - [priority={integer}](#priorityinteger)
+  - [grid (switch)](#grid-switch)
+  - [full (switch)](#full-switch)
+  - [precise (switch)](#precise-switch)
+  - [structural (switch)](#structural-switch)
+  - [arena (switch)](#arena-switch)
 
 ## Biome settings variable look:
 
@@ -35,36 +37,59 @@ settings: [
 ];
 ```
 
+## Switch type
+
+Switch type is a setting without any parameters
+
+for example:
+```text
+settings: [
+	structural, <--- switch (no parameters)
+	arena, <--- also switch
+	ring.inner.change -> 0, ring.inner.change -> 50,
+	radius = 80,
+	density = 100%,
+];
+```
+
 ## Tags
 
-Tags might have a parameter,
-for example density=5% and it is
-called {} in this documentation.
-Note: Do not use {} around parameters.
+Tags might have a parameter, for example `density=5%`.  
+Parameters in this documentation are around {}, don't use it in a datapack:
 
-Bad: `ring={30}`, Good: `ring=30`, Best: `ring = 30`
+-   Bad: `ring={30}`
+-   Good: `ring=30`
+-   Best: `ring = 30`
 
-### min={A}, max={B}
+### min={integer}
 
-Use them to set a minimum and maximum biome radius.
-Picked number will be random between these 2 parameters.
-Parameters are integers `<0;80>`
+Determines minimum biome radius, must be between 0 and 80.  
+Must be used with [max](#maxinteger).  
+Biome size will be a random value between min and max.
 
-Default: `[min=65, max=80]`
+Default: `min=65`
 
-### radius={C}
+### max={integer}
 
-Use it to set biome radius precisely.
-Parameter is an integer `<0;80>`
+Determines maximum biome radius, must be between 0 and 80.  
+Must be used with [min](#mininteger).  
+Biome size will be a random value between min and max
 
-Default: `[min=65, max=80]`
+Default: `max=80`
 
-### density={D}
+### radius={integer}
 
-Use it to set how often asteroids will appear.
-Parameter is a percent integer `<0%;100%>`, 0% means no asteroids.
+Use it to set biome radius precisely.  
+Must be between 0 and 80;
 
-Default: `[density=60%]`
+Default: **NOT USED**
+
+### density={percentage}
+
+Use it to set how often asteroids will appear.  
+Must be between 0% and 100%, 0% means no asteroids.
+
+Default: `density=60%`
 
 ### ring.inner.change->{E}
 
@@ -121,72 +146,64 @@ a constant radius together with tag `ring.X.change->{E/F}`
 if you are not the master in those settings. If you do not
 do that, simlar biomes might have different ring structures.
 
-### swap
+### swap (switch)
 
-Use it to swap empty space and asteroid space.
-Created to collaborate with `ring.X.change->{E/F}`
+Use it to swap empty space and asteroid space.  
+Created to collaborate with `ring.X.change->{E/F}`  
 and will be executed always after that.
 
 Default: **NOT USED**
 
-### priority={G}
+### priority={integer}
 
-Use it to show which biome will
-generate at the end and overwrite
-others, when they touch each other.
-Higher value means higher priority.
-No biomes will be removed.
-Parameter is an integer `<1;31>`
+Use it to show which biome will generate at the end and overwrite others, when they touch each other.  
+Higher value means higher priority.  
+No biomes will be removed.  
+Must be between 1 and 31.
 
-Default: `[priority=16]`
+Default: `priority=16`
 
-### grid
+### grid (switch)
 
-Use it to disable asteroid offset.
-All asteroids will generate in
-diagonal grid points.
+Use it to disable asteroid offset.  
+All asteroids will generate in diagonal grid points.
 
 Default: **NOT USED**
 
-### full
+### full (switch)
 
-Use it to make a 300x300 biome square.
-Sometimes it might be overwriten by other biomes,
-but you can always set a high priority to prevent it.
-Recommended not to use it, when you
-want to make a good datapack :)
+Use it to make a 300x300 biome square.  
+Sometimes it might be overwriten by other biomes, but you can always set a high priority to prevent it.  
+Recommended not to use it, when you want to make a good datapack :)
 
 Default: **NOT USED**
 
-### precise
+### precise (switch)
 
-Use it to set center of biome precisely at asteroid
-grid point to prevent bugs with structures.
-It is recommended to put it only on structures.
+Use it to set center of biome precisely at asteroid grid point to prevent bugs with structures.  
+It is recommended to put it only on structures.  
 Tag structural automatically enables it.
 
 Default: **NOT USED**
 
-### structural
+### structural (switch)
 
-Use it to disable touching other biomes with this tag.
-It automatically sets priority to 32 (bigger than max)
-Biomes with this tag have double generation points.
-That means, they engage 2 times more space in a biome
-generation array because of technical reasons.
+Use it to disable touching other biomes with this tag.  
+It automatically sets priority to 32 (bigger than max).  
+Biomes with this tag have double generation points.  
+That means, they engage 2 times more space in a biome generation array because of technical reasons.  
 It is recommended to add this tag to structures.
 
 Default: **NOT USED**
 
-### arena
+### arena (switch)
 
-Use it to generate arena in the middle of a biome.
-Tag "structural" is required to work. It is also recommended
-to use tag "ring.X.change->{E/F}" in order to create some
-space in the middle and set a minimum biome
-radius to at least 50
+Use it to generate arena in the middle of a biome.  
+Tag "structural" is required to work.  
+It is also recommended to use tag "ring.X.change->{E/F}" in order to create some space in the middle and set a minimum biome radius to at least 50
 
 Default: **NOT USED**
+
 <!--
 ### m) black.hole
 

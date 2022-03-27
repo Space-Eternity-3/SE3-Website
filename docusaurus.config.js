@@ -9,7 +9,7 @@ const config = {
     title: "SE3 Docs",
     tagline: "Space Eternity 3 Documentation",
     url: "https://space-eternity-3.github.io/",
-    baseUrl: "/docs/",
+    baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
@@ -30,6 +30,9 @@ const config = {
                             path: "Beta-1.12",
                         },
                     },
+                },
+                theme: {
+                    customCss: [require.resolve("./src/css/custom.css")],
                 },
             }),
         ],
