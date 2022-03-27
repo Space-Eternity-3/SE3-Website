@@ -2,3 +2,24 @@
 title: "Modified drops"
 sidebar_position: 3
 ---
+
+Modified drops is a place, where you can set objects and their amounts,
+which will be collected after picking up an object:
+
+## Contents
+
+- [Contents](#contents)
+- [Construction rules](#construction-rules)
+
+## Construction rules
+
+Every line conatins variable and value part. These are separated using `:`
+Variable part is an object name `big_bush`, which is destroyed. Value part contains
+object name `bush` and object count in round brackets `(3)` If you don't use brackets,
+the count will be set to 1.
+
+```text
+medium_amethyst: small_amethyst(2);
+large_amethyst: small_amethyst(3);
+big_bush: bush(3);
+```
