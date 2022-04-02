@@ -1,2 +1,2 @@
-# SE3-Docs
- Space Eternity 3 Documentation
+# SE3-Website
+ Space Eternity 3 Website
