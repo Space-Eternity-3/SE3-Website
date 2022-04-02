@@ -1,7 +1,6 @@
 {
-  "name": "se-3-data",
-  "version": "0.0.0",
-  "private": true,
+  "name": "se3-website",
+  "version": "1.0.0",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "SE3 Docs",
-    tagline: "Space Eternity 3 Documentation",
+    title: "SE3",
+    tagline: "Space Eternity 3",
     url: "https://space-eternity-3.github.io/",
     baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
     organizationName: "Space-Eternity-3", // Usually your GitHub org/user name.
-    projectName: "SE3-Docs", // Usually your repo name.
+    projectName: "space-eternity-3.github.io", // Usually your repo name.
 
     presets: [
         [
@@ -42,18 +42,23 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: "SE3 Documentation",
+                title: "Space Eternity 3",
                 items: [
                     {
-                        type: "doc",
-                        docId: "intro",
                         position: "left",
-                        label: "Docs",
+                        to: "/download",
+                        label: "Download",
                     },
                     {
-                        href: "https://github.com/Space-Eternity-3/Space-Eternity-3.github.io",
-                        label: "GitHub",
-                        position: "right",
+                        position: "left",
+                        to: "/about",
+                        label: "About SE3",
+                    },
+                    {
+                        position: "left",
+                        type: "doc",
+                        label: "Documentation",
+                        docId: "intro"
                     },
                     {
                         type: "docsVersionDropdown",

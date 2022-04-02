@@ -1,0 +1,95 @@
+/* @font-face {
+    font-family: "Quicksand";
+    font-weight: lighter;
+    src: url(/fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+    font-family: "Quicksand";
+    font-weight: normal;
+    src: url(/fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Quicksand";
+    font-weight: normal;
+    src: url(/fonts/Quicksand-SemiBold.ttf);
+} */
+
+@font-face {
+    font-family: "Quicksand";
+    font-weight: normal;
+    src: url(/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+#background {
+    background-image: url(/img/screenshot-1.png);
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#main-content {
+    position: absolute;
+    background-color: #00000030;
+    backdrop-filter: blur(1.5px);
+    z-index: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+[data-theme=dark]
+#main-content .content-container {
+    background-color: #00000070;
+}
+
+[data-theme=light]
+#main-content .content-container {
+    background-color: #44444450;
+}
+
+#main-content .content-container {
+    padding: 60px 90px;
+    border-radius: 10px;
+}
+
+#main-content .title {
+    font-size: 70px;
+    font-family: "Quicksand";
+    font-weight: 600;
+    user-select: none;
+}
+
+[data-theme=dark]
+#main-content .download-btn {
+    background-color: #363640;
+    color: white;
+}
+
+[data-theme=light]
+#main-content .download-btn {
+    background-color: #ffffff;
+    color: #363640;
+}
+
+#main-content .download-btn {
+    border-radius: 10px;
+    font-size: 27px;
+    text-decoration: false;
+    margin: 5px 5px;
+    padding: 0.2vh 1vw;
+    display: inline-block;
+    user-select: none;
+}
