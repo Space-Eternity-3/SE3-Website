@@ -25,15 +25,15 @@ title: "Asteroids"
 
 ### Stone
 
-#### 1
+#### Stone 1
 
 ![Stone-1](/img/asteroids/stone-1.png)
 
-#### 2
+#### Stone 2
 
 ![Stone-2](/img/asteroids/stone-2.png)
 
-#### 3
+#### Stone 3
 
 ![Stone-3](/img/asteroids/stone-3.png)
 

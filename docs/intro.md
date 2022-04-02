@@ -6,5 +6,5 @@ title: "SE3 Documentation"
 
 This documentation contains:
 
-- [Game Data](./Data/)
+- [Game Data](./GameData/)
 - [Datapack info](./DatapackInfo/)

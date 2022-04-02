@@ -52,3 +52,6 @@ title: "Items and Objects"
 | 46  | Frozen Artefact          |
 | 47  | Unstable Artefact        |
 | 48  | Unstable Matter          |
+| 49  | Packed Bedrock           |
+| 50  | Bedrock Stone            |
+| 51  | Metal Piece              |

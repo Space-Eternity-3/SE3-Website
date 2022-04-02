@@ -7,7 +7,7 @@ export default function Hello() {
         <Layout title="Space Eternity 3">
             <div id="background"></div>
             <div id="main-content">
-                <div class="content-container">
+                <div className="content-container">
                     <span className="title">Space Eternity 3</span>
                     <br />
                     <div style={{ textAlign: "center" }}>

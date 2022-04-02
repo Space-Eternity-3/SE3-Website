@@ -44,13 +44,14 @@ Switch type is a setting without any parameters
 for example:
 ```text
 settings: [
-	structural, <--- switch (no parameters)
-	arena, <--- also switch
+	structural,
+	arena,
 	ring.inner.change -> 0, ring.inner.change -> 50,
 	radius = 80,
 	density = 100%,
 ];
 ```
+In this example, `structural` and `arena` are switches.
 
 ## Tags
 
