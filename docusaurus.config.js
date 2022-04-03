@@ -58,7 +58,12 @@ const config = {
                         position: "left",
                         type: "doc",
                         label: "Documentation",
-                        docId: "intro"
+                        docId: "intro",
+                    },
+                    {
+                        href: "https://discord.gg/e4ppBTRKhg",
+                        label: "Discord",
+                        position: "right",
                     },
                     {
                         type: "docsVersionDropdown",

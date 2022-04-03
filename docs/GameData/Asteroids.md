@@ -2,69 +2,19 @@
 title: "Asteroids"
 ---
 
-## Types
-
-| ID  | Name                |
-| --- | ------------------- |
-| 0   | Stone               |
-| 1   | Stone Geyzer        |
-| 2   | Magnetic Geyzer     |
-| 3   | Copper              |
-| 4   | Gold                |
-| 5   | Grass               |
-| 6   | Amethyst            |
-| 7   | Coal                |
-| 8   | Magnetic            |
-| 9   | Red                 |
-| 10  | Diamond             |
-| 11  | Melted              |
-| 12  | Bedrock             |
-| 13  | Artefact Randomizer |
-
-## Textures
-
-### Stone
-
-#### Stone 1
-
-![Stone-1](/img/asteroids/stone-1.png)
-
-#### Stone 2
-
-![Stone-2](/img/asteroids/stone-2.png)
-
-#### Stone 3
-
-![Stone-3](/img/asteroids/stone-3.png)
-
-### Magnetic
-
-![Magnetic](/img/asteroids/magnetic.png)
-
-### Copper
-
-![Copper](/img/asteroids/copper.png)
-
-### Gold
-
-![Gold](/img/asteroids/gold.png)
-
-### Grass
-
-![Grass](/img/asteroids/grass.png)
-
-### Amethyst
-
-![Amethyst](/img/asteroids/amethyst.png)
-
-### Coal
-
-![Coal](/img/asteroids/coal.png)
-
-### Red
-
-![Red](/img/asteroids/red.png)
-
-### Diamond
-
-![Diamond](/img/asteroids/diamond.png)
+| ID  | Name                | Preview                                                              |
+| --- | ------------------- | -------------------------------------------------------------------- |
+| 0   | Stone               | <img src="/img/asteroids/Stone-1.png" width="200" />   |
+| 1   | Stone Geyzer        | <img src="/img/asteroids/Stone-1.png" width="200" />   |
+| 2   | Magnetic Geyzer     | <img src="/img/asteroids/Magnetic.png" width="200" />  |
+| 3   | Copper              | <img src="/img/asteroids/Copper.png" width="200" />     |
+| 4   | Gold                | <img src="/img/asteroids/Gold.png" width="200" />         |
+| 5   | Grass               | <img src="/img/asteroids/Grass.png" width="200" />       |
+| 6   | Amethyst            | <img src="/img/asteroids/Amethyst.png" width="200" /> |
+| 7   | Coal                | <img src="/img/asteroids/Coal.png" width="200" />         |
+| 8   | Magnetic            | <img src="/img/asteroids/Magnetic.png" width="200" /> |
+| 9   | Red                 | <img src="/img/asteroids/Red.png" width="200" />           |
+| 10  | Diamond             | <img src="/img/asteroids/Diamond.png" width="200" />   |
+| 11  | Melted              | -                                                                    |
+| 12  | Bedrock             | <img src="/img/asteroids/Bedrock.png" width="200" />   |
+| 13  | Artefact Randomizer | -                                                                    |
