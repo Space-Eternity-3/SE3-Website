@@ -13,3 +13,15 @@
     padding-left: var(--ifm-pre-padding);
     margin-left: var(--ifm-global-spacing);
 }
+
+[data-theme=dark]
+.navbar {
+    background: #24252650;
+    backdrop-filter: blur(3px);
+}
+
+[data-theme=light]
+.navbar {
+    background: #ffffff;
+}
+

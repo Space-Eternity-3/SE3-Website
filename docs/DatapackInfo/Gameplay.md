@@ -7,8 +7,8 @@ Gameplay is a place, where you can set some in-game variables to change game rul
 
 ## Contents
 
-- [Contents](#contents)
-- [Gameplay variables](#gameplay-variables)
+-   [Contents](#contents)
+-   [Gameplay variables](#gameplay-variables)
 
 ## Gameplay variables
 
