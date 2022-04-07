@@ -1,8 +1,10 @@
 ---
 slug: ./
 title: "Datapack info"
+sidebar_position: 3
 ---
 
+<<<<<<< Updated upstream
 All tabs and enters will be removed.
 -------------------------------
 Compiler working:
@@ -19,3 +21,12 @@ All other chars are allowed.
  ;  - value end char
  '  - on/off remove space
 -------------------------------
+=======
+- [Craftings](./Craftings)
+- [Drill loot](./DrillLoot)
+- [Modified drops](./ModifiedDrops)
+- [Gameplay](./Gameplay)
+- [Generator settings](./GeneratorSettings)
+- [Objects generate](./ObjectsGenerate)
+- [Game translate](./GameTranslate)
+>>>>>>> Stashed changes

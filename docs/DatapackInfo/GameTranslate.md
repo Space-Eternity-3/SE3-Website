@@ -30,9 +30,7 @@ Items_and_objects
 
 ## Asteroids
 
-Data lines are basic jse3 variables and values. Variable part is asteroid ID and value part is asteroid name.
-
-Example:
+Data lines are basic jse3 variables and values. Variable part is [asteroid ID](../GameData/Asteroids) and value part is asteroid name.
 
 ```text
 Asteroids
@@ -47,9 +45,8 @@ Asteroids
 
 ## Items and objects
 
-Data lines are basic jse3 variables and values. Variable part is an object ID and value part is an object name.
+Data lines are basic jse3 variables and values. Variable part is an [object ID](../GameData/ItemsAndObjects) and value part is an object name.
 
-Example:
 
 ```text
 Items_and_objects

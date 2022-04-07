@@ -3,7 +3,7 @@ title: "Gameplay"
 sidebar_position: 4
 ---
 
-Gameplay is a place, where you can set some in-game variables to change game rules.
+Gameplay is a place, where you can set in-game variables to change game rules.
 
 ## Contents
 

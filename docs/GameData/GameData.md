@@ -1,6 +1,7 @@
 ---
 slug: ./
 title: "Game Data"
+sidebar_position: 2
 ---
 
 - [Asteroids](./Asteroids)
