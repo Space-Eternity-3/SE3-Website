@@ -1,17 +1,17 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import styles from "./index.module.css";
+import "./index.css";
 
-export default function () {
+export default function Hello() {
     return (
         <Layout title="Space Eternity 3">
-            <div className={styles.background}></div>
-            <div className={styles.mainContent}>
-                <div>
-                    <span className={styles.title}>Space Eternity 3</span>
+            <div id="background"></div>
+            <div id="main-content">
+                <div className="content-container">
+                    <span className="title">Space Eternity 3</span>
                     <br />
                     <div style={{ textAlign: "center" }}>
-                        <a className={styles.contentButton} href="/download">
+                        <a className="download-btn" href="/download">
                             Download
                         </a>
                     </div>

@@ -8,8 +8,8 @@ depending on asteroid type. Every jse3 line is a different asteroid.
 
 ## Contents
 
--   [Contents](#contents)
--   [Construction rules](#construction-rules)
+- [Contents](#contents)
+- [Construction rules](#construction-rules)
 
 ## Construction rules
 
@@ -17,11 +17,6 @@ Every line conatins variable and value part. These are separated using `:`
 Variable part is an asteroid name `stone_geyzer`, which sets, where you modify an object generation.
 Value part contains objects `stone` with generate probability in round brackets `(35%)` separated with `+`
 
-<<<<<<< Updated upstream
-Example:
-
-=======
->>>>>>> Stashed changes
 ```text
 stone: stone(35%);
 stone_geyzer: stone(30%) + stone_geyzer(20%);

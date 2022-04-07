@@ -8,8 +8,8 @@ which will be collected after picking up an object:
 
 ## Contents
 
--   [Contents](#contents)
--   [Construction rules](#construction-rules)
+- [Contents](#contents)
+- [Construction rules](#construction-rules)
 
 ## Construction rules
 
@@ -23,14 +23,3 @@ medium_amethyst: small_amethyst(2);
 large_amethyst: small_amethyst(3);
 big_bush: bush(3);
 ```
-<<<<<<< Updated upstream
-=======
-
-You can also put raw numbers instead of names, but it is recommended to use [Game translate](./GameTranslate/) system:
-
-```text
-6: 5(2);
-7: 5(3);
-14: 12(3);
-```
->>>>>>> Stashed changes

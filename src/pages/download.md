@@ -4,7 +4,5 @@
 
 ![Launcher](/img/launcher-1.png)
 
-### Downloads for Windows
-
-**64-bit: ** &nbsp;&nbsp;&nbsp; [SE3-Launcher-win32-x64](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/2.0.3/SE3.Launcher-win32-x64.zip)  
-**32-bit: ** &nbsp;&nbsp;&nbsp; [SE3-Launcher-win32-ia32](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/2.0.3/SE3.Launcher-win32-ia32.zip)
+[SE3-Launcher-win32-x64](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/2.0.3/SE3.Launcher-win32-x64.zip)  
+[SE3-Launcher-win32-ia32](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/2.0.3/SE3.Launcher-win32-ia32.zip)

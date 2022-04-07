@@ -7,24 +7,24 @@ Datapack will be always imported, even if some tags are incorrect, so put them p
 
 ## Contents
 
--   [Contents](#contents)
--   [Biome settings variable look:](#biome-settings-variable-look)
--   [Switch type](#switch-type)
--   [Tags](#tags)
-    -   [min={integer}](#mininteger)
-    -   [max={integer}](#maxinteger)
-    -   [radius={integer}](#radiusinteger)
-    -   [density={percentage}](#densitypercentage)
-    -   [ring.inner.change->{E}](#ringinnerchange-e)
-    -   [ring.outer.change->{F}](#ringouterchange-f)
-    -   [ring.X.change->{E/F}](#ringxchange-ef)
-    -   [swap (switch)](#swap-switch)
-    -   [priority={integer}](#priorityinteger)
-    -   [grid (switch)](#grid-switch)
-    -   [full (switch)](#full-switch)
-    -   [precise (switch)](#precise-switch)
-    -   [structural (switch)](#structural-switch)
-    -   [arena (switch)](#arena-switch)
+- [Contents](#contents)
+- [Biome settings variable look:](#biome-settings-variable-look)
+- [Switch type](#switch-type)
+- [Tags](#tags)
+  - [min={integer}](#mininteger)
+  - [max={integer}](#maxinteger)
+  - [radius={integer}](#radiusinteger)
+  - [density={percentage}](#densitypercentage)
+  - [ring.inner.change->{E}](#ringinnerchange-e)
+  - [ring.outer.change->{F}](#ringouterchange-f)
+  - [ring.X.change->{E/F}](#ringxchange-ef)
+  - [swap (switch)](#swap-switch)
+  - [priority={integer}](#priorityinteger)
+  - [grid (switch)](#grid-switch)
+  - [full (switch)](#full-switch)
+  - [precise (switch)](#precise-switch)
+  - [structural (switch)](#structural-switch)
+  - [arena (switch)](#arena-switch)
 
 ## Biome settings variable look:
 
@@ -42,7 +42,6 @@ settings: [
 Switch type is a setting without any parameters
 
 for example:
-
 ```text
 settings: [
 	structural,
@@ -52,7 +51,6 @@ settings: [
 	density = 100%,
 ];
 ```
-
 In this example, `structural` and `arena` are switches.
 
 ## Tags
