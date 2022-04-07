@@ -1,3 +1,3 @@
 @echo off
-npm start
+npm run build
 pause
