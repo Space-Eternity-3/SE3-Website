@@ -16,10 +16,16 @@
 
 [data-theme=dark]
 .navbar {
-    background: #24252650;
-    backdrop-filter: blur(3px);
+    background: #24252680;
 }
+
 [data-theme=light]
 .navbar {
     background: #ffffff;
+}
+
+[data-theme=dark]
+.navbar-sidebar {
+    background: #2425269f;
+    backdrop-filter: blur(10px);
 }

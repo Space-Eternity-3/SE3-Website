@@ -52,11 +52,21 @@
 
 .mainContent .title {
     color: white;
-    font-size: 100px;
     font-weight: 600;
     user-select: none;
     text-shadow: 0px 0px 18px rgba(255, 255, 255, 0.3);
     font-family: "Quicksand";
+}
+
+@media only screen and (max-width: 760px) {
+    .mainContent .title {
+        font-size: 12vw;
+    }
+}
+@media not screen and (max-width: 760px) {
+    .mainContent .title {
+        font-size: 100px;
+    }
 }
 
 .mainContent .contentButton {
