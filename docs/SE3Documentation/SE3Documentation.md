@@ -3,7 +3,7 @@ slug: ./
 title: "SE3 Documentation"
 ---
 
-This documentation contains all data, which is needed to understand SE3 technical side.
+Here you can find all technical data about SE3.
 
 - [Game Data](./GameData/)
 - [Datapack info](./DatapackInfo/)
