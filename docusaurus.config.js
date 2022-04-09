@@ -58,7 +58,7 @@ const config = {
                         position: "left",
                         type: "doc",
                         label: "Documentation",
-                        docId: "intro",
+                        docId: "SE3Documentation/SE3Documentation",
                     },
                     {
                         href: "https://discord.gg/e4ppBTRKhg",
