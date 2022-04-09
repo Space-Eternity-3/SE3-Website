@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 
 Modified drops is a place, where you can set objects and their amounts,
-which will be collected after picking up an object:
+which will be collected after picking up an object.
 
 ## Contents
 
@@ -13,9 +13,8 @@ which will be collected after picking up an object:
 
 ## Construction rules
 
-Every line conatins variable and value part. These are separated using `:`
-Variable part is an object name `big_bush`, which is destroyed. Value part contains
-object name `bush` and object count in round brackets `(3)` If you don't use brackets,
+Variable part is an object name, which is destroyed. Value part contains
+object name and object count in round brackets. If you don't use brackets,
 the count will be set to 1.
 
 ```text

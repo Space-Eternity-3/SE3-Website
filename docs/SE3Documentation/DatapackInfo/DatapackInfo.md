@@ -1,22 +1,57 @@
 ---
 slug: ./
 title: "Datapack info"
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-All tabs and enters will be removed.
--------------------------------
-Compiler working:
-Text A - TextA
-'Text B' - Text B
--------------------------------
-You can't use these chars in variable names and values:
-{ } < : ; ~ '
-All other chars are allowed.
--------------------------------
-> < - comments
+- [Craftings](./Craftings)
+- [Drill Loot](./DrillLoot)
+- [Modified Drops](./ModifiedDrops)
+- [Gameplay](./Gameplay)
+- [Generator Settings](./GeneratorSettings)
+- [Objects Generate](./ObjectsGenerate)
+- [Game Translate](./GameTranslate)
+  
+
+----------------------------------------
+
+Datapacks are used to change in-game rules, when playing SE3 starts being boring.
+
+## Contents
+
+- [Contents](#contents)
+- [Construction rules](#construction-rules)
+
+## Construction rules
+
+Every datapack consists of variable-value combos in jse3 hierarchy.
+```text
+variable: value;
+grandparent
+{
+    variable: value;
+    variable2: 'value with space';
+    parent
+    {
+        variable: value;
+    }
+}
+```
+
+Jse3 compiler does some actions to simplify code before compilation.
+It removes all spaces, tabs and new lines, so these chars have only
+cosmetical meaning by default.
+
+Functional chars:
+```text
+< > - comments
 { } - variable tree operators
  :  - variable/value separator
  ;  - value end char
  '  - on/off remove space
--------------------------------
+```
+
+Dennied chars in variable names and values:
+```text
+{ } < : ; ~ '
+```
