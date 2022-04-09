@@ -42,6 +42,7 @@ settings: [
 Switch type is a setting without any parameters
 
 for example:
+
 ```text
 settings: [
 	structural,
@@ -51,6 +52,7 @@ settings: [
 	density = 100%,
 ];
 ```
+
 In this example, `structural` and `arena` are switches.
 
 ## Tags
@@ -58,9 +60,17 @@ In this example, `structural` and `arena` are switches.
 Tags might have a parameter, for example `density=5%`.  
 Parameters in this documentation are around {}, don't use it in a datapack:
 
--   Bad: `ring={30}`
--   Good: `ring=30`
--   Best: `ring = 30`
+- Bad: `ring={30}`
+- Good: `ring=30`
+- Best: `ring = 30`
+
+| ID  | Tag         | Parameter       | Default | Description                                 | Note                       |
+| --- | ----------- | --------------- | ------- | ------------------------------------------- | -------------------------- |
+| 1   | min={}      | int <0;80>      | 65      | Determines minimum biome randomized radius. | -                          |
+| 2   | max={}      | int <0;80>      | 80      | Determines maximum biome randomized radius. | -                          |
+| 3   | radius={}   | int <0;80>      | -       | Determines biome radius precisely.          | -                          |
+| 4   | density={}  | int % <0%;100%> | 60%     | Determines how often asteroids appear.      | -                          |
+| 5   | priority={} | int <1;31>      | 16      | -                                           | No biomes will be removed. |
 
 ### min={integer}
 
