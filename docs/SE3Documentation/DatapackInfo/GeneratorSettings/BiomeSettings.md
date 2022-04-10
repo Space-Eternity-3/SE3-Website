@@ -57,7 +57,7 @@ It determines at which distances from biome center or border empty zone and aste
 If you don't use any tag ring.X.change, the whole zone will be asteroid zone.
 There are two types of this tag.
 
-| Type                 | Parameter  | Parameter function                   | Calculate direction   |
+| Type                 | Parameter  | Parameter function                   | Calculation direction   |
 | -------------------- | ---------- | ------------------------------------ | --------------------- |
 | ring.inner.change->X | int <0;80> | Determines distance to biome center. | From center to border |
 | ring.outer.change->X | int <0;80> | Determines distance to biome border. | From border to center |
