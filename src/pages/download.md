@@ -2,7 +2,7 @@
 
 ## Download launcher v2.0.3 (latest)
 
-![Launcher](/img/launcher-1.png)
+![Launcher](/img/launcher-2.png)
 
 ### Downloads for Windows
 

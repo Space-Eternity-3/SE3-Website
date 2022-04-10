@@ -43,7 +43,7 @@ at_protection_health_regenerate_multiplier: 1,5;
 | 15  | player_turbo_speed                         | 18      | float | Player speed when using turbo. Can be increased through upgrades.                      | Only if turbo level is 0 |
 | 16  | drill_normal_speed                         | 8       | float | Player spped when on drill extended.                                                   | -                        |
 | 17  | drill_brake_speed                          | -5      | float | Player speed when using brake and on drill extended.                                   | -                        |
-| 18  | at_protection_health_level_add             | 2,272   | float | Protection artefact increases (or decreases) health level by this value.               | -                        |
+| 18  | at_protection_health_level_add             | 2,272   | float | Amount, which is added to health_level_add when using protection artefact.             | -                        |
 | 19  | at_protection_health_regenerate_multiplier | 1,5     | float | Protection artefact multiplies health_regenerate_multiplier by this value.             | -                        |
 | 20  | at_impulse_power_regenerate_multiplier     | 1       | float | Speed of power regeneration when using impulse artefact.                               | -                        |
 | 21  | at_impulse_time                            | 0,4     | float | Impulse time when using impulse artefact.                                              | -                        |
