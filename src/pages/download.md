@@ -2,6 +2,9 @@
 
 ## Download launcher v2.0.3 (latest)
 
+Source is half-open, you just need to unpack app.asar.  
+From [version v3](https://github.com/Space-Eternity-3/SE3-Launcher), launcher will be fully opensource
+
 ![Launcher](/img/launcher-2.png)
 
 ### Downloads for Windows
