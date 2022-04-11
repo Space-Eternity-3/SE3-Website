@@ -8,7 +8,7 @@ sidebar_position: 1
 - [Drill Loot](./DrillLoot)
 - [Modified Drops](./ModifiedDrops)
 - [Gameplay](./Gameplay)
-- [Generator Settings](./GeneratorSettings)
+- [Generator Settings](./GeneratorSettings/)
 - [Objects Generate](./ObjectsGenerate)
 - [Game Translate](./GameTranslate)
   
