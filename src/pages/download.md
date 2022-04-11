@@ -2,12 +2,11 @@
 
 ## Download launcher v2.0.3 (latest)
 
-Source is half-open, you just need to unpack app.asar (~~You don't wanna do this, because the code is tragic~~)  
-From [version v3](https://github.com/Space-Eternity-3/SE3-Launcher), launcher will be fully opensource
-
 ![Launcher](/img/launcher-2.png)
 
 ### Downloads for Windows
 
 **64-bit: ** &nbsp;&nbsp;&nbsp; [SE3-Launcher-win32-x64](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/2.0.3/SE3.Launcher-win32-x64.zip)  
 **32-bit: ** &nbsp;&nbsp;&nbsp; [SE3-Launcher-win32-ia32](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/2.0.3/SE3.Launcher-win32-ia32.zip)
+
+*Note: from [version v3](https://github.com/Space-Eternity-3/SE3-Launcher), launcher will be opensource. Now you can unpack app.asar, but the code is tragic.*
