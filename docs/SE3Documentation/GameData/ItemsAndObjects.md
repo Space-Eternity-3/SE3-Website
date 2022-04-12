@@ -33,7 +33,7 @@ title: Items and Objects
 | 27  | Red Alien                | ![](/img/items/Nn27.png)                            |
 | 28  | Red Spikes               | ![](/img/items/Nn28.png)                            |
 | 29  | Stone Tomb               | ![](/img/items/Nn29.png)                            |
-| 30  | Red                      | ![](/img/items/Nn30.png)                            |
+| 30  | Red Stone                | ![](/img/items/Nn30.png)                            |
 | 31  | Packed Red               | ![](/img/items/Nn31.png)                            |
 | 32  | Medium Diamond           | ![](/img/items/Nn32.png)                            |
 | 33  | Small Diamond            | ![](/img/items/Nn33.png)                            |
@@ -54,4 +54,4 @@ title: Items and Objects
 | 48  | Unstable Matter          | ![](/img/items/Nn48.png)                            |
 | 49  | Packed Bedrock           | ![](/img/items/Empty.png)                           |
 | 50  | Bedrock Stone            | ![](/img/items/Empty.png)                           |
-| 51  | Metal Piece              | ![](/img/items/Empty.png)                           |
+| 51  | Metal Piece              | ![](/img/items/Nn51.png)                            |
