@@ -35,7 +35,7 @@ at_protection_health_regenerate_multiplier: 1,5;
 | 7   | turbo_use_multiplier                       | 2       | float | Speed of turbo ussage.                                                                 | -                        |
 | 8   | crash_minimum_energy                       | 5       | float | Minimum crash damage speed.                                                            | -                        |
 | 9   | crash_damage_multiplier                    | 1       | float | Size of crash damage.                                                                  | -                        |
-| 10  | spike_damage                               | 10      | int   | Spike and unstable matter damage.                                                      | -                        |
+| 10  | spike_damage                               | 10      | float   | Spike and unstable matter damage.                                                      | -                        |
 | 11  | vacuum_drag_multiplier                     | 1       | float | Size of vacuum drag.                                                                   | Real life effect :)      |
 | 12  | all_speed_multiplier                       | 1       | float | Overall speed multiplier.                                                              | -                        |
 | 13  | player_normal_speed                        | 11      | float | Player default speed.                                                                  | -                        |
