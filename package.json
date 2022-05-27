@@ -1,6 +1,7 @@
 {
   "name": "se3-website",
   "version": "1.0.0",
+  "homepage": "./",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
