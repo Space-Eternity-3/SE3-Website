@@ -2,6 +2,8 @@
 
 ## Launcher v3.0.0-alpha.1 available!
 
+![](https://user-images.githubusercontent.com/81181783/172714927-336e92fa-93d5-48e7-9e36-547e2c3b130e.png)
+
 Alpha of the third major update of SE3 Launcher is available, you can download it from here:
 
 | Arch  | Installer                                                                                                                                                             | Portable                                                                                                                                                              |
