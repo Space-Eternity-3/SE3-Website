@@ -38,11 +38,26 @@ const config = {
         ],
     ],
 
+    themes: [
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            {
+                // ... Your options.
+                // `hashed` is recommended as long-term-cache of index file is possible.
+                hashed: true,
+                // For Docs using Chinese, The `language` is recommended to set to:
+                // ```
+                // language: ["en", "zh"],
+                // ```
+            },
+        ],
+    ],
+
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             colorMode: {
-                defaultMode: "dark"
+                defaultMode: "dark",
             },
             navbar: {
                 title: "Space Eternity 3",
