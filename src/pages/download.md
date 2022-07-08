@@ -11,6 +11,13 @@ But that's on my [planned list](https://github.com/Space-Eternity-3/SE3-Launcher
 
 [View on Github](https://github.com/Space-Eternity-3/SE3-Launcher)
 
+## Launcher v3.0.0-alpha.3
+
+| Arch  | Installer                                                                                                                                                             | Portable                                                                                                                                                              |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ia32  | [SE3.Launcher-3.0.0-alpha.3-win-ia32.exe](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-alpha.3/SE3.Launcher-3.0.0-alpha.3-win-ia32.exe)   | [SE3.Launcher-3.0.0-alpha.3-win-ia32.zip](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-alpha.3/SE3.Launcher-3.0.0-alpha.3-win-ia32.zip)   |
+| x64   | [SE3.Launcher-3.0.0-alpha.3-win-x64.exe](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-alpha.3/SE3.Launcher-3.0.0-alpha.3-win-x64.exe)     | [SE3.Launcher-3.0.0-alpha.3-win-x64.zip](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-alpha.3/SE3.Launcher-3.0.0-alpha.3-win-x64.zip)     |
+
 ## Launcher v3.0.0-alpha.2
 
 | Arch  | Installer                                                                                                                                                             | Portable                                                                                                                                                              |
@@ -31,7 +38,7 @@ Alpha of the third major update of SE3 Launcher is available, you can download i
 | ia32  | [SE3.Launcher-3.0.0-alpha.1-win-ia32.exe](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-alpha.1/SE3.Launcher-3.0.0-alpha.1-win-ia32.exe)   | [SE3.Launcher-3.0.0-alpha.1-win-ia32.zip](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-alpha.1/SE3.Launcher-3.0.0-alpha.1-win-ia32.zip)   |
 | x64   | [SE3.Launcher-3.0.0-alpha.1-win-x64.exe](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-alpha.1/SE3.Launcher-3.0.0-alpha.1-win-x64.exe)     | [SE3.Launcher-3.0.0-alpha.1-win-x64.zip](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-alpha.1/SE3.Launcher-3.0.0-alpha.1-win-x64.zip)     |
 
-## Download launcher v2.0.3 (latest)
+## Download launcher v2.0.3 (latest stable)
 
 ![Launcher](/img/launcher-2.png)
 
