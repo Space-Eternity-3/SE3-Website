@@ -25,7 +25,7 @@ Datapacks are used to change in-game rules, when playing SE3 starts being boring
 ## Construction rules
 
 Every datapack consists of variable-value combos in jse3 hierarchy.
-```text
+```text showLineNumbers
 variable: value;
 grandparent
 {
@@ -43,7 +43,7 @@ It removes all spaces, tabs and new lines, so these chars have only
 cosmetical meaning by default.
 
 Functional chars:
-```text
+```text showLineNumbers
 < > - comments
 { } - variable tree operators
  :  - variable/value separator
@@ -52,6 +52,6 @@ Functional chars:
 ```
 
 Dennied chars in variable names and values:
-```text
+```text showLineNumbers
 { } < : ; ~ '
 ```

@@ -17,7 +17,7 @@ converted into numerical IDs for example `8`.
 
 There are two types of ID. These are separated using jse3 hierarchy:
 
-```text
+```text showLineNumbers
 Asteroids
 {
 	<contents1>
@@ -32,7 +32,7 @@ Items_and_objects
 
 Variable part is [asteroid ID](../GameData/Asteroids) and value part is asteroid name.
 
-```text
+```text showLineNumbers
 Asteroids
 {
 	1: stone;
@@ -48,7 +48,7 @@ Asteroids
 Variable part is [object ID](../GameData/ItemsAndObjects) and value part is object name.
 
 
-```text
+```text showLineNumbers
 Items_and_objects
 {
 	1: stone_with_diamonds;

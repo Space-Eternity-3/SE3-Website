@@ -16,7 +16,7 @@ Datapack will be always imported, even if some tags are incorrect, so put them p
 
 ## Biome settings variable look
 
-```text
+```text showLineNumbers
 settings: [
 	tag1,
 	tag2,
@@ -71,7 +71,7 @@ Note: Remember, that biome ranges might be different for simlar biomes.
 
 ## Ussage example
 
-```text
+```text showLineNumbers
 settings: [
 	structural,
 	density = 100%,

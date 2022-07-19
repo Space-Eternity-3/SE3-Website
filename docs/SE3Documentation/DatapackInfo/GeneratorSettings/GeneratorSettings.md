@@ -22,7 +22,7 @@ Se3 generator consists of default generator and up to 31 biomes or structures. T
 Default generation has always ID = 0. Biomes and structures might have IDs from 1 to 31. You can add biome name in comments,
 but it's not required.
 
-```text
+```text showLineNumbers
 <Default generation> 0
 {
     <contents0>
@@ -48,7 +48,7 @@ There is a lot of variables in generator settings, so there is an array with all
 | int <4;10>    | Asteroid names with probability in round brackets separated with `+`. | stone(80%) + copper(20%) | yes        | Sets [asteroid type](../../GameData/Asteroids) generate chances in a given biome for size selected by the variable part. | Overwrites `all_sizes` if used after that. |
 | settings      | Biome settings. More info [here](./BiomeSettings).                    | [radius=50]              | yes        | Customizes advanced generator settings.                                                                         | -                                          |
 
-```text
+```text showLineNumbers
 <Geyzer biome> 2
 {
 	chance: 8%;

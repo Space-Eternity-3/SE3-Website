@@ -16,7 +16,7 @@ Gameplay is a place, where you can set some in-game variables.
 Variable part is a rule name.
 Value part sets amount.
 
-```text
+```text showLineNumbers
 health_level_add: 0;
 spike_damage: 10;
 at_protection_health_regenerate_multiplier: 1,5;

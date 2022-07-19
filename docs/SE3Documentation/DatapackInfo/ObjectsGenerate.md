@@ -17,7 +17,7 @@ Variable part sets asteroid, where you modify object generation.
 Value part contains objects and their generation rate in round brackets.
 These are separated using `+`.
 
-```text
+```text showLineNumbers
 stone: stone(35%);
 stone_geyzer: stone(30%) + stone_geyzer(20%);
 grass: bush(35%) + big_bush(7,5%) + stone(7,5%) + alien(15%) + pumpkin(0,3%);

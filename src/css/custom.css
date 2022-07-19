@@ -1,31 +1,38 @@
-.prism-code {
-    counter-reset: line-number;
-}
-
-.prism-code .token-line::marker {
-    color: var(--ifm-color-gray-700);
-    content: counter(line-number);
-}
-
-.prism-code .token-line {
-    counter-increment: line-number;
-    display: list-item;
-    padding-left: var(--ifm-pre-padding);
-    margin-left: var(--ifm-global-spacing);
-}
-
-[data-theme=dark]
-.navbar {
+[data-theme="dark"] .navbar {
     background: #24252680;
 }
 
-[data-theme=light]
-.navbar {
+[data-theme="light"] .navbar {
     background: #ffffff;
 }
 
-[data-theme=dark]
-.navbar-sidebar {
+[data-theme="dark"] .navbar-sidebar {
     background: #2425269f;
     backdrop-filter: blur(10px);
+}
+
+[data-theme="dark"] .download-button {
+    background-color: #109910;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 0;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+[data-theme="dark"] .download-button:hover {
+    color: #eeeeee !important;
+    background-color: #118611;
+}
+
+[data-theme="light"] .download-button {
+    background-color: #33c733;
+}
+
+[data-theme="light"] .download-button:hover {
+    color: #eeeeee !important;
+    background-color: #26af26;
 }

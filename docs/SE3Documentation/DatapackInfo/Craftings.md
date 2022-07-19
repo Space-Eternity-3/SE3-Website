@@ -20,7 +20,7 @@ Every page consists of 6 categories. Every category contains up to 5 lines.
 
 You can separate categories using jse3 hierarchy.
 
-```text
+```text showLineNumbers
 <Category>1
 {
     <contents1>
@@ -48,7 +48,7 @@ and 1 product. These are separated using `+` and `->`.
 Every product and every ingredient is an object name with its amount in round
 brackets. If you don't use brackets, the count will be set to 1.
 
-```text
+```text showLineNumbers
 <Category>5
 {
 	title_image: coal;
