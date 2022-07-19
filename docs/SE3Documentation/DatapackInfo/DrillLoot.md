@@ -16,7 +16,7 @@ depending on asteroid type. Every jse3 line is a different asteroid.
 Variable part sets, which loottable will be modified.
 Value part contains objects with drop probability in round brackets. These are separated using `+`.
 
-```text
+```text showLineNumbers
 stone: stone(100%);
 gold: gold(30%);
 amethyst: small_amethyst(20%);

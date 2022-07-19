@@ -17,7 +17,7 @@ Variable part is an object name, which is destroyed. Value part contains
 object name and object count in round brackets. If you don't use brackets,
 the count will be set to 1.
 
-```text
+```text showLineNumbers
 medium_amethyst: small_amethyst(2);
 large_amethyst: small_amethyst(3);
 big_bush: bush(3);
