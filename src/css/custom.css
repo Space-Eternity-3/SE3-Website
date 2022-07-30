@@ -11,28 +11,31 @@
     backdrop-filter: blur(10px);
 }
 
-[data-theme="dark"] .download-button {
-    background-color: #109910;
+.download-button {
     color: white;
     padding: 5px 10px;
     margin: 10px 0;
     margin-right: 10px;
     border-radius: 5px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 19px;
     text-decoration: underline;
+}
+
+[data-theme="dark"] .download-button {
+    background-color: #1063cf;
 }
 
 [data-theme="dark"] .download-button:hover {
     color: #eeeeee !important;
-    background-color: #118611;
+    background-color: #0f5cc0;
 }
 
 [data-theme="light"] .download-button {
-    background-color: #33c733;
+    background-color: #3e86e6;
 }
 
 [data-theme="light"] .download-button:hover {
     color: #eeeeee !important;
-    background-color: #26af26;
+    background-color: #2e75d3;
 }
