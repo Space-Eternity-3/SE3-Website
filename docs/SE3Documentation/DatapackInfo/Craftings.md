@@ -33,7 +33,7 @@ You can separate categories using jse3 hierarchy.
 ```
 
 Page separation is done automatically, when categories bigger than 6 are used in a datapack.
-For example when you use category 15, it will be 3rd category of the 2nd page.
+For example when you use category 14, it will be 2rd category of the 3nd page.
 
 Note: You can set up to 512 categories.
 
