@@ -3,7 +3,7 @@ title: "Objects generate"
 sidebar_position: 6
 ---
 
-Objects generate is a place, where you can set an object generation
+Objects generate is a place, where you can customize object generation chance
 depending on asteroid type. Every jse3 line is a different asteroid.
 
 ## Contents
@@ -14,7 +14,7 @@ depending on asteroid type. Every jse3 line is a different asteroid.
 ## Construction rules
 
 Variable part sets asteroid, where you modify object generation.
-Value part contains objects and their generation rate in round brackets.
+Value part contains objects and their generation chance in round brackets.
 These are separated using `+`.
 
 ```text showLineNumbers

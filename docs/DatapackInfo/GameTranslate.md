@@ -15,7 +15,7 @@ converted into numerical IDs for example `8`.
 
 ## Type separation
 
-There are two types of ID. These are separated using jse3 hierarchy:
+There are two types of IDs. These are separated using jse3 hierarchy:
 
 ```text showLineNumbers
 Asteroids

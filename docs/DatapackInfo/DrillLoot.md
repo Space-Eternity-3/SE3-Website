@@ -3,7 +3,7 @@ title: "Drill loot"
 sidebar_position: 2
 ---
 
-Drill loot is a place, where you can set a drill loottable
+Drill loot is a place, where you can customize a drill loottable
 depending on asteroid type. Every jse3 line is a different asteroid.
 
 ## Contents

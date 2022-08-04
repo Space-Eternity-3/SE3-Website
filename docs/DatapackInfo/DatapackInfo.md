@@ -15,7 +15,7 @@ sidebar_position: 1
 
 ----------------------------------------
 
-Datapacks are used to change in-game rules, when playing SE3 starts being boring.
+Datapacks are used to change in-game rules, when playing SE3 starts to get boring.
 
 ## Contents
 

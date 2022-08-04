@@ -3,7 +3,7 @@ title: "Craftings"
 sidebar_position: 1
 ---
 
-Craftings is a place, where you can set craftings and group them by pages and categories.
+Craftings is a place, where you can customize craftings and group them by pages and categories.
 
 ## Contents
 

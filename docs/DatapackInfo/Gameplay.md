@@ -40,12 +40,12 @@ Note: Gameplay variables are not sorted by ID.
 | 28  | unstable_matter_damage                     | 10      | float | Unstable matter and unstable bullets damage.                                           | -                   |
 | 3   | copper_bullet_damage                       | 3       | float | Copper bullets damage. Can be increased through upgrades.                              | Not constant        |
 | 27  | red_bullet_damage                          | 4       | float | Red bullets damage. Can be increased through upgrades.                                 | Not constant        |
-| 14  | vacuum_drag_multiplier                     | 1       | float | Size of vacuum drag.                                                                   | Real life effect :) |
+| 14  | vacuum_drag_multiplier                     | 1       | float | Size of vaccum drag.                                                                   | Real life effect :) |
 | 15  | all_speed_multiplier                       | 1       | float | Overall speed multiplier.                                                              | -                   |
 | 9   | player_normal_speed                        | 11      | float | Player default speed.                                                                  | -                   |
 | 10  | player_brake_speed                         | -7      | float | Player speed when using brake.                                                         | -                   |
 | 11  | player_turbo_speed                         | 18      | float | Player speed when using turbo. Can be increased through upgrades.                      | Not constant        |
-| 12  | drill_normal_speed                         | 8       | float | Player spped when on drill extended.                                                   | -                   |
+| 12  | drill_normal_speed                         | 8       | float | Player speed when on drill extended.                                                   | -                   |
 | 13  | drill_brake_speed                          | -5      | float | Player speed when using brake and on drill extended.                                   | -                   |
 | 16  | at_protection_health_level_add             | 2,272   | float | Amount, which is added to health_level_add when using protection artefact.             | -                   |
 | 17  | at_protection_health_regenerate_multiplier | 1,5     | float | Protection artefact multiplies health_regenerate_multiplier by this value.             | -                   |

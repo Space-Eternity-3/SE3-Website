@@ -20,7 +20,7 @@ Generator settings is a place, where you can customize asteroid generation.
 
 Se3 generator consists of default generator and up to 31 biomes or structures. These are separated using jse3 hierarchy.
 Default generation has always ID = 0. Biomes and structures might have IDs from 1 to 31. You can add biome name in comments,
-but it's not required.
+but it's not necessary.
 
 ```text showLineNumbers
 <Default generation> 0
