@@ -32,7 +32,7 @@ const config = {
                         "Beta-1.12": {
                             label: "Beta-1.12",
                             path: "Beta-1.12",
-                            banner: "unmaintained"
+                            banner: "unmaintained",
                         }
                     },
                 },
@@ -79,19 +79,13 @@ const config = {
                     },
                     {
                         position: "left",
-                        type: "doc",
+                        to: "/Documentation",
                         label: "Documentation",
-                        docId: "SE3Documentation/SE3Documentation",
                     },
                     {
                         href: "https://discord.gg/e4ppBTRKhg",
                         label: "Discord",
                         position: "right",
-                    },
-                    {
-                        type: "docsVersionDropdown",
-                        position: "right",
-                        dropdownActiveClassDisabled: true,
                     },
                 ],
             },
