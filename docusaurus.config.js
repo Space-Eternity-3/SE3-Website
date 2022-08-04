@@ -23,13 +23,17 @@ const config = {
             ({
                 docs: {
                     sidebarPath: require.resolve("./sidebars.js"),
-                    lastVersion: "Beta-1.12",
+                    lastVersion: "current",
                     versions: {
                         current: {
-                            label: "Beta-1.13 🚧",
+                            label: "Beta-1.13",
                             path: "Beta-1.13",
-                            banner: "unreleased",
                         },
+                        "Beta-1.12": {
+                            label: "Beta-1.12",
+                            path: "Beta-1.12",
+                            banner: "unmaintained"
+                        }
                     },
                 },
                 theme: {

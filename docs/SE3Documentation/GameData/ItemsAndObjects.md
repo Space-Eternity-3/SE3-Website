@@ -43,15 +43,17 @@ title: Items and Objects
 | 37  | Treasure                 | ![](/img/items/Empty.png)                           |
 | 38  | Geyzer                   | ![](/img/items/Nn38.png)                            |
 | 39  | Red Bullet               | ![](/img/items/Nn39.png)                            |
-| 40  | Death Alien              | ![](/img/items/Nn40.png)                            |
+| 40  | Dead Alien               | ![](/img/items/Nn40.png)                            |
 | 41  | Gray Artefact            | ![](/img/items/Nn41.png)                            |
 | 42  | Protection Artefact      | ![](/img/items/Nn42.png)                            |
 | 43  | Impulse Artefact         | ![](/img/items/Nn43.png)                            |
 | 44  | Illusion Artefact        | ![](/img/items/Nn44.png)                            |
 | 45  | Immortality Artefact     | ![](/img/items/Nn45.png)                            |
-| 46  | Frozen Artefact          | ![](/img/items/Nn46.png)                            |
+| 46  | Useless Artefact         | ![](/img/items/Nn46.png)                            |
 | 47  | Unstable Artefact        | ![](/img/items/Nn47.png)                            |
 | 48  | Unstable Matter          | ![](/img/items/Nn48.png)                            |
 | 49  | Packed Bedrock           | ![](/img/items/Empty.png)                           |
 | 50  | Bedrock Stone            | ![](/img/items/Empty.png)                           |
 | 51  | Metal Piece              | ![](/img/items/Nn51.png)                            |
+| 52  | Useless Thing 1          | ![](/img/items/Empty.png)                           |
+| 53  | Useless Thing 2          | ![](/img/items/Empty.png)                           |
