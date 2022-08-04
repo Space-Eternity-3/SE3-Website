@@ -1,6 +1,6 @@
 ---
 slug: ./
-title: "Datapack info"
+title: "Datapack Info"
 sidebar_position: 1
 ---
 
