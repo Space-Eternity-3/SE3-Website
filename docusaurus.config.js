@@ -26,8 +26,13 @@ const config = {
                     lastVersion: "current",
                     versions: {
                         current: {
+                            label: "Beta-1.14",
+                            path: "Beta-1.14",
+                        },
+                        "Beta-1.13": {
                             label: "Beta-1.13",
                             path: "Beta-1.13",
+                            banner: "unmaintained",
                         },
                         "Beta-1.12": {
                             label: "Beta-1.12",
