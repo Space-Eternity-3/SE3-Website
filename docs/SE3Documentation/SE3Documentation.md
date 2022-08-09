@@ -3,5 +3,6 @@ slug: ./
 title: "SE3 Documentation"
 ---
 
-- [Datapack info](./DatapackInfo/)
+- [Datapack Info](./DatapackInfo/)
+- [Seon Language](./SeonLanguage/)
 - [Game Data](./GameData/)

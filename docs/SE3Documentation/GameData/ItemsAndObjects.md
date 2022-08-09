@@ -55,5 +55,5 @@ title: Items and Objects
 | 49  | Packed Bedrock           | ![](/img/items/Empty.png)                           |
 | 50  | Bedrock Stone            | ![](/img/items/Empty.png)                           |
 | 51  | Metal Piece              | ![](/img/items/Nn51.png)                            |
-| 52  | Useless Thing 1          | ![](/img/items/Empty.png)                           |
-| 53  | Useless Thing 2          | ![](/img/items/Empty.png)                           |
+| 52  | Bedrock Storage          | ![](/img/items/Empty.png)                           |
+| 53  | Bedrock Alien            | ![](/img/items/Empty.png)                           |

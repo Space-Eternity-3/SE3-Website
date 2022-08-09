@@ -11,7 +11,7 @@ sidebar_position: 1
 - [Generator Settings](./GeneratorSettings/)
 - [Objects Generate](./ObjectsGenerate)
 - [Game Translate](./GameTranslate)
-  
+- [Custom Structures](./CustomStructures)
 
 ----------------------------------------
 
@@ -30,7 +30,8 @@ variable: value;
 grandparent
 {
     variable: value;
-    variable2: 'value with space';
+    variable2: 'value with
+a white char';
     parent
     {
         variable: value;
@@ -46,9 +47,10 @@ Functional chars:
 ```text showLineNumbers
 < > - comments
 { } - variable tree operators
+[ ] - decoration where it looks nice :)
  :  - variable/value separator
  ;  - value end char
- '  - on/off remove space
+ '  - on/off remove white chars
 ```
 
 Dennied chars in variable names and values:
