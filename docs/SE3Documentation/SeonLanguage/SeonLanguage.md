@@ -5,9 +5,9 @@ sidebar_position: 2
 ---
 
 - [Object commands](./ObjectCommands)
-<!-- - [Transform commands](./TransformCommands) -->
-<!-- - [Script commands](./ScriptCommands) -->
-<!-- - [Technical commands](./TechnicalCommands) -->
+- [Transform commands](./TransformCommands)
+- [Script commands](./ScriptCommands)
+- [Technical commands](./TechnicalCommands)
 - [Default structures](./DefaultStructures)
 
 ---
