@@ -4,7 +4,7 @@ sidebar_position: 5
 ---
 
 Default structures have seon codes too, but you can't modify them in a normal way. Despite this you
-can still copy such code to edit it as a custom structure. All default structure codes are on this page.
+can still copy such code to edit it as a custom structure. All default structure codes are available on this page.
 
 ## Contents
 
