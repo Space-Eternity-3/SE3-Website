@@ -90,7 +90,7 @@ layer <Z>
 
 - Z: Layer in coordinates
 
-Note: It's recommended to not set absolute values to over 100, because objects generally fall asleep in that position.
+Note: It's recommended to not set absolute Z values to over 100.
 
 
 ## Reset
@@ -103,10 +103,12 @@ reset <prm>
 
 - Prm: Something, you want to reset: [position, rotation, localpos].
 
+Note: Reseting rotation will replace it with a parent's rotation.
+
 
 ## Parent
 
-Command `parent` changes or removes the parent of a selected object.
+Command `parent` changes or removes a parent of a selected object.
 
 ```text showLineNumbers
 parent set #<ID>
@@ -123,7 +125,7 @@ Note: Doesn't work for objects with $IDs.
 Command `steal` can be used to attach asteroid objects to walls easily.
 It works properly even if the wall scale is changed before stealing objects. It
 steals objects from an asteroid and hides that asteroid. Changing asteroid
-scale before stealing will change asteroid objects' scales and expand spaces between them.
+scale will change asteroid objects' scales and expand spaces between them.
 
 ```text showLineNumbers
 steal <number> from #<ID>
@@ -134,6 +136,7 @@ steal <number> from delta <deltaID>
 - ID: AsteroidID.
 - deltaID = AsteroidID - WallID.
 
+Note: You can't steal more objects, than there is on the asteroid.  
 Note: You don't need any wall. You can attach asteroid objects to every
 object, but the result will be weird.
 

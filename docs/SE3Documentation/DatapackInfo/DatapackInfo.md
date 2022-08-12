@@ -30,8 +30,7 @@ variable: value;
 grandparent
 {
     variable: value;
-    variable2: 'value with
-a white char';
+    variable2: 'value with a white char';
     parent
     {
         variable: value;
@@ -41,7 +40,10 @@ a white char';
 
 Jse3 compiler does some actions to simplify code before compilation.
 It removes all spaces, tabs and new lines, so these chars have only
-cosmetical meaning by default.
+cosmetical meaning by default. You can change it by using char `'`,
+then all these chars will be replaced with space.
+
+Note: Datapack parser works on `,` based floats.
 
 Functional chars:
 ```text showLineNumbers

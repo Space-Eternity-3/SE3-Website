@@ -17,4 +17,3 @@ title: "Asteroids"
 | 10  | Diamond             | ![](/img/asteroids/Diamond.png)            |
 | 11  | Metalic             | ![](/img/asteroids/Metalic.png)            |
 | 12  | Bedrock             | ![](/img/asteroids/Bedrock.png)            |
-| 13  | Artefact Randomizer | ![](/img/asteroids/ArtefactRandomizer.png) |

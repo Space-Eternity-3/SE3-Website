@@ -26,6 +26,8 @@ Seon - Space Eternity Objects Notation. It's a scripting language designed to cr
 Seon interpreter reads arguments and loads them into a stream. Arguments can be separated by strings, which consit only of these chars: `' ', '\t', '[', ']', '\n', "\r"`.
 The interpreter reads every single argument individually. If it gets error, it continues its interpretation from current or next argument, so every correct command in a stream will be executed even if interpreter has found some errors.
 
+Note: Seon interpreter works on `,` and `.` based floats.
+
 ## Comments
 
 Comment system is not implemented into the seon language, but if it's a part of a datapack, you can simply put your comment into `<>`. Datapack interpreter will automatically
