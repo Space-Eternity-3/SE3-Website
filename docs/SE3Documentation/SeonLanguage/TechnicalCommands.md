@@ -8,51 +8,79 @@ Technical commands are used to make some actions not connected with any object.
 ## Contents
 
 - [Contents](#contents)
-- [Drill](#drill)
-- [List](#list)
-- [Asteroid](#asteroid)
-- [Structure states](#structure-states)
+- [Loop system](#loop-system)
+- [Random system](#random-system)
+  - [Setrandom](#setrandom)
+  - [Ifrandom](#ifrandom)
 - [Ussage examples](#ussage-examples)
 
-## Drill
+## Loop
 
-Command `drill` sets or removes script responsible for drilling.
-Asteroids and walls have it attached by default. You can overwrite the script.
+Seon language contains a primitive type of loop. You can access it by
+an exotic command `from`. It executes the next command multiple times, every time for
+a different [current](./SeonLanguage/#interpreter-variables) variable.
 
 ```text showLineNumbers
-drill set <type>
-drill remove
+from #<start> to #<end> [command]
 ```
 
-- Type: Drill loottable ID based on [drill loot](../DatapackInfo/DrillLoot).
+- Start: Starting current value.
+- End: Ending current value
+- Command: A command, which will be executed multiple times.
 
-## Structure states
+Note: You can't use brackets. One loop is for one command.
 
-A structure can be in different states, when boss or other structural thing shakes things up.
-There can exist only one such thing in one structure.
 
-| State   | Description                                                    | Source |
-| ------- | -------------------------------------------------------------- | ------ |
-| default | A default state, which exists when no other was confirmed.     | Start  |
-| A1      | Appears, when you are in peace before wave 1.                  | Boss   |
-| A2      | Appears, when you are in peace before wave 2.                  | Boss   |
-| A3      | Appears, when you are in peace before wave 3.                  | Boss   |
-| R       | Appears, when you are in peace and you have defeated the boss. | Boss   |
-| B1      | Appears, when you are fighting in wave 1.                      | Boss   |
-| B2      | Appears, when you are fighting in wave 2.                      | Boss   |
-| B3      | Appears, when you are fighting in wave 3.                      | Boss   |
-| a1b1    | Appears, when you are switching to wave 1.                     | Boss   |
-| a2b2    | Appears, when you are switching to wave 2.                     | Boss   |
-| a3b3    | Appears, when you are switching to wave 3.                     | Boss   |
-| b1a1    | Appears, when you are losing in wave 1.                        | Boss   |
-| b2a2    | Appears, when you are losing in wave 2.                        | Boss   |
-| b3a3    | Appears, when you are losing in wave 3.                        | Boss   |
-| b1a2    | Appears, when you are winning in wave 1.                       | Boss   |
-| b2a3    | Appears, when you are winning in wave 2.                       | Boss   |
-| b3r     | Appears, when you are defeating the boss.                      | Boss   |
+# Random system
+
+Random system allows you to create different structure variants.
+It consists of two commands.
+
+### Setrandom
+
+Command `setrandom` sets the [setrandom](./SeonLanguage/#interpreter-variables) variable
+to a random value from <0;lim).
+
+```text showLineNumbers
+setrandom %<lim>
+```
+
+- Lim: A minimum value, which can't be chosen.
+
+Note: It is not recommended to set Lim to value over 1000.
+
+### Ifrandom
+
+Command `ifrandom` sets the [ifrandom](./SeonLanguage/#interpreter-variables) variable.
+Commands which are not `setrandom` or `ifrandom` will execute only when ifrandom=setrandom or ifrandom=-1.
+To set ifrandom to -1 use `break` istead of number.
+
+```text showLineNumbers
+ifrandom <value>
+ifrandom break
+```
+
+- Value: Value, which will be set to ifrandom.
 
 ## Ussage examples
 
 ```text showLineNumbers
+summon asteroid #1 6 12 x rotate 0
+summon asteroid #2 6 12 x rotate 45
+summon asteroid #3 6 12 x rotate 90
+summon asteroid #4 6 12 x rotate 135
+summon asteroid #5 6 12 x rotate 180
+summon asteroid #6 6 12 x rotate 225
+summon asteroid #7 6 12 x rotate 270
+summon asteroid #8 6 12 x rotate 315
+from #1 to #8 move 30 0
+from #1 to #8 reset rotation
 
+setrandom %4
+ifrandom 0 summon #50 wall 3
+ifrandom 1 summon #50 wall 4
+ifrandom 2 summon #50 wall 6
+ifrandom 3 summon #50 wall 10
+ifrandom break
+move 0 -20
 ```
