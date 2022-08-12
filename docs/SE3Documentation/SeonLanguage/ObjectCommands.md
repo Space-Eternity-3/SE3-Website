@@ -10,10 +10,12 @@ Object commands are used to change object indicators and to create new objects.
 - [Contents](#contents)
 - [Summon](#summon)
 - [Catch](#catch)
-- [ID types](#id-types)
+- [Catch child](#catch-child)
+- [Catch children](#catch-children)
 - [Objects](#objects)
+- [ID types](#id-types)
 - [Generation code](#generation-code)
-- [Ussage examples](#ussage-examples)
+- [Usage examples](#usage-examples)
 
 ## Summon
 
@@ -98,7 +100,7 @@ If you don't want any guaranteed objects, you can replace generation code with l
 
 It will generate asteroid with storage on top, two green aliens on left and right and two stones next to them. The bottom will be randomized.
 
-## Ussage examples
+## Usage examples
 
 ```text showLineNumbers
 summon #0 boss 1
