@@ -19,7 +19,7 @@ Object commands are used to change object indicators and to create new objects.
 
 ## Summon
 
-Command `summon` summons a specified object in the middle of a biome with rotation 0 and changes variable [current](../#interpreter-variables)
+Command `summon` summons a specified object in the middle of a biome with rotation 0 and changes variable [current](./#interpreter-variables)
 to this object's ID.
 
 ```text showLineNumbers
@@ -33,7 +33,7 @@ summon #<ID> <object> <arg1*> <arg2*> <arg3*>
 
 ## Catch
 
-Command `catch` changes variable [current](../#interpreter-variables) to a specified object ID. It starts indicating object with that ID.
+Command `catch` changes variable [current](./#interpreter-variables) to a specified object ID. It starts indicating object with that ID.
 
 ```text showLineNumbers
 catch #<ID>
@@ -43,7 +43,7 @@ catch #<ID>
 
 ## Catch child
 
-Command `catch child` changes variable [findex](../#interpreter-variables) to a specified asteroid object ID. It starts indicating asteroid object with that ID.
+Command `catch child` changes variable [findex](./#interpreter-variables) to a specified asteroid object ID. It starts indicating asteroid object with that ID.
 
 ```text showLineNumbers
 catch child $<IDm>
@@ -53,7 +53,7 @@ catch child $<IDm>
 
 ## Catch children
 
-Command `catch children` changes variables [findex_min & findex_max](../#interpreter-variables) to specified asteroid object IDs. It starts indicating asteroid objects with that IDs.
+Command `catch children` changes variables [findex_min & findex_max](./#interpreter-variables) to specified asteroid object IDs. It starts indicating asteroid objects with that IDs.
 
 ```text showLineNumbers
 catch children $<IDmi> $<IDma>

@@ -24,8 +24,8 @@ of objects.
 Asteroids have some objects on them. We call them children. Every child has its own settings,
 despite this they don't have #IDs like other objects. They have $IDs instead. To access a child
 you have to put the key-word `child` between command and its arguments. Children have $IDs, which can have numbers from $0 up to $19.
-They never repeat on the same asteroid. The $ID will be taken from [findex](../#interpreter-variables). If you want to modify multiple objects at once, you can use
-the key-word `children`. Then objects IDs will be taken from between [findex_min & findex_max](../#interpreter-variables) including.
+They never repeat on the same asteroid. The $ID will be taken from [findex](./#interpreter-variables). If you want to modify multiple objects at once, you can use
+the key-word `children`. Then objects IDs will be taken from between [findex_min & findex_max](./#interpreter-variables) including.
 
 ```text showLineNumbers
 catch #0
