@@ -18,7 +18,7 @@ Technical commands are used to make some actions not connected with any object.
 
 Seon language contains a primitive type of loop. You can access it by
 an exotic command `from`. It executes the next command multiple times, every time for
-a different [current](./SeonLanguage/#interpreter-variables) variable.
+a different [current](./#interpreter-variables) variable.
 
 ```text showLineNumbers
 from #<start> to #<end> [command]
@@ -38,7 +38,7 @@ It consists of two commands.
 
 ### Setrandom
 
-Command `setrandom` sets the [setrandom](./SeonLanguage/#interpreter-variables) variable
+Command `setrandom` sets the [setrandom](./#interpreter-variables) variable
 to a random value from <0;lim).
 
 ```text showLineNumbers
@@ -51,7 +51,7 @@ Note: It is not recommended to set Lim to value over 1000.
 
 ### Ifrandom
 
-Command `ifrandom` sets the [ifrandom](./SeonLanguage/#interpreter-variables) variable.
+Command `ifrandom` sets the [ifrandom](./#interpreter-variables) variable.
 Commands which are not `setrandom` or `ifrandom` will execute only when ifrandom=setrandom or ifrandom=-1.
 To set ifrandom to -1 use `break` istead of number.
 
