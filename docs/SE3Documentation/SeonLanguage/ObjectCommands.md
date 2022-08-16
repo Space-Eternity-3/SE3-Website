@@ -31,6 +31,8 @@ summon #<ID> <object> <arg1*> <arg2*> <arg3*>
 - Arg2: Optional argument 2.
 - Arg3: Optional argument 3.
 
+See [Objects](#objects) for details.
+
 ## Catch
 
 Command `catch` changes variable [current](./#interpreter-variables) to a specified object ID. It starts indicating object with that ID.
