@@ -84,6 +84,7 @@ Command `list` allows you to choose animation states of extending or hiding move
 selected [structure state](#structure-states). Every structure state implies undone state by default.
 
 Available animation states:
+
 - undone
 - doing
 - done
@@ -97,33 +98,33 @@ list <movement> <animation> <states>
 - Animation: Animation state, when one of the selected structure states is active: [undone, doing, done, undoing].
 - States: Array of [structure states](#structure-states) separated by `,` in which the current animation state will be active.
 
-Note: Selecting state undone is useless, but you can use it to save a clean code or to overwrite other states.
+Note: Selecting state undone is useless, but you can do it to save a clean code or to overwrite other states.
 
 ### Structure states
 
-Every structure have a state string. It determines, what's happening with that structure.
+Every structure has a state string. It determines, what's happening with that structure.
 That string might be changed during gameplay, but only if a structure homes
 a state-changing object (for example boss).
 
-| ID  | State   | Description                                     | State changing object |
-| --- | ------- | ----------------------------------------------- | --------------------- |
-| 0   | default | No state was confirmed or structure is loading. | -                     |
-| 1   | A1      | Peace before wave 1.                            | Boss                  |
-| 2   | A2      | Peace before wave 2.                            | Boss                  |
-| 3   | A3      | Peace before wave 3.                            | Boss                  |
-| 4   | R       | Boss defeated, rewards available.               | Boss                  |
-| 5   | B1      | Fighting in wave 1.                             | Boss                  |
-| 6   | B2      | Fighting in wave 2.                             | Boss                  |
-| 7   | B3      | Fighting in wave 3.                             | Boss                  |
-| 8   | a1b1    | Switching to wave 1.                            | Boss                  |
-| 9   | a2b2    | Switching to wave 2.                            | Boss                  |
-| 10  | a3b3    | Switching to wave 3.                            | Boss                  |
-| 11  | b1a1    | Losing in wave 1.                               | Boss                  |
-| 12  | b2a2    | Losing in wave 2.                               | Boss                  |
-| 13  | b3a3    | Losing in wave 3.                               | Boss                  |
-| 14  | b1a2    | Winning in wave 1.                              | Boss                  |
-| 15  | b2a3    | Winning in wave 2.                              | Boss                  |
-| 16  | b3r     | Winning in wave 3.                              | Boss                  |
+| general ID | additional ID | State   | Description                                     | State changing object |
+| ---------- | ------------- | ------- | ----------------------------------------------- | --------------------- |
+| -          | -             | default | No state was confirmed or structure is loading. | -                     |
+| 0          | 0             | A1      | Peace before wave 1.                            | Boss                  |
+| 1          | 0             | A2      | Peace before wave 2.                            | Boss                  |
+| 2          | 0             | A3      | Peace before wave 3.                            | Boss                  |
+| 3          | 0             | R       | Boss defeated, rewards available.               | Boss                  |
+| 0          | 2             | B1      | Fighting in wave 1.                             | Boss                  |
+| 1          | 2             | B2      | Fighting in wave 2.                             | Boss                  |
+| 2          | 2             | B3      | Fighting in wave 3.                             | Boss                  |
+| 0          | 1             | a1b1    | Switching to wave 1.                            | Boss                  |
+| 1          | 1             | a2b2    | Switching to wave 2.                            | Boss                  |
+| 2          | 1             | a3b3    | Switching to wave 3.                            | Boss                  |
+| 0          | 3             | b1a1    | Losing in wave 1.                               | Boss                  |
+| 1          | 3             | b2a2    | Losing in wave 2.                               | Boss                  |
+| 2          | 3             | b3a3    | Losing in wave 3.                               | Boss                  |
+| 1          | 4             | b1a2    | Winning in wave 1.                              | Boss                  |
+| 2          | 4             | b2a3    | Winning in wave 2.                              | Boss                  |
+| 3          | 4             | b3r     | Winning in wave 3.                              | Boss                  |
 
 ## Ussage examples
 

@@ -40,6 +40,7 @@ Note: Gameplay variables are not sorted by ID.
 | 28  | unstable_matter_damage                     | 10      | float | Unstable matter and unstable bullets damage.                                           | -                   |
 | 3   | copper_bullet_damage                       | 3       | float | Copper bullets damage. Can be increased through upgrades.                              | Not constant        |
 | 27  | red_bullet_damage                          | 4       | float | Red bullets damage. Can be increased through upgrades.                                 | Not constant        |
+| 30  | bullet_owner_push                          | 1       | float | Push force when shooting bullets.                                                      | -                   |
 | 14  | vacuum_drag_multiplier                     | 1       | float | Size of vaccum drag.                                                                   | Real life effect :) |
 | 15  | all_speed_multiplier                       | 1       | float | Overall speed multiplier.                                                              | -                   |
 | 9   | player_normal_speed                        | 11      | float | Player default speed.                                                                  | -                   |
