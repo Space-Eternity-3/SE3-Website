@@ -35,7 +35,7 @@ Note: Gameplay variables are not sorted by ID.
 | 0   | turbo_regenerate_multiplier                | 1       | float | Speed of turbo regeneration.                                                           | -                   |
 | 1   | turbo_use_multiplier                       | 2       | float | Speed of turbo ussage.                                                                 | -                   |
 | 6   | crash_minimum_energy                       | 5       | float | Minimum crash damage speed.                                                            | -                   |
-| 7   | crash_damage_multiplier                    | 1       | float | Size of crash damage.                                                                  | -                   |
+| 7   | crash_damage_multiplier                    | 0,6     | float | Size of crash damage.                                                                  | -                   |
 | 8   | spike_damage                               | 10      | float | Red spike damage.                                                                      | -                   |
 | 28  | unstable_matter_damage                     | 10      | float | Unstable matter and unstable bullets damage.                                           | -                   |
 | 3   | copper_bullet_damage                       | 3       | float | Copper bullets damage. Can be increased through upgrades.                              | Not constant        |
@@ -53,7 +53,7 @@ Note: Gameplay variables are not sorted by ID.
 | 18  | at_impulse_power_regenerate_multiplier     | 1       | float | Speed of power regeneration when using impulse artefact.                               | -                   |
 | 19  | at_impulse_time                            | 0,4     | float | Impulse time when using impulse artefact.                                              | -                   |
 | 20  | at_impulse_speed                           | 70      | float | Impulse speed when using impulse artefact.                                             | -                   |
-| 29  | at_impulse_damage                          | 15       | float | Impulse damage when using impulse artefact.                                            | -                   |
+| 29  | at_impulse_damage                          | 15      | float | Impulse damage when using impulse artefact.                                            | -                   |
 | 21  | at_illusion_power_regenerate_multiplier    | 1       | float | Speed of ether regeneration when using illusion artefact.                              | -                   |
 | 22  | at_illusion_power_use_multiplier           | 2       | float | Speed of ether ussage when using illusion artefact.                                    | -                   |
 | 23  | at_unstable_normal_avarage_time            | 1,5     | float | Average time between unstable explosions when using unstable artefact.                 | -                   |
