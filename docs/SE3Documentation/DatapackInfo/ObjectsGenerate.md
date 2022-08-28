@@ -19,6 +19,6 @@ These are separated using `+`.
 
 ```text showLineNumbers
 stone: stone(35%);
-stone_geyzer: stone(30%) + stone_geyzer(20%);
+stoneA: stone(30%) + stone_geyzer(20%);
 grass: bush(35%) + big_bush(7,5%) + stone(7,5%) + alien(15%) + pumpkin(0,3%);
 ```

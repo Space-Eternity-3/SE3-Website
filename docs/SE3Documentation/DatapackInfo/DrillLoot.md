@@ -24,3 +24,4 @@ amethyst: small_amethyst(20%);
 
 Note: In default datapack one asteroid means one object, but it's not a rule.  
 Note: Drillers can only drill the first object from loottable.
+Note: You can't access asteroid variants here.

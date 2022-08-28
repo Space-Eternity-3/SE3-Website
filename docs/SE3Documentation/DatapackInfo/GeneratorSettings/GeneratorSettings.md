@@ -54,9 +54,9 @@ There is a lot of variables in generator settings, so there is an array with all
 	chance: 8%;
 	settings: [];
 
-	all_sizes: stone_geyzer(100%);
-	<Size>5: stone_geyzer(70%) + magnetic_geyzer(30%);
-	<Size>6: stone_geyzer(70%) + magnetic_geyzer(30%);
-	<Size>7: stone_geyzer(70%) + magnetic_geyzer(30%);
+	all_sizes: stoneA(100%);
+	<Size>5: stoneA(70%) + magneticA(30%);
+	<Size>6: stoneA(70%) + magneticA(30%);
+	<Size>7: stoneA(70%) + magneticA(30%);
 }
 ```

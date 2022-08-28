@@ -36,12 +36,14 @@ Variable part is [asteroid ID](../GameData/Asteroids) and value part is asteroid
 Asteroids
 {
 	1: stone;
-	2: stone_geyzer;
 	5: grass;
 	13: artefact_randomizer;
 	<etc>
 }
 ```
+
+IDs from <16;63> are asteroid variants. You can access them by using names like asteroidA, asteroidB or asteroidC or using raw
+numbers. Every asteroid variant has its own [ObjectsGenerate](./ObjectsGenerate), but the [DrillLoot](./DrillLoot) and texture are the same.
 
 ## Items and objects
 
