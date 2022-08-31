@@ -1,9 +1,11 @@
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
 # Download page
 
 export const System = () => {
   if (window.navigator.userAgent.indexOf("Windows") != -1) return "Windows";
-  if (window.navigator.userAgent.indexOf("Mac") != -1) OSName = "Mac";
-  if (window.navigator.userAgent.indexOf("Linux") != -1) OSName = "Linux";
+  if (window.navigator.userAgent.indexOf("Mac") != -1) return "Mac";
+  if (window.navigator.userAgent.indexOf("Linux") != -1) return "Linux";
 };
 
 export const DownloadLink = () => {
@@ -29,11 +31,13 @@ The launcher is only available for Windows!
 
 ![SE3 Launcher - home tab](https://user-images.githubusercontent.com/81181783/185487380-715fa7d4-40d1-448e-8cf6-5b145e575505.png)
 
-<a className="download-button" href={DownloadLink()}>
-  {GetMessage()}
-</a>
-
-
+<BrowserOnly>
+  {() => (
+    <a className="download-button" href={DownloadLink()}>
+      {GetMessage()}
+    </a>
+  )}
+</BrowserOnly>
 
 ### Other downloads
 
