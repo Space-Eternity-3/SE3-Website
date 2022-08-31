@@ -13,13 +13,14 @@
 
 .download-button {
     color: white;
-    padding: 5px 10px;
+    padding: 7px 13px;
     margin: 10px 0;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     display: inline-block;
-    font-size: 19px;
-    text-decoration: underline;
+    font-size: 22px;
+    text-decoration: none !important;
+    font-family: "Quicksand";
 }
 
 [data-theme="dark"] .download-button {
