@@ -1,28 +1,52 @@
 # Download page
 
+export const System = () => {
+  if (window.navigator.userAgent.indexOf("Windows") != -1) return "Windows";
+  if (window.navigator.userAgent.indexOf("Mac") != -1) OSName = "Mac";
+  if (window.navigator.userAgent.indexOf("Linux") != -1) OSName = "Linux";
+};
+
+export const DownloadLink = () => {
+  if (System() === "Windows")
+    return "https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-win-x64.exe";
+  if (System() === "Linux")
+    return "https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-linux-x86_64.AppImage";
+};
+
+export const GetMessage = () => {
+  if (System() === "Windows") return "Download for Windows x64";
+  if (System() === "Linux") return "Download for Linux";
+  if (System() === "Mac") return "MacOS is unsupported";
+};
+
 :::caution
 
 The launcher is only available for Windows!
 
 :::
 
-## SE3 Launcher v3.0.0-beta.4 (latest)
+## SE3 Launcher v3.0.0-beta.5 (latest)
 
 ![SE3 Launcher - home tab](https://user-images.githubusercontent.com/81181783/185487380-715fa7d4-40d1-448e-8cf6-5b145e575505.png)
 
-<a
-    className="download-button"
-    href="https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.4/SE3.Launcher-3.0.0-beta.4-win-x64.exe"
->
-    Download installer (x64)
+<a className="download-button" href={DownloadLink()}>
+  {GetMessage()}
 </a>
 
-<a
-    className="download-button"
-    href="https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.4/SE3.Launcher-3.0.0-beta.4-win-ia32.exe"
->
-    Download installer (ia32)
-</a>
 
-[Other downloads](https://github.com/Space-Eternity-3/SE3-Launcher/releases)  
+
+### Other downloads
+
+- Windows x64
+  - [Installer](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-win-x64.exe)
+  - [Portable](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-win-x64.zip)
+- Windows ia32
+  - [Installer](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-win-ia32.exe)
+  - [Portable](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-win-ia32.zip)
+- Linux
+  - [deb](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-linux-amd64.deb)
+  - [tar.gz](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-linux-x64.tar.gz)
+  - [AppImage](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-linux-x86_64.AppImage)
+  - [rpm](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.5/SE3.Launcher-3.0.0-beta.5-linux-x86_64.rpm)
+
 [View on Github](https://github.com/Space-Eternity-3/SE3-Launcher)
