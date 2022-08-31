@@ -35,12 +35,13 @@ Note: Gameplay variables are not sorted by ID.
 | 0   | turbo_regenerate_multiplier                | 1       | float | Speed of turbo regeneration.                                                           | -                   |
 | 1   | turbo_use_multiplier                       | 2       | float | Speed of turbo ussage.                                                                 | -                   |
 | 6   | crash_minimum_energy                       | 5       | float | Minimum crash damage speed.                                                            | -                   |
-| 7   | crash_damage_multiplier                    | 0,6     | float | Size of crash damage.                                                                  | -                   |
+| 7   | crash_damage_multiplier                    | 0,7     | float | Size of crash damage.                                                                  | -                   |
 | 8   | spike_damage                               | 10      | float | Red spike damage.                                                                      | -                   |
 | 28  | unstable_matter_damage                     | 10      | float | Unstable matter and unstable bullets damage.                                           | -                   |
 | 3   | copper_bullet_damage                       | 3       | float | Copper bullets damage. Can be increased through upgrades.                              | Not constant        |
 | 27  | red_bullet_damage                          | 4       | float | Red bullets damage. Can be increased through upgrades.                                 | Not constant        |
 | 30  | bullet_owner_push                          | 1       | float | Push force when shooting bullets.                                                      | -                   |
+| 31  | healing_potion_hp                          | 15      | float | Size of heal after using a healing potion.                                             | -                   |
 | 14  | vacuum_drag_multiplier                     | 1       | float | Size of vaccum drag.                                                                   | Real life effect :) |
 | 15  | all_speed_multiplier                       | 1       | float | Overall speed multiplier.                                                              | -                   |
 | 9   | player_normal_speed                        | 11      | float | Player default speed.                                                                  | -                   |

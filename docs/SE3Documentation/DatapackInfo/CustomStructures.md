@@ -38,4 +38,4 @@ but it's not necessary.
 
 ## Seon language
 
-Seon - Space Eternity Objects Notation. It's a scripting language designed to create strucutres in SE3 easily. More info [here](../).
+Seon - Space Eternity Objects Notation. It's a scripting language designed to create strucutres in SE3 easily. More info [here](../SeonLanguage/).

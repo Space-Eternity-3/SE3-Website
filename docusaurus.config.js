@@ -84,6 +84,16 @@ const config = {
                     },
                     {
                         position: "left",
+                        to: "/controls",
+                        label: "Controls",
+                    },
+                    {
+                        position: "left",
+                        to: "/server",
+                        label: "Server",
+                    },
+                    {
+                        position: "left",
                         to: "/Documentation",
                         label: "Documentation",
                     },

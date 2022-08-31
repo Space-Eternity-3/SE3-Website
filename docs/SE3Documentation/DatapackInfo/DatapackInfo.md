@@ -15,7 +15,7 @@ sidebar_position: 1
 
 ----------------------------------------
 
-Datapacks are used to change in-game rules, when playing SE3 starts to get boring.
+Datapacks are used to change in-game rules, when playing SE3 starts to get boring or you want to become a creator.
 
 ## Contents
 
@@ -43,7 +43,8 @@ It removes all spaces, tabs and new lines, so these chars have only
 cosmetical meaning by default. You can change it by using char `'`,
 then all these chars will be replaced with space.
 
-Note: Datapack parser works on `,` based floats.
+Note: Datapack parser works on `,` based floats.  
+Note: All probability floats have 0,1% precision, because of a 1000-based probability system.
 
 Functional chars:
 ```text showLineNumbers

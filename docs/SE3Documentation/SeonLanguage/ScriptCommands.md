@@ -41,8 +41,8 @@ asteroid blocker enable
 asteroid blocker disable
 ```
 
-Note: Asteroid blocker doesn't prevent objects from growing.
-Note: Hiding asteroid disables its Renderer and Collider components.
+Note: Hiding an asteroid disables its Renderer and Collider components, but don't affect objects on it.  
+Note: Asteroid blocker doesn't prevent objects from growing.  
 
 ## State based movement
 
@@ -75,7 +75,7 @@ hidesmooth <Z> <time>
 - Z: Object hiding distance from layer 0.
 - Time: Animation duration in Unity frames (0.02s). Select 1 for instant jump.
 
-Note: Never assign hide component to a second level parent of an asteroid.
+Note: Never assign hide component to a second level parent of an asteroid.  
 Note: It's recommended to not set absolute Z values to over 100.
 
 ### List
