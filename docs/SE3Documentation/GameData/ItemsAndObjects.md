@@ -57,6 +57,6 @@ title: Items and Objects
 | 51  | Metal Piece              | ![](/img/items/Nn51.png)                            |
 | 52  | Bedrock Storage          | ![](/img/items/Empty.png)                           |
 | 53  | Bedrock Alien            | ![](/img/items/Empty.png)                           |
-| 54  | Bone                     | ![](/img/items/Empty.png)                           |
-| 55  | Healing Potion           | ![](/img/items/Empty.png)                           |
-| 56  | Magic Element            | ![](/img/items/Empty.png)                           |
+| 54  | Bone                     | ![](/img/items/Nn54.png)                            |
+| 55  | Healing Potion           | ![](/img/items/Nn55A.png) ![](/img/items/Nn55U.png) |
+| 56  | Magic Element            | ![](/img/items/Nn56.png)                            |
