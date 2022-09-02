@@ -23,7 +23,7 @@
 }
 
 .background {
-    background-image: url(/img/Background.png);
+    background-image: url(/img/Background.webp);
     background-size: cover;
     position: fixed;
     z-index: -1;

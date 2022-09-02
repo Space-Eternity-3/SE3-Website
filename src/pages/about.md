@@ -9,6 +9,6 @@ or join someone else's. Have an amazing time!
 Are you the creator? No problem! We have something for you. Read our documentation
 and make your own datapack. Today you are the boss!
 
-![](/img/Space-Eternity-3.png)
+![](/img/Space-Eternity-3.webp)
 
 Join our [discord server](https://discord.gg/e4ppBTRKhg)
