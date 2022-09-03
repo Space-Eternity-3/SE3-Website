@@ -1,28 +1,64 @@
-# Download page
-
-:::caution
-
-To nie jest właściwa strona. Bartek, możesz przerobić to tak, żeby był tu serwer SE3, ale tylko od wersji Beta 1.14
-
-:::
-
-## SE3 Server for Beta 1.14 (latest)
-
-![SE3 launcher - home tab](https://user-images.githubusercontent.com/81181783/185487380-715fa7d4-40d1-448e-8cf6-5b145e575505.png)
+# SE3 Server Beta-1.14
 
 <a
-    className="download-button"
-    href="https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.4/SE3.Launcher-3.0.0-beta.4-win-x64.exe"
+  className="download-button"
+  href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.14.zip"
 >
-    Download as zip
+  Download as .zip
 </a>
 
 <a
-    className="download-button"
-    href="https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/3.0.0-beta.4/SE3.Launcher-3.0.0-beta.4-win-x64.exe"
+  className="download-button"
+  href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.14.tar.gz"
 >
-    Download as rar
+  Download as .tar.gz
 </a>
 
-[Other downloads](https://github.com/Space-Eternity-3/SE3-Launcher/releases)  
-[View on Github](https://github.com/Space-Eternity-3/SE3-Launcher)
+## Running server on Windows
+
+- Download server from the links above.
+- Download [Node.js](https://nodejs.org/en/download/).
+- Go to the server directory (with `index.js`).
+- Type `cmd` in the top bar of explorer.
+- Run `npm i` to configure.
+- Run `npm start` to start the server.
+
+![Starting the server](/img/server/running-the-server-windows.gif)
+
+## Running server on Linux
+
+Prerequisites:
+
+- Git
+- Node.js
+
+Run the following commands:
+```bash
+git clone https://github.com/Space-Eternity-3/SE3-Server.git
+cd SE3-Server
+npm i
+npm start
+```
+
+## Joining to your server
+
+If you want to join from the localhost, enter
+`ws://localhost:port` in the server address field.
+If you replace port with empty string (do not remove `:`), the port will be set to 27683 (the default SE3 port).
+You can also change the port in config to not be 27683.  
+
+If you want to join from a local network, enter the local IP of
+the server host, for example: `ws://192.168.0.10:port`.  
+
+If you want to join from internet, it might be a bit more complicated.
+You need your public IP address. You can find it by searching
+`What is my IP?` in Google. Then you have to set port-forwarding
+on your router to redirect every connection on the specified port to your local computer.
+You can see all instructions here: [portforward.com](https://portforward.com/router.htm). It might in some cases
+require contacting with your internet provider. When it is ready, connect to
+a server using your public IP address for example by entering `ws://123.45.67.89:`.  
+
+There are some alternatives if you can't use port-forwarding. You can find a free node.js 
+hosting for example replit.com and run your server on it. (Replit servers
+are in San Francisco, which can cause some ping problems if you are away from that place).
+

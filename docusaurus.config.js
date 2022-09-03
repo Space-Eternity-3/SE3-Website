@@ -74,13 +74,13 @@ const config = {
                 items: [
                     {
                         position: "left",
-                        to: "/download",
-                        label: "Download",
+                        to: "/about",
+                        label: "About",
                     },
                     {
                         position: "left",
-                        to: "/about",
-                        label: "About SE3",
+                        to: "/download",
+                        label: "Download",
                     },
                     {
                         position: "left",
