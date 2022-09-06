@@ -7,12 +7,12 @@ Technical commands are used to make some actions not connected with any object.
 
 ## Contents
 
-- [Contents](#contents)
-- [Loop system](#loop-system)
-- [Random system](#random-system)
-  - [Setrandom](#setrandom)
-  - [Ifrandom](#ifrandom)
-- [Ussage examples](#ussage-examples)
+-   [Contents](#contents)
+-   [Loop system](#loop-system)
+-   [Random system](#random-system)
+    -   [Setrandom](#setrandom)
+    -   [Ifrandom](#ifrandom)
+-   [Ussage examples](#ussage-examples)
 
 ## Loop
 
@@ -24,12 +24,11 @@ a different [current](./#interpreter-variables) variable.
 from #<start> to #<end> [command]
 ```
 
-- Start: Starting current value.
-- End: Ending current value
-- Command: A command, which will be executed multiple times.
+-   Start: Starting current value.
+-   End: Ending current value
+-   Command: A command, which will be executed multiple times.
 
 Note: You can't use brackets. One loop is for one command.
-
 
 # Random system
 
@@ -45,7 +44,7 @@ to a random value from <0;lim).
 setrandom %<lim>
 ```
 
-- Lim: A minimum value, which can't be chosen.
+-   Lim: A minimum value, which can't be chosen.
 
 Note: It is not recommended to set Lim to value over 1000.
 
@@ -60,7 +59,7 @@ ifrandom <value>
 ifrandom break
 ```
 
-- Value: Value, which will be set to ifrandom.
+-   Value: Value, which will be set to ifrandom.
 
 ## Ussage examples
 

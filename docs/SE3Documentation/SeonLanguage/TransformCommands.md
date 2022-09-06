@@ -8,16 +8,16 @@ of objects.
 
 ## Contents
 
-- [Contents](#contents)
-- [Children system](#children-system)
-- [Move](#move)
-- [Rotate](#rotate)
-- [Scale](#scale)
-- [Layer](#layer)
-- [Reset](#reset)
-- [Parent](#parent)
-- [Steal](#steal)
-- [Ussage examples](#ussage-examples)
+-   [Contents](#contents)
+-   [Children system](#children-system)
+-   [Move](#move)
+-   [Rotate](#rotate)
+-   [Scale](#scale)
+-   [Layer](#layer)
+-   [Reset](#reset)
+-   [Parent](#parent)
+-   [Steal](#steal)
+-   [Ussage examples](#ussage-examples)
 
 ## Children system
 
@@ -36,8 +36,7 @@ catch children $0 $10 scale children 0.5 0.5 0.5
 
 Note: If you change child position, it will be reseted to center of an asteroid.  
 Note: If you change child rotation, it will be reseted to value 0.  
-Note: If you change scale of the parent asteroid, objects scales and distances from the asteroid center will also change.  
-
+Note: If you change scale of the parent asteroid, objects scales and distances from the asteroid center will also change.
 
 ## Move
 
@@ -48,9 +47,8 @@ It rotates the given vector by the actual rotation.
 move <X> <Y>
 ```
 
-- X: Horizontal position change.
-- Y: Vertical position change.
-
+-   X: Horizontal position change.
+-   Y: Vertical position change.
 
 ## Rotate
 
@@ -60,8 +58,7 @@ Command `rotate` rotates a selected object by a given angle counterclockwise.
 rotate <angle>
 ```
 
-- Angle: Delta angle in degrees.
-
+-   Angle: Delta angle in degrees.
 
 ## Scale
 
@@ -71,13 +68,12 @@ Command `scale` sets the scale of a selected object to a given value.
 scale <X> <Y> <Z>
 ```
 
-- X: Scale on the X-axis
-- Y: Scale on the Y-axis
-- Z: Scale on the Z-axis
+-   X: Scale on the X-axis
+-   Y: Scale on the Y-axis
+-   Z: Scale on the Z-axis
 
 Note: Changing the scale of a parent object can affect its children. Be careful and
 never change the scale of a second level parent of an asteroid.
-
 
 ## Layer
 
@@ -88,10 +84,9 @@ with this command by setting a very low (for example -500) value.
 layer <Z>
 ```
 
-- Z: Layer in coordinates
+-   Z: Layer in coordinates
 
 Note: It's recommended to not set absolute Z values to over 100.
-
 
 ## Reset
 
@@ -101,10 +96,9 @@ Command `reset` resets the selected object's position, rotation or local positio
 reset <prm>
 ```
 
-- Prm: Something, you want to reset: [position, rotation, localpos].
+-   Prm: Something, you want to reset: [position, rotation, localpos].
 
 Note: Reseting rotation will replace it with a parent's rotation.
-
 
 ## Parent
 
@@ -115,10 +109,9 @@ parent set #<ID>
 parent remove
 ```
 
-- ID: New parent's ID.
+-   ID: New parent's ID.
 
 Note: Doesn't work for objects with $IDs.
-
 
 ## Steal
 
@@ -132,14 +125,13 @@ steal <number> from #<ID>
 steal <number> from delta <deltaID>
 ```
 
-- Number: Amount of asteroid objects on the one side of a wall.
-- ID: AsteroidID.
-- deltaID = AsteroidID - WallID.
+-   Number: Amount of asteroid objects on the one side of a wall.
+-   ID: AsteroidID.
+-   deltaID = AsteroidID - WallID.
 
 Note: You can't steal more objects, than there is on the asteroid.  
 Note: You don't need any wall. You can attach asteroid objects to every
 object, but the result will be weird.
-
 
 ## Ussage examples
 

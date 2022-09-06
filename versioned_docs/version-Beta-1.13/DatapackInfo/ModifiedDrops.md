@@ -8,8 +8,8 @@ which will be collected after picking up an object.
 
 ## Contents
 
-- [Contents](#contents)
-- [Construction rules](#construction-rules)
+-   [Contents](#contents)
+-   [Construction rules](#construction-rules)
 
 ## Construction rules
 

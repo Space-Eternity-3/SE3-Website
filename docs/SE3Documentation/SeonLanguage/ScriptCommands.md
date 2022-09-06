@@ -7,15 +7,15 @@ Script commands are used to change objects' properties, which are somehow connec
 
 ## Contents
 
-- [Contents](#contents)
-- [Drill](#drill)
-- [Asteroid](#asteroid)
-- [State based movement](#state-based-movement)
-  - [Extension](#extension)
-  - [Hidesmooth](#hidesmooth)
-  - [List](#list)
-  - [Structure states](#structure-states)
-- [Ussage examples](#ussage-examples)
+-   [Contents](#contents)
+-   [Drill](#drill)
+-   [Asteroid](#asteroid)
+-   [State based movement](#state-based-movement)
+    -   [Extension](#extension)
+    -   [Hidesmooth](#hidesmooth)
+    -   [List](#list)
+    -   [Structure states](#structure-states)
+-   [Ussage examples](#ussage-examples)
 
 ## Drill
 
@@ -27,7 +27,7 @@ drill set <type>
 drill remove
 ```
 
-- Type: Drill loottable ID (int) based on [drill loot](../DatapackInfo/DrillLoot) and [asteroid ID](../GameData/Asteroids).
+-   Type: Drill loottable ID (int) based on [drill loot](../DatapackInfo/DrillLoot) and [asteroid ID](../GameData/Asteroids).
 
 ## Asteroid
 
@@ -42,7 +42,7 @@ asteroid blocker disable
 ```
 
 Note: Hiding an asteroid disables its Renderer and Collider components, but don't affect objects on it.  
-Note: Asteroid blocker doesn't prevent objects from growing.  
+Note: Asteroid blocker doesn't prevent objects from growing.
 
 ## State based movement
 
@@ -58,9 +58,9 @@ selected object. Extending is an animation, which changes X and Y position in a 
 extension <X> <Y> <time>
 ```
 
-- X: Horizontal position change.
-- Y: Vertical position change.
-- Time: Animation duration in Unity frames (0.02s). Select 1 for instant jump.
+-   X: Horizontal position change.
+-   Y: Vertical position change.
+-   Time: Animation duration in Unity frames (0.02s). Select 1 for instant jump.
 
 ### Hidesmooth
 
@@ -72,8 +72,8 @@ and moves it into a deep darkness of the space in a specified time.
 hidesmooth <Z> <time>
 ```
 
-- Z: Object hiding distance from layer 0.
-- Time: Animation duration in Unity frames (0.02s). Select 1 for instant jump.
+-   Z: Object hiding distance from layer 0.
+-   Time: Animation duration in Unity frames (0.02s). Select 1 for instant jump.
 
 Note: Never assign hide component to a second level parent of an asteroid.  
 Note: It's recommended to not set absolute Z values to over 100.
@@ -85,18 +85,18 @@ selected [structure state](#structure-states). Every structure state implies und
 
 Available animation states:
 
-- undone
-- doing
-- done
-- undoing
+-   undone
+-   doing
+-   done
+-   undoing
 
 ```text showLineNumbers
 list <movement> <animation> <states>
 ```
 
-- Movement: Movement type: [extended, hidden].
-- Animation: Animation state, when one of the selected structure states is active: [undone, doing, done, undoing].
-- States: Array of [structure states](#structure-states) separated by `,` in which the current animation state will be active.
+-   Movement: Movement type: [extended, hidden].
+-   Animation: Animation state, when one of the selected structure states is active: [undone, doing, done, undoing].
+-   States: Array of [structure states](#structure-states) separated by `,` in which the current animation state will be active.
 
 Note: Selecting state undone is useless, but you can do it to save a clean code or to overwrite other states.
 

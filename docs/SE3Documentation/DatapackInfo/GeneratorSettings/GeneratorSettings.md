@@ -4,7 +4,7 @@ title: "Generator settings"
 sidebar_position: 5
 ---
 
-- [Biome Settings](./BiomeSettings)
+-   [Biome Settings](./BiomeSettings)
 
 ---
 
@@ -12,9 +12,9 @@ Generator settings is a place, where you can customize asteroid generation.
 
 ## Contents
 
-- [Contents](#contents)
-- [Biome separation](#biome-separation)
-- [Construction rules](#construction-rules)
+-   [Contents](#contents)
+-   [Biome separation](#biome-separation)
+-   [Construction rules](#construction-rules)
 
 ## Biome separation
 

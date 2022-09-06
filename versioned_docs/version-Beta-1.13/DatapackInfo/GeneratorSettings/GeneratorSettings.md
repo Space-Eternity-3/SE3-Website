@@ -4,7 +4,7 @@ title: "Generator settings"
 sidebar_position: 5
 ---
 
-- [Biome Settings](./BiomeSettings)
+-   [Biome Settings](./BiomeSettings)
 
 ---
 
@@ -12,9 +12,9 @@ Generator settings is a place, where you can customize asteroid generation.
 
 ## Contents
 
-- [Contents](#contents)
-- [Biome separation](#biome-separation)
-- [Construction rules](#construction-rules)
+-   [Contents](#contents)
+-   [Biome separation](#biome-separation)
+-   [Construction rules](#construction-rules)
 
 ## Biome separation
 
@@ -41,19 +41,19 @@ but it's not necessary.
 
 There is a lot of variables in generator settings, so there is an array with all information.
 
-| Variable part | Value part                                                            | Value example            | In default | Description                                                                                                     | Note                                       |
-| ------------- | --------------------------------------------------------------------- | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| chance        | Percentage                                                            | 8%                       | no         | Sets biome appear chance.                                                                                       | -                                          |
+| Variable part | Value part                                                            | Value example            | In default | Description                                                                                                              | Note                                       |
+| ------------- | --------------------------------------------------------------------- | ------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
+| chance        | Percentage                                                            | 8%                       | no         | Sets biome appear chance.                                                                                                | -                                          |
 | all_sizes     | Asteroid names with probability in round brackets separated with `+`. | stone(80%) + copper(20%) | yes        | Sets [asteroid type](../../GameData/Asteroids) generate chances in a given biome for all sizes.                          | Variable part can be 0 as well.            |
 | int <4;10>    | Asteroid names with probability in round brackets separated with `+`. | stone(80%) + copper(20%) | yes        | Sets [asteroid type](../../GameData/Asteroids) generate chances in a given biome for size selected by the variable part. | Overwrites `all_sizes` if used after that. |
-| settings      | Biome settings. More info [here](./BiomeSettings).                    | [radius=50]              | yes        | Customizes advanced generator settings.                                                                         | -                                          |
+| settings      | Biome settings. More info [here](./BiomeSettings).                    | [radius=50]              | yes        | Customizes advanced generator settings.                                                                                  | -                                          |
 
 ```text showLineNumbers
 <Geyzer biome> 2
 {
 	chance: 8%;
 	settings: [];
-	
+
 	all_sizes: stone_geyzer(100%);
 	<Size>5: stone_geyzer(70%) + magnetic_geyzer(30%);
 	<Size>6: stone_geyzer(70%) + magnetic_geyzer(30%);
