@@ -1,0 +1,30 @@
+06.09.2022:
+
+- int based storing boss data in RAM (singleplayer)
+- not instant buttons in pause menu
+- server parsing 3 types (P,U,E)
+
+08.09.2022:
+
+- singleplayer bullet collider on boss transitions removed
+- boss can set its look depending on its type
+- changed arena seon
+- int based storing boss data in RAM (multiplayer)
+
+10.09.2022:
+
+- boss variables 21 to 61
+- server parse functions exported
+- generalData and additionalData changed to dataX and dataY
+- boss sending compressed to 4KB/s per player
+- rafael functions (1)
+
+11.09.2022:
+
+- rafael functions (2)
+
+16.09.2022:
+
+- gray button chat again
+- array player smooth reduced
+- error spotted remove raycast
