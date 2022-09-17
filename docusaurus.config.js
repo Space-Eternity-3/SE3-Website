@@ -38,11 +38,15 @@ const config = {
                             label: "Beta-1.12",
                             path: "Beta-1.12",
                             banner: "unmaintained",
-                        }
+                        },
                     },
                 },
                 theme: {
                     customCss: [require.resolve("./src/css/custom.css")],
+                },
+                blog: {
+                    blogSidebarTitle: "All posts",
+                    blogSidebarCount: "ALL",
                 },
             }),
         ],
@@ -100,6 +104,11 @@ const config = {
                     {
                         href: "https://discord.gg/e4ppBTRKhg",
                         label: "Discord",
+                        position: "right",
+                    },
+                    {
+                        to: "blog",
+                        label: "Blog",
                         position: "right",
                     },
                 ],

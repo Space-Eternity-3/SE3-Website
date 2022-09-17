@@ -7,9 +7,9 @@ Gameplay is a place, where you can set some in-game variables.
 
 ## Contents
 
-- [Contents](#contents)
-- [Construction rules](#construction-rules)
-- [Gameplay variables](#gameplay-variables)
+-   [Contents](#contents)
+-   [Construction rules](#construction-rules)
+-   [Gameplay variables](#gameplay-variables)
 
 ## Construction rules
 

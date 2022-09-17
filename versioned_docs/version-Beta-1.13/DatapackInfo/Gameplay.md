@@ -7,9 +7,9 @@ Gameplay is a place, where you can set some in-game variables.
 
 ## Contents
 
-- [Contents](#contents)
-- [Construction rules](#construction-rules)
-- [Gameplay variables](#gameplay-variables)
+-   [Contents](#contents)
+-   [Construction rules](#construction-rules)
+-   [Gameplay variables](#gameplay-variables)
 
 ## Construction rules
 
@@ -52,7 +52,7 @@ Note: Gameplay variables are not sorted by ID.
 | 18  | at_impulse_power_regenerate_multiplier     | 1       | float | Speed of power regeneration when using impulse artefact.                               | -                   |
 | 19  | at_impulse_time                            | 0,4     | float | Impulse time when using impulse artefact.                                              | -                   |
 | 20  | at_impulse_speed                           | 70      | float | Impulse speed when using impulse artefact.                                             | -                   |
-| 29  | at_impulse_damage                          | 15       | float | Impulse damage when using impulse artefact.                                            | -                   |
+| 29  | at_impulse_damage                          | 15      | float | Impulse damage when using impulse artefact.                                            | -                   |
 | 21  | at_illusion_power_regenerate_multiplier    | 1       | float | Speed of ether regeneration when using illusion artefact.                              | -                   |
 | 22  | at_illusion_power_use_multiplier           | 2       | float | Speed of ether ussage when using illusion artefact.                                    | -                   |
 | 23  | at_unstable_normal_avarage_time            | 1,5     | float | Average time between unstable explosions when using unstable artefact.                 | -                   |

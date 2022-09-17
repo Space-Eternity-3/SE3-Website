@@ -4,11 +4,11 @@ title: "Seon Language"
 sidebar_position: 2
 ---
 
-- [Object commands](./ObjectCommands)
-- [Transform commands](./TransformCommands)
-- [Script commands](./ScriptCommands)
-- [Technical commands](./TechnicalCommands)
-- [Default structures](./DefaultStructures)
+-   [Object commands](./ObjectCommands)
+-   [Transform commands](./TransformCommands)
+-   [Script commands](./ScriptCommands)
+-   [Technical commands](./TechnicalCommands)
+-   [Default structures](./DefaultStructures)
 
 ---
 
@@ -16,10 +16,10 @@ Seon - Space Eternity Objects Notation. It's a scripting language designed to cr
 
 ## Contents
 
-- [Contents](#contents)
-- [Seon stream](#seon-stream)
-- [Comments](#comments)
-- [Interpreter variables](#interpreter-variables)
+-   [Contents](#contents)
+-   [Seon stream](#seon-stream)
+-   [Comments](#comments)
+-   [Interpreter variables](#interpreter-variables)
 
 ## Seon stream
 

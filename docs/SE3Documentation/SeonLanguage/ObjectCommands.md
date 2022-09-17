@@ -7,15 +7,15 @@ Object commands are used to change object indicators and to create new objects.
 
 ## Contents
 
-- [Contents](#contents)
-- [Summon](#summon)
-- [Catch](#catch)
-- [Catch child](#catch-child)
-- [Catch children](#catch-children)
-- [Objects](#objects)
-- [ID types](#id-types)
-- [Generation code](#generation-code)
-- [Usage examples](#usage-examples)
+-   [Contents](#contents)
+-   [Summon](#summon)
+-   [Catch](#catch)
+-   [Catch child](#catch-child)
+-   [Catch children](#catch-children)
+-   [Objects](#objects)
+-   [ID types](#id-types)
+-   [Generation code](#generation-code)
+-   [Usage examples](#usage-examples)
 
 ## Summon
 
@@ -26,10 +26,10 @@ to this object's ID.
 summon #<ID> <object> <arg1*> <arg2*> <arg3*>
 ```
 
-- Object: Object, which will be summoned.
-- Arg1: Optional argument 1.
-- Arg2: Optional argument 2.
-- Arg3: Optional argument 3.
+-   Object: Object, which will be summoned.
+-   Arg1: Optional argument 1.
+-   Arg2: Optional argument 2.
+-   Arg3: Optional argument 3.
 
 See [Objects](#objects) for details.
 
@@ -41,7 +41,7 @@ Command `catch` changes variable [current](./#interpreter-variables) to a specif
 catch #<ID>
 ```
 
-- ID: Value, which will be set.
+-   ID: Value, which will be set.
 
 ## Catch child
 
@@ -51,7 +51,7 @@ Command `catch child` changes variable [findex](./#interpreter-variables) to a s
 catch child $<IDm>
 ```
 
-- IDm: Value, which will be set.
+-   IDm: Value, which will be set.
 
 ## Catch children
 
@@ -61,8 +61,8 @@ Command `catch children` changes variables [findex_min & findex_max](./#interpre
 catch children $<IDmi> $<IDma>
 ```
 
-- IDmi: Value, which will be set to findex_min.
-- IDma: Value, which will be set to findex_max.
+-   IDmi: Value, which will be set to findex_min.
+-   IDma: Value, which will be set to findex_max.
 
 ## Objects
 
