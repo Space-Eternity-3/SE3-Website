@@ -9,9 +9,9 @@ tag struct=X in [biome settings](./GeneratorSettings/BiomeSettings) segment, whe
 
 ## Contents
 
-- [Contents](#contents)
-- [Structure separation](#structure-separation)
-- [Seon language](#seon-language)
+-   [Contents](#contents)
+-   [Structure separation](#structure-separation)
+-   [Seon language](#seon-language)
 
 ## Structure separation
 

@@ -8,8 +8,8 @@ depending on asteroid type. Every jse3 line is a different asteroid.
 
 ## Contents
 
-- [Contents](#contents)
-- [Construction rules](#construction-rules)
+-   [Contents](#contents)
+-   [Construction rules](#construction-rules)
 
 ## Construction rules
 

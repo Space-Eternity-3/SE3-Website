@@ -8,10 +8,10 @@ can still copy such code to edit it as a custom structure. All default structure
 
 ## Contents
 
-- [Contents](#contents)
-- [Arena](#arena)
-- [Catastrophic Arena](#catastrophic-arena)
-- [Cementery](#cementery)
+-   [Contents](#contents)
+-   [Arena](#arena)
+-   [Catastrophic Arena](#catastrophic-arena)
+-   [Cementery](#cementery)
 
 ## Arena
 

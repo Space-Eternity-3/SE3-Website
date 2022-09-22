@@ -7,12 +7,12 @@ Datapack will be always imported, even if some tags are incorrect, so put them p
 
 ## Contents
 
-- [Contents](#contents)
-- [Biome settings variable look](#biome-settings-variable-look)
-- [Tag types](#tag-types)
-- [Tags](#tags)
-- [ring.X.change](#ringxchange)
-- [Ussage example](#ussage-example)
+-   [Contents](#contents)
+-   [Biome settings variable look](#biome-settings-variable-look)
+-   [Tag types](#tag-types)
+-   [Tags](#tags)
+-   [ring.X.change](#ringxchange)
+-   [Ussage example](#ussage-example)
 
 ## Biome settings variable look
 

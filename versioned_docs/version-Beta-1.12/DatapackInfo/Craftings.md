@@ -7,9 +7,9 @@ Craftings is a place, where you can set craftings and group them by pages and ca
 
 ## Contents
 
-- [Contents](#contents)
-- [Groups](#groups)
-- [Construction rules](#construction-rules)
+-   [Contents](#contents)
+-   [Groups](#groups)
+-   [Construction rules](#construction-rules)
 
 ## Groups
 

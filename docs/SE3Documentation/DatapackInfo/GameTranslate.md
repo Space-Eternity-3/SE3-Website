@@ -8,10 +8,10 @@ converted into numerical IDs for example `8`.
 
 ## Contents
 
-- [Contents](#contents)
-- [Type separation](#type-separation)
-- [Asteroids](#asteroids)
-- [Items and objects](#items-and-objects)
+-   [Contents](#contents)
+-   [Type separation](#type-separation)
+-   [Asteroids](#asteroids)
+-   [Items and objects](#items-and-objects)
 
 ## Type separation
 
@@ -48,7 +48,6 @@ numbers. Every asteroid variant has its own [ObjectsGenerate](./ObjectsGenerate)
 ## Items and objects
 
 Variable part is [object ID](../GameData/ItemsAndObjects) and value part is object name.
-
 
 ```text showLineNumbers
 Items_and_objects
