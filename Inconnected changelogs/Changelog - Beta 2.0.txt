@@ -28,3 +28,40 @@
 - gray button chat again
 - array player smooth reduced
 - error spotted remove raycast
+- boss movement & rotation smooth
+- removed useless colliders
+- magnetic system converted to update
+- android temporary buttons
+
+17.09.2022:
+
+- magnetic update repaired
+- encoding to (int) using ASCII
+
+19.09.2022:
+
+- rafael functions (3)
+
+20.09.2022:
+
+- better server collision system
+- impulse-boss damage range reduced: 8.9 -> 8.7
+- impulse-player damage range increased: 2 -> 2.12
+- added projection when others impulsing
+- bullet projections no longer destroy on walls and asteroids
+- "pseudobody" collider range increased: 0.8 -> 0.92
+- bullet destroy sound on quit removed
+- world.ShotRaw() function
+
+21.09.2022:
+
+- bullet linear collision corrected (bugfix)
+- shape collision (1)
+
+22.09.2022:
+
+- a bit better particles disabling
+- new seon object: StBulcol
+- static shape colliders
+- added static shape colliders to arena seon
+- mushroom physics material removed
