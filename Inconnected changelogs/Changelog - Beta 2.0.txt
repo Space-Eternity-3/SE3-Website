@@ -8,7 +8,7 @@
 
 - singleplayer bullet collider on boss transitions removed
 - boss can set its look depending on its type
-- changed arena seon
+- changed arena seon: 5 types of bosses
 - int based storing boss data in RAM (multiplayer)
 
 10.09.2022:
@@ -63,5 +63,14 @@
 - a bit better particles disabling
 - new seon object: StBulcol
 - static shape colliders
-- added static shape colliders to arena seon
+- changed arena seon: added static shape colliders
 - mushroom physics material removed
+- boss unstable matter fly through players
+
+23.09.2022:
+
+- engine colliders returned (bugfix)
+
+16.11.2022:
+
+- DO SOMETHING
