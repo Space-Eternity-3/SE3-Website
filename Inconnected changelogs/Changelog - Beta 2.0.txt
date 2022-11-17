@@ -73,4 +73,9 @@
 
 16.11.2022:
 
-- DO SOMETHING
+- auto boss hide, manual change possibility removed
+- bullets send on player join
+
+17.11.2022:
+
+- stuck repaired (teleportation)
