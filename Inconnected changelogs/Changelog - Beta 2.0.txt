@@ -79,3 +79,12 @@
 17.11.2022:
 
 - stuck repaired (teleportation)
+
+10.12.2022:
+
+- bosbul static force
+- error on destroying structure removed
+- sphere local size added
+- capsule bosbul strange behaviour spotted
+- bosbul add command + arena.seon changed
+- gameplay 2.0 attacker variables
