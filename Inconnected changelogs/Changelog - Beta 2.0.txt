@@ -102,3 +102,4 @@
 
 - bullet damage included
 - boss_damage_multiplier working
+- bullet graphics in script united
