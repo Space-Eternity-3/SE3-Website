@@ -92,3 +92,13 @@
 16.12.2022:
 
 - safe thread code (Beta 1.14d)
+
+11.01.2023:
+
+- gameplay variables reduced to boss_damage_multiplier
+- boss damage in-code array
+
+20.01.2023:
+
+- bullet damage included
+- boss_damage_multiplier working
