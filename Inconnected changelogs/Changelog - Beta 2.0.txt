@@ -103,3 +103,18 @@
 - bullet damage included
 - boss_damage_multiplier working
 - bullet graphics in script united
+
+23.01.2023
+
+- bullet scaling system
+- electro bullet
+- force destroy effect
+- b1a1 auto boss hide fixed
+- fire bullets (pop sounds)
+
+24.01.2023:
+
+- fire bullet look improved
+- bullet fly through option as bool array
+- effect system (no look)
+- anti-logout (instant effect damage)
