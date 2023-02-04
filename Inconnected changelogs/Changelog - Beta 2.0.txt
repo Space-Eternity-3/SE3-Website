@@ -118,3 +118,7 @@
 - bullet fly through option as bool array
 - effect system (no look)
 - anti-logout (instant effect damage)
+
+25.01.2023:
+
+- effect system visual
