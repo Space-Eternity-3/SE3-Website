@@ -122,3 +122,17 @@
 25.01.2023:
 
 - effect system visual
+
+04.02.2023:
+
+- fire effect improved
+- spike bullet improved
+- posion effect
+- brainwave bullet
+- sticky bullet alpha
+
+11.03.2023:
+
+- sticky bullet done
+- title change: levels -> achievements
+- Beta 2.0 changed to Beta 1.15
