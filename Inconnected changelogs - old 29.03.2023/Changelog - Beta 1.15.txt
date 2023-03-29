@@ -136,3 +136,11 @@
 - sticky bullet done
 - title change: levels -> achievements
 - Beta 2.0 changed to Beta 1.15
+
+idk day:
+
+- low TPS system on server side
+
+29.03.2023:
+
+- barrier tick client side (low TPS client side)
