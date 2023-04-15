@@ -1,13 +1,8 @@
 ---
 slug: ./
 title: "SE3 Documentation"
+sidebar_position: 0
 ---
-
-:::caution
-
-This documentation hasn't been made yet.
-
-:::
 
 -   [Datapack Info](./DatapackInfo/)
 -   [Seon Language](./SeonLanguage/)
