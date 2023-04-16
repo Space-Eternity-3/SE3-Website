@@ -64,6 +64,15 @@ summon #69 wall 12 move 2 -2 rotate 315
 summon #70 wall 12 move 2 -2 rotate 337,5
 from #59 to #70 move 34,25 0
 
+from #1 to #16 bosbul add
+from #59 to #70 bosbul add
+
+summon #171 bosbul cylinder rotate 0
+summon #172 bosbul cylinder rotate 90
+summon #173 bosbul cylinder rotate 180
+summon #174 bosbul cylinder rotate 270
+from #171 to #174 move 36.4 0
+
 summon #17 asteroid 4 12 0,0,0,0,0,0,0,0
 summon #18 asteroid 4 12 0,0,0,0,0,0,0,0
 summon #19 asteroid 4 12 0,0,0,0,0,0,0,0
@@ -98,22 +107,15 @@ from #51 to #58 list extended undoing b1a1,b2a2,b3a3,b1a2,b2a3,b3r
 
 summon #71 empty summon #72 empty
 summon #30 asteroid 6 12 52,53,50,0,0,0,0,0,0,0,50,53
-ifrandom 0 summon #0 boss 0 summon #29 asteroid 6 12 42,49,50,0,0,0,0,0,0,0,50,49
-ifrandom 1 summon #0 boss 0 summon #29 asteroid 6 12 43,49,50,0,0,0,0,0,0,0,50,49
-ifrandom 2 summon #0 boss 0 summon #29 asteroid 6 12 44,49,50,0,0,0,0,0,0,0,50,49
-ifrandom 3 summon #0 boss 0 summon #29 asteroid 6 12 45,49,50,0,0,0,0,0,0,0,50,49
-ifrandom 4 summon #0 boss 0 summon #29 asteroid 6 12 47,49,50,0,0,0,0,0,0,0,50,49
+ifrandom 0 summon #0 boss 1 summon #29 asteroid 6 12 42,49,50,0,0,0,0,0,0,0,50,49
+ifrandom 1 summon #0 boss 2 summon #29 asteroid 6 12 43,49,50,0,0,0,0,0,0,0,50,49
+ifrandom 2 summon #0 boss 3 summon #29 asteroid 6 12 44,49,50,0,0,0,0,0,0,0,50,49
+ifrandom 3 summon #0 boss 4 summon #29 asteroid 6 12 45,49,50,0,0,0,0,0,0,0,50,49
+ifrandom 4 summon #0 boss 6 summon #29 asteroid 6 12 47,49,50,0,0,0,0,0,0,0,50,49
 ifrandom break
 from #29 to #30 move 0 -2
 catch #29 parent set #71
 catch #30 parent set #72
-
-catch #0
-list hidden doing b1a1,b2a2,b3a3
-list hidden done default,A1,A2,A3,R,b1a2,b2a3,b3r
-list hidden undoing a1b1,a2b2,a3b3
-list hidden undone B1,B2,B3
-hidesmooth 0 40
 
 catch #71
 list hidden done default,A1,A2,A3,B1,B2,B3,a1b1,a2b2,a3b3,b1a1,b2a2,b3a3,b1a2,b2a3

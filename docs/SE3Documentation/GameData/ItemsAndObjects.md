@@ -60,3 +60,12 @@ title: Items and Objects
 | 54  | Bone                     | ![](/img/items/Nn54.png)                            |
 | 55  | Healing Potion           | ![](/img/items/Nn55A.png) ![](/img/items/Nn55U.png) |
 | 56  | Magic Element            | ![](/img/items/Nn56.png)                            |
+| 57  | Turbo Potion             | ![](/img/items/Nn57A.png) ![](/img/items/Nn57U.png) |
+| 58  | Turbo Element            | ![](/img/items/Nn58.png)                            |
+| 59  | Power Potion             | ![](/img/items/Nn59A.png) ![](/img/items/Nn59U.png) |
+| 60  | Power Element            | ![](/img/items/Nn60.png)                            |
+| 61  | Blank Potion             | ![](/img/items/Nn61A.png) ![](/img/items/Nn61U.png) |
+| 62  | Blank Element            | ![](/img/items/Nn62.png)                            |
+| 63  | Killing Potion           | ![](/img/items/Nn63A.png) ![](/img/items/Nn63U.png) |
+| 64  | Coal Bullet              | ![](/img/items/Nn64.png)                            |
+| 65  | Fire Bullet              | ![](/img/items/Nn65.png)                            |

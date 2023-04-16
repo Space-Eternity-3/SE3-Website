@@ -15,6 +15,7 @@ Script commands are used to change objects' properties, which are somehow connec
     -   [Hidesmooth](#hidesmooth)
     -   [List](#list)
     -   [Structure states](#structure-states)
+-   [Bosbul add](#bosbul-add)
 -   [Ussage examples](#ussage-examples)
 
 ## Drill
@@ -126,6 +127,19 @@ a state-changing object (for example boss).
 | 2          | 4             | b2a3    | Winning in wave 2.                              | Boss                  |
 | 3          | 4             | b3r     | Winning in wave 3.                              | Boss                  |
 
+## Bosbul add
+
+Command `bosbul add` assigns a [bosbul object](./ObjectCommands#objects) to an asteroid, a sphere or a wall if the [current](.#interpreter-variables) variable
+is pointing at this.
+You don't have to worry about ID of a new bosbul object, because it's inaccessible from the seon level. To use that
+command just type bosbul add.
+
+```text showLineNumbers
+bosbul add
+```
+
+Note: Bosbul object is static even if you use on it state changing movement.
+
 ## Ussage examples
 
 ```text showLineNumbers
@@ -136,6 +150,7 @@ drill set 6
 summon #2 asteroid 9 0 8;9;8;9;8;9;8;9;8;9;8;9;8;9;8;9;8;9 move 0 -15
 asteroid blocker enable
 asteroid hide
+bosbul add
 
 catch #1
 extension 0 5 40
