@@ -20,6 +20,9 @@ export default function () {
                         <a className={styles.contentButton} href="/download">
                             Download
                         </a>
+                        <a className={styles.contentButton} href="/about">
+                            How to play
+                        </a>
                     </div>
                 </div>
             </div>

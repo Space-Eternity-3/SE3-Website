@@ -94,12 +94,7 @@ const config = {
                     {
                         position: "left",
                         to: "/about",
-                        label: "About",
-                    },
-                    {
-                        position: "left",
-                        to: "/controls",
-                        label: "Controls",
+                        label: "How to play",
                     },
                     {
                         position: "left",
