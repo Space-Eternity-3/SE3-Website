@@ -68,7 +68,7 @@ This tag is of two types:
 | ring.outer.change->X | int <0;80> | Determines the distance to biome border. | From border to center |
 
 X is a parameter. You can use tag ring.X.change multiple times to set more values.
-Every ussage determines distance, at which generation zone changes including parameter.
+Every usage determines distance, at which generation zone changes including parameter.
 X=0 means, that generation zone will be switched to empty zone by default.
 If you use inner and outer type in the same biome, interpreter will choose empty zone if at least one
 of these tag types wants to set it.

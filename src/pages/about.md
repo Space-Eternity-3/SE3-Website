@@ -89,13 +89,13 @@ now, but you can unlock them using upgrades. Click the small "U" button. You wil
 
 ### All possible upgrades
 
-| Icon | Upgrade  | Description                                       |
-| ---- | -------- | ------------------------------------------------- |
-|      | Health   | Improves your health by 10% per upgrade           |
-|      | Turbo    | Improves your turbo max speed by 8% per upgrade   |
-|      | Drill    | Improves your drill efficiency by 15% per upgrade |
-|      | Bullets  | Improves your bullet damage by 8% per upgrade     |
-|      | Backpack | Unlocks 3 slots in your backpack every upgrade    |
+| Upgrade  | Description                                       |
+| -------- | ------------------------------------------------- |
+| Health   | Improves your health by 10% per upgrade           |
+| Turbo    | Improves your turbo max speed by 8% per upgrade   |
+| Drill    | Improves your drill efficiency by 15% per upgrade |
+| Bullets  | Improves your bullet damage by 8% per upgrade     |
+| Backpack | Unlocks 3 slots in your backpack every upgrade    |
 
 ### Upgrade prices
 
@@ -294,83 +294,83 @@ Here is a list of all bosses and their mechanics:
 
 ### Protector
 
-| ![SE3_image](../../static/img/ab/a.png) |
-| --------------------------------------- |
+| ![SE3_image](../../static/img/ab/boss1.png) |
+| ------------------------------------------- |
 
 | Protector speed: NORMAL |
 | ----------------------- |
 
-| Attack ID | Name     | Description                                                        | Preview                                 |
-| --------- | -------- | ------------------------------------------------------------------ | --------------------------------------- |
-| 0         | -        | Protector shoots copper bullets. It aims.                          | ![SE3_image](../../static/img/ab/a.png) |
-| 1         | Electron | Protector shoots one electron. It aims.                            | ![SE3_image](../../static/img/ab/a.png) |
-| 2         | Shield   | Protector activates a shield, which makes it immune to all damage. | ![SE3_image](../../static/img/ab/a.png) |
-| 3         | Rockets  | Protector sends two kamikadze rockets to chase the player.         | ![SE3_image](../../static/img/ab/a.png) |
-| 4         | Ufoquake | Protector moves and shoots faster.                                 | ![SE3_image](../../static/img/ab/a.png) |
+| Attack ID | Name     | Description                                                        |
+| --------- | -------- | ------------------------------------------------------------------ |
+| 0         | -        | Protector shoots copper bullets. It aims.                          |
+| 1         | Electron | Protector shoots one electron. It aims.                            |
+| 2         | Shield   | Protector activates a shield, which makes it immune to all damage. |
+| 3         | Rockets  | Protector sends two kamikadze rockets to chase the player.         |
+| 4         | Ufoquake | Protector moves and shoots faster.                                 |
 
 ### Adecodron
 
-| ![SE3_image](../../static/img/ab/a.png) |
-| --------------------------------------- |
+| ![SE3_image](../../static/img/ab/boss2.png) |
+| ------------------------------------------- |
 
 | Adecodron speed: VERY FAST |
 | -------------------------- |
 
-| Attack ID | Name       | Description                                                                | Preview                                 |
-| --------- | ---------- | -------------------------------------------------------------------------- | --------------------------------------- |
-| 0         | -          | Adecodron doesn't shoot anything. It attacks you using spikes on its body. | ![SE3_image](../../static/img/ab/a.png) |
-| 1         | Spikes     | Adecodron shots a circle of poisoned spikes.                               | ![SE3_image](../../static/img/ab/a.png) |
-| 2         | Guns       | Adecodron activates its guns, which shoot red bullets. It aims.            | ![SE3_image](../../static/img/ab/a.png) |
-| 3         | Spikeballs | Adecodron sends four poisoned spikeballs to chase the player.              | ![SE3_image](../../static/img/ab/a.png) |
-| 4         | Adecoquake | Adecodron moves faster.                                                    | ![SE3_image](../../static/img/ab/a.png) |
+| Attack ID | Name       | Description                                                                |
+| --------- | ---------- | -------------------------------------------------------------------------- |
+| 0         | -          | Adecodron doesn't shoot anything. It attacks you using spikes on its body. |
+| 1         | Spikes     | Adecodron shots a circle of poisoned spikes.                               |
+| 2         | Guns       | Adecodron activates its guns, which shoot red bullets. It aims.            |
+| 3         | Spikeballs | Adecodron sends four poisoned spikeballs to chase the player.              |
+| 4         | Adecoquake | Adecodron moves faster.                                                    |
 
 ### Octogone
 
-| ![SE3_image](../../static/img/ab/a.png) |
-| --------------------------------------- |
+| ![SE3_image](../../static/img/ab/boss3.png) |
+| ------------------------------------------- |
 
 | Octogone speed: FAST |
 | -------------------- |
 
-| Attack ID | Name          | Description                                                                                                       | Preview                                 |
-| --------- | ------------- | ----------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| 0         | -             | Octogone shoots brainwaves and pushes you with its tentacles. It aims.                                            | ![SE3_image](../../static/img/ab/a.png) |
-| 1         | Thinking      | Octogone sends a lot of brainwave bullets in all directions.                                                      | ![SE3_image](../../static/img/ab/a.png) |
-| 2         | Stickybulb    | Octogone shoots one stickybulb, which can slow down a target for some time and prevent it from shooting. It aims. | ![SE3_image](../../static/img/ab/a.png) |
-| 3         | Teleportation | Octogone teleports randomly.                                                                                      | ![SE3_image](../../static/img/ab/a.png) |
-| 4         | Octoquake     | Octogone moves and shoots faster. It creates virtual spikes on its body, which deal damage same as Adecodron's.   | ![SE3_image](../../static/img/ab/a.png) |
+| Attack ID | Name          | Description                                                                                                       |
+| --------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| 0         | -             | Octogone shoots brainwaves and pushes you with its tentacles. It aims.                                            |
+| 1         | Thinking      | Octogone sends a lot of brainwave bullets in all directions.                                                      |
+| 2         | Stickybulb    | Octogone shoots one stickybulb, which can slow down a target for some time and prevent it from shooting. It aims. |
+| 3         | Teleportation | Octogone teleports randomly.                                                                                      |
+| 4         | Octoquake     | Octogone moves and shoots faster. It creates virtual spikes on its body, which deal damage same as Adecodron's.   |
 
 ### Starandus
 
-| ![SE3_image](../../static/img/ab/a.png) |
-| --------------------------------------- |
+| ![SE3_image](../../static/img/ab/boss4.png) |
+| ------------------------------------------- |
 
 | Starandus speed: SLOW |
 | --------------------- |
 
-| Attack ID | Name       | Description                                                                                                                            | Preview                                 |
-| --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| 0         | -          | Starandus shoots fire bullets. It aims.                                                                                                | ![SE3_image](../../static/img/ab/a.png) |
-| 1         | Geyzers    | Starandus activates its fire geyzers, which deal damage, push players and set them on fire.                                            | ![SE3_image](../../static/img/ab/a.png) |
-| 2         | Supernova  | Starandus sends a lot of fire bullets in all directions. It creates a small fire-geyzer-type collider without attached pushing script. | ![SE3_image](../../static/img/ab/a.png) |
-| 3         | Graviting  | Starandus sends a lot of gravitons in all directions, which pull the player towards the boss.                                          | ![SE3_image](../../static/img/ab/a.png) |
-| 4         | Neutroning | Starandus starts sending neutronium bullets and activates safe blue geyzers.                                                           | ![SE3_image](../../static/img/ab/a.png) |
+| Attack ID | Name       | Description                                                                                                                            |
+| --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 0         | -          | Starandus shoots fire bullets. It aims.                                                                                                |
+| 1         | Geyzers    | Starandus activates its fire geyzers, which deal damage, push players and set them on fire.                                            |
+| 2         | Supernova  | Starandus sends a lot of fire bullets in all directions. It creates a small fire-geyzer-type collider without attached pushing script. |
+| 3         | Graviting  | Starandus sends a lot of gravitons in all directions, which pull the player towards the boss.                                          |
+| 4         | Neutroning | Starandus starts sending neutronium bullets and activates safe blue geyzers.                                                           |
 
 ### Degenerator
 
-| ![SE3_image](../../static/img/ab/a.png) |
-| --------------------------------------- |
+| ![SE3_image](../../static/img/ab/boss6.png) |
+| ------------------------------------------- |
 
 | Degenerator speed: NORMAL |
 | ------------------------- |
 
-| Attack ID | Name       | Description                                                                                    | Preview                                 |
-| --------- | ---------- | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
-| 0         | -          | Degenerator shoots red and unstable bullets. It aims.                                          | ![SE3_image](../../static/img/ab/a.png) |
-| 1         | Rockets    | Degenerator sends two kamikadze rockets to chase the player.                                   | ![SE3_image](../../static/img/ab/a.png) |
-| 2         | Degeshield | Degenerator tries to make a shield, but it ends up shooting unstable matter in all directions. | ![SE3_image](../../static/img/ab/a.png) |
-| 3         | Remote     | Degenerator attacks you with a laser impossible to dodge.                                      | ![SE3_image](../../static/img/ab/a.png) |
-| 4         | Degequake  | Degenerator moves and shoots faster. It sometimes has unstable pulses.                         | ![SE3_image](../../static/img/ab/a.png) |
+| Attack ID | Name       | Description                                                                                    |
+| --------- | ---------- | ---------------------------------------------------------------------------------------------- |
+| 0         | -          | Degenerator shoots red and unstable bullets. It aims.                                          |
+| 1         | Rockets    | Degenerator sends two kamikadze rockets to chase the player.                                   |
+| 2         | Degeshield | Degenerator tries to make a shield, but it ends up shooting unstable matter in all directions. |
+| 3         | Remote     | Degenerator attacks you with a laser impossible to dodge.                                      |
+| 4         | Degequake  | Degenerator moves and shoots faster. It sometimes has unstable pulses.                         |
 
 ## Artefacts
 
@@ -382,7 +382,7 @@ You can pick it up like other items and then move it to a special artefact slot 
 
 | ![SE3_image](../../static/img/ab/artefact1.png) | ![SE3_image](../../static/img/ab/artefact2.png) |
 | ----------------------------------------------- | ----------------------------------------------- |
-| ![SE3_image](../../static/img/ab/artefact3.png) | ![SE3_image](../../static/img/ab/artefact4.png)         |
+| ![SE3_image](../../static/img/ab/artefact3.png) | ![SE3_image](../../static/img/ab/artefact4.png) |
 
 | Icon                                          | Artefact    | Boss        | Description                                                                                                                                          |
 | --------------------------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -394,7 +394,26 @@ You can pick it up like other items and then move it to a special artefact slot 
 
 ## Datapacks
 
-Mark, please, write a tutorial how to edit and load datapacks on client and server side.
+Datapacks allow you to customize your gameplay in the specified universe. You can select a datapack, which will be used
+when creating an universe in game settings. Just click on the button "DEFAULT" and select your datapack from your file selector.
+You can reset your loaded datapack to default using "X" button.
+
+| ![SE3_image](../../static/img/ab/datapack1.png) | ![SE3_image](../../static/img/ab/datapack2.png) |
+| --------------------------------------------- | --------------------------------------------- |
+| ![SE3_image](../../static/img/ab/datapack3.png) | ![SE3_image](../../static/img/ab/datapack4.png) |
+
+You can create your own datapack or download it from someone else. There is
+a default datapack copy in Datapacks folder, so you can copy and edit it. More
+info about the jse3 format (SE3 datapack format) in [SE3 documentation](../Documentation).
+It might be required to use a professional text editor like Notepad++ or Visual Studio to access
+datapack content.  
+
+To use a datapack on your server just swap the Datapack.jse3 file in your server folder with a datapack,
+which you want to use. Be sure, that ServerUniverse folder doesn't exist. Remember to change datapack name to "Datapack.jse3".
+
+- You can't change datapack of the universe after it is created.  
+- Universes with custom datapack will have "Custom data" subtitle.  
+- Universes with custom datapack can't be easily updated to newer versions.  
 
 ## Contact
 

@@ -12,7 +12,7 @@ Technical commands are used to make some actions not connected with any object.
 -   [Random system](#random-system)
     -   [Setrandom](#setrandom)
     -   [Ifrandom](#ifrandom)
--   [Ussage examples](#ussage-examples)
+-   [Usage examples](#usage-examples)
 
 ## Loop
 
@@ -61,7 +61,7 @@ ifrandom break
 
 -   Value: Value, which will be set to ifrandom.
 
-## Ussage examples
+## Usage examples
 
 ```text showLineNumbers
 summon asteroid #1 6 12 x rotate 0

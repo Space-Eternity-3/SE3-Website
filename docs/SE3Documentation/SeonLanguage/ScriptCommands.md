@@ -16,7 +16,7 @@ Script commands are used to change objects' properties, which are somehow connec
     -   [List](#list)
     -   [Structure states](#structure-states)
 -   [Bosbul add](#bosbul-add)
--   [Ussage examples](#ussage-examples)
+-   [Usage examples](#usage-examples)
 
 ## Drill
 
@@ -140,7 +140,7 @@ bosbul add
 
 Note: Bosbul object is static even if you use on it state changing movement.
 
-## Ussage examples
+## Usage examples
 
 ```text showLineNumbers
 summon #0 boss 2

@@ -17,7 +17,7 @@ of objects.
 -   [Reset](#reset)
 -   [Parent](#parent)
 -   [Steal](#steal)
--   [Ussage examples](#ussage-examples)
+-   [Usage examples](#usage-examples)
 
 ## Children system
 
@@ -133,7 +133,7 @@ Note: You can't steal more objects, than there is on the asteroid.
 Note: You don't need any wall. You can attach asteroid objects to every
 object, but the result will be weird.
 
-## Ussage examples
+## Usage examples
 
 ```text showLineNumbers
 summon #0 piston

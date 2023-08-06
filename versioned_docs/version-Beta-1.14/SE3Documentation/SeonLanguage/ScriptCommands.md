@@ -15,7 +15,7 @@ Script commands are used to change objects' properties, which are somehow connec
     -   [Hidesmooth](#hidesmooth)
     -   [List](#list)
     -   [Structure states](#structure-states)
--   [Ussage examples](#ussage-examples)
+-   [Usage examples](#usage-examples)
 
 ## Drill
 
@@ -126,7 +126,7 @@ a state-changing object (for example boss).
 | 2          | 4             | b2a3    | Winning in wave 2.                              | Boss                  |
 | 3          | 4             | b3r     | Winning in wave 3.                              | Boss                  |
 
-## Ussage examples
+## Usage examples
 
 ```text showLineNumbers
 summon #0 boss 2
