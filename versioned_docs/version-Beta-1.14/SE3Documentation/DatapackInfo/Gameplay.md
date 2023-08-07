@@ -33,7 +33,7 @@ Note: Gameplay variables are not sorted by ID.
 | 4   | health_regenerate_cooldown                 | 5       | float | Waiting time for health regeneration after receiving damage in seconds.                | -                   |
 | 5   | health_regenerate_multiplier               | 2       | float | Speed of health regeneration.                                                          | -                   |
 | 0   | turbo_regenerate_multiplier                | 1       | float | Speed of turbo regeneration.                                                           | -                   |
-| 1   | turbo_use_multiplier                       | 2       | float | Speed of turbo ussage.                                                                 | -                   |
+| 1   | turbo_use_multiplier                       | 2       | float | Speed of turbo usage.                                                                 | -                   |
 | 6   | crash_minimum_energy                       | 5       | float | Minimum crash damage speed.                                                            | -                   |
 | 7   | crash_damage_multiplier                    | 0,7     | float | Size of crash damage.                                                                  | -                   |
 | 8   | spike_damage                               | 10      | float | Red spike damage.                                                                      | -                   |
@@ -56,7 +56,7 @@ Note: Gameplay variables are not sorted by ID.
 | 20  | at_impulse_speed                           | 70      | float | Impulse speed when using impulse artefact.                                             | -                   |
 | 29  | at_impulse_damage                          | 15      | float | Impulse damage when using impulse artefact.                                            | -                   |
 | 21  | at_illusion_power_regenerate_multiplier    | 1       | float | Speed of ether regeneration when using illusion artefact.                              | -                   |
-| 22  | at_illusion_power_use_multiplier           | 2       | float | Speed of ether ussage when using illusion artefact.                                    | -                   |
+| 22  | at_illusion_power_use_multiplier           | 2       | float | Speed of ether usage when using illusion artefact.                                    | -                   |
 | 23  | at_unstable_normal_avarage_time            | 1,5     | float | Average time between unstable explosions when using unstable artefact.                 | -                   |
 | 24  | at_unstable_special_avarage_time           | 3       | float | Average time between unstable shoots when using unstable artefact.                     | -                   |
 | 25  | at_unstable_force                          | 15      | float | Explosion force when using unstable artefact.                                          | -                   |

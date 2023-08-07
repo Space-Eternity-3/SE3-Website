@@ -26,8 +26,13 @@ const config = {
                     lastVersion: "current",
                     versions: {
                         current: {
+                            label: "Beta-2.0",
+                            path: "Beta-2.0",
+                        },
+                        "Beta-1.15": {
                             label: "Beta-1.15",
                             path: "Beta-1.15",
+                            banner: "unmaintained",
                         },
                         "Beta-1.14": {
                             label: "Beta-1.14",
@@ -83,18 +88,13 @@ const config = {
                 items: [
                     {
                         position: "left",
-                        to: "/about",
-                        label: "About",
-                    },
-                    {
-                        position: "left",
                         to: "/download",
                         label: "Download",
                     },
                     {
                         position: "left",
-                        to: "/controls",
-                        label: "Controls",
+                        to: "/about",
+                        label: "How to play",
                     },
                     {
                         position: "left",

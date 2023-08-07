@@ -8,10 +8,11 @@ can still copy such code to edit it as a custom structure. All default structure
 
 ## Contents
 
--   [Contents](#contents)
--   [Arena](#arena)
--   [Catastrophic Arena](#catastrophic-arena)
--   [Cementery](#cementery)
+- [Contents](#contents)
+- [Arena](#arena)
+- [Catastrophic Arena](#catastrophic-arena)
+- [Cementery](#cementery)
+- [Star](#star)
 
 ## Arena
 
@@ -215,4 +216,10 @@ summon #1 asteroid 10 32 x scale 2 2 1,2
 summon #2 asteroid 10 32 x scale 2 2 1,2 asteroid hide
 catch children 0 19 from #1 to #2 scale children 0.5 0.5 0.8333
 catch #2 rotate 9
+```
+
+## Star
+
+```text showLineNumbers
+summon #1 star
 ```
