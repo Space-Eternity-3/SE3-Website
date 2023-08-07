@@ -177,7 +177,7 @@ You can find here things like stone, copper, gold, amethyst, grass, coal and mag
 | ![SE3_image](../../static/img/ab/biome_hell.png) |
 | ------------------------------------------------ |
 
-Hell biomes (8% generation) contains mainly coal and red stones and it's the only place, where you can find diamond asteroid, the
+Hell biomes (8% generation) contain mainly coal and red stones and it's the only place, where you can find diamond asteroid, the
 rarest asteroid in the entire game.
 
 ### Geyzer biome
@@ -214,12 +214,12 @@ there is a giant asteroid of size 20, normally impossible to generate. Here is a
 | ![SE3_image](../../static/img/items/Nn40.png)  | dead alien      | 1-1    | 10%    |
 | ![SE3_image](../../static/img/items/Nn4.png)   | pumpkin         | 1-1    | 10%    |
 | ![SE3_image](../../static/img/items/Nn48.png)  | unstable matter | 1-2    | 8%     |
-| ![SE3_image](../../static/img/items/Nn60.png)  | power element   | 1-2    | 4%     |
-| ![SE3_image](../../static/img/items/Nn62.png)  | blank element   | 1-2    | 4%     |
-| ![SE3_image](../../static/img/items/Nn55A.png) | healing potion  | 1-2    | 9,5%   |
-| ![SE3_image](../../static/img/items/Nn57A.png) | turbo potion    | 1-2    | 9,5%   |
+| ![SE3_image](../../static/img/items/Nn60.png)  | power element   | 1-2    | 5,5%   |
+| ![SE3_image](../../static/img/items/Nn62.png)  | blank element   | 1-2    | 5,5%   |
+| ![SE3_image](../../static/img/items/Nn55A.png) | healing potion  | 1-2    | 8%     |
+| ![SE3_image](../../static/img/items/Nn57A.png) | turbo potion    | 1-2    | 8%     |
 | ![SE3_image](../../static/img/items/Nn5.png)   | small amethyst  | 2-6    | 10%    |
-| ![SE3_image](../../static/img/items/Nn10.png)  | gold            | 3-8    | 10%    |
+| ![SE3_image](../../static/img/items/Nn10.png)  | gold            | 3-6    | 10%    |
 
 ### Stars
 
@@ -278,11 +278,10 @@ available for player use. Damage presented in the table can be improved through 
 | Coal     | ![SE3_image](../../static/img/items/Nn64.png) | 14.29     | 0.14s           | 0.45         | A weaker bullet, made of coal, mainly for fire bullet production.                                     |
 | Copper   | ![SE3_image](../../static/img/items/Nn24.png) | 21.43     | 0.14s           | 0.45         | A default bullet, made of copper.                                                                     |
 | Red      | ![SE3_image](../../static/img/items/Nn39.png) | 28.57     | 0.14s           | 0.45         | A stronger bullet, made of red stone.                                                                 |
-| Fire     | ![SE3_image](../../static/img/items/Nn65.png) | 28.57\*   | 0.21s           | 0.4          | A bullet, which sets players on fire. Starandus is immune to it.                                      |
-| Unstable | ![SE3_image](../../static/img/items/Nn48.png) | 35.71\*\* | 0.28s           | 0.35         | The strongest, but the rarest bullet. Degenrator and players with unstable artefact are immune to it. |
+| Fire     | ![SE3_image](../../static/img/items/Nn65.png) | 25.00\*   | 0.21s           | 0.4          | A bullet, which sets players on fire. Starandus is immune to it.                                      |
+| Unstable | ![SE3_image](../../static/img/items/Nn48.png) | 35.71     | 0.28s           | 0.35         | The strongest, but the rarest bullet. Degenrator and players with unstable artefact are immune to it. |
 
-\* Fire bullets deal 14.29 DPS to players, but they set them on fire dealing 2 dmg every second. Fire bullet gives that effect for 2 cycles.  
-\*\* Unstable bullets deal 28.57 DPS to players. It will change in Beta 2.1.
+\* Fire bullets deal 14.29 DPS to players, but they set them on fire dealing 2 dmg every second. Fire bullet gives that effect for 2 cycles.
 
 ## Bosses
 
