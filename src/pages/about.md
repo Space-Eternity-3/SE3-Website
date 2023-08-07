@@ -3,8 +3,7 @@
 Space Eternity 3 is a PC game created by Kamiloso in Unity. Visit our universe and explore
 the infinite area full of asteroids and other interesting stuff! There are so many things to discover!
 
-| ![SE3_image](../../static/img/Space-Eternity-3.webp) |
-| ---------------------------------------------------- |
+![SE3_image](../../static/img/Space-Eternity-3.webp)
 
 ## Creating an universe
 
