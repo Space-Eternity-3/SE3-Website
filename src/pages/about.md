@@ -161,7 +161,7 @@ will help you know, where you are.
 ## Places to visit
 
 Well, now you know all the basics required for space exploration. There is a lot of things you can find in your universe
-and some of them are biomes. Currently, there are 4 biomes and 3 types of structures, one of them having an additional variant.
+and some of them are biomes. Currently, there are 4 biomes and 3 types of structures, two of them having an additional variant.
 
 ### Default biome
 
@@ -202,24 +202,43 @@ decided to settle down here.
 | ![SE3_image](../../static/img/ab/struct_cementery.png) |
 | ------------------------------------------------------ |
 
-Cementeries (3% generation) generate less frequently than biomes, but they contain some really
+Cementeries (2% generation) generate less frequently than biomes, but they contain some really
 useful items due to treasures, which you can find there. In the middle of a biome,
 there is a giant asteroid of size 20, normally impossible to generate. Here is a loottable for every treasure:
 
 | Icon                                           | Item            | Amount | Chance |
 | ---------------------------------------------- | --------------- | ------ | ------ |
-| ![SE3_image](../../static/img/items/Nn8.png)   | stone           | 3-6    | 12%    |
+| ![SE3_image](../../static/img/items/Nn8.png)   | stone           | 3-6    | 12,5%  |
+| ![SE3_image](../../static/img/items/Nn4.png)   | pumpkin         | 1      | 12,5%  |
 | ![SE3_image](../../static/img/items/Nn54.png)  | bone            | 2-4    | 12,5%  |
-| ![SE3_image](../../static/img/items/Nn33.png)  | small diamond   | 1-3    | 0,5%   |
-| ![SE3_image](../../static/img/items/Nn40.png)  | dead alien      | 1-1    | 10%    |
-| ![SE3_image](../../static/img/items/Nn4.png)   | pumpkin         | 1-1    | 10%    |
-| ![SE3_image](../../static/img/items/Nn48.png)  | unstable matter | 1-2    | 8%     |
-| ![SE3_image](../../static/img/items/Nn60.png)  | power element   | 1-2    | 5,5%   |
-| ![SE3_image](../../static/img/items/Nn62.png)  | blank element   | 1-2    | 5,5%   |
-| ![SE3_image](../../static/img/items/Nn55A.png) | healing potion  | 1-2    | 8%     |
-| ![SE3_image](../../static/img/items/Nn57A.png) | turbo potion    | 1-2    | 8%     |
-| ![SE3_image](../../static/img/items/Nn5.png)   | small amethyst  | 2-6    | 10%    |
-| ![SE3_image](../../static/img/items/Nn10.png)  | gold            | 3-6    | 10%    |
+| ![SE3_image](../../static/img/items/Nn40.png)  | dead alien      | 1      | 12,5%  |
+| ![SE3_image](../../static/img/items/Nn48.png)  | unstable matter | 1-2    | 6%     |
+| ![SE3_image](../../static/img/items/Nn55A.png) | healing potion  | 1-2    | 12%    |
+| ![SE3_image](../../static/img/items/Nn57A.png) | turbo potion    | 1-2    | 12%    |
+| ![SE3_image](../../static/img/items/Nn10.png)  | gold            | 3-7    | 10%    |
+| ![SE3_image](../../static/img/items/Nn5.png)   | small amethyst  | 3-7    | 10%    |
+
+### Cementeries (dark variant)
+
+| ![SE3_image](../../static/img/ab/struct_cementery2.png) |
+| ------------------------------------------------------- |
+
+Dark cementeries (1% generation) are a rarer and more powerful cementery variant. Treasures
+here contain a bit different and in some cases better loot:
+
+| Icon                                           | Item            | Amount | Chance |
+| ---------------------------------------------- | --------------- | ------ | ------ |
+| ![SE3_image](../../static/img/items/Nn66.png)  | dark stone      | 3-6    | 12%    |
+| ![SE3_image](../../static/img/items/Nn70.png)  | lava geyzer     | 1      | 12%    |
+| ![SE3_image](../../static/img/items/Nn54.png)  | bone            | 2-4    | 12%    |
+| ![SE3_image](../../static/img/items/Nn40.png)  | dead alien      | 1      | 12%    |
+| ![SE3_image](../../static/img/items/Nn33.png)  | small diamond   | 1-3    | 1,5%   |
+| ![SE3_image](../../static/img/items/Nn48.png)  | unstable matter | 1-3    | 8,5%   |
+| ![SE3_image](../../static/img/items/Nn61A.png) | blank potion    | 1-2    | 10%    |
+| ![SE3_image](../../static/img/items/Nn59A.png) | power potion    | 1-2    | 10%    |
+| ![SE3_image](../../static/img/items/Nn71A.png) | max potion      | 1      | 4%     |
+| ![SE3_image](../../static/img/items/Nn10.png)  | gold            | 2-6    | 11%    |
+| ![SE3_image](../../static/img/items/Nn5.png)   | small amethyst  | 3-7    | 7%     |
 
 ### Stars
 
@@ -275,15 +294,31 @@ that by pressing "escape" button and clicking "Give Up". The battle will end, bu
 To defeat a boss, you need a way to deal damage. You can do that with bullets. There are currently 5 types of bullets
 available for player use. Damage presented in the table can be improved through upgrades.
 
-| Bullet   | Icon                                          | DPS       | Bullet cooldown | Bullet speed | Description                                                                                           |
-| -------- | --------------------------------------------- | --------- | --------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
-| Coal     | ![SE3_image](../../static/img/items/Nn64.png) | 14.29     | 0.14s           | 0.45         | A weaker bullet, made of coal, mainly for fire bullet production.                                     |
-| Copper   | ![SE3_image](../../static/img/items/Nn24.png) | 21.43     | 0.14s           | 0.45         | A default bullet, made of copper.                                                                     |
-| Red      | ![SE3_image](../../static/img/items/Nn39.png) | 28.57     | 0.14s           | 0.45         | A stronger bullet, made of red stone.                                                                 |
-| Fire     | ![SE3_image](../../static/img/items/Nn65.png) | 23.86\*   | 0.22s           | 0.40         | A bullet, which sets players on fire. Starandus is immune to it.                                      |
-| Unstable | ![SE3_image](../../static/img/items/Nn48.png) | 35.71     | 0.28s           | 0.35         | The strongest, but the rarest bullet. Degenrator and players with unstable artefact are immune to it. |
+| Bullet   | Icon                                          | DPS     | Bullet cooldown | Bullet speed | Description                                                                                           |
+| -------- | --------------------------------------------- | ------- | --------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
+| Coal     | ![SE3_image](../../static/img/items/Nn64.png) | 14.29   | 0.14s           | 0.45         | A weaker bullet, made of coal, mainly for fire bullet production.                                     |
+| Copper   | ![SE3_image](../../static/img/items/Nn24.png) | 21.43   | 0.14s           | 0.45         | A default bullet, made of copper.                                                                     |
+| Red      | ![SE3_image](../../static/img/items/Nn39.png) | 28.57   | 0.14s           | 0.45         | A stronger bullet, made of red stone.                                                                 |
+| Fire     | ![SE3_image](../../static/img/items/Nn65.png) | 23.86\* | 0.22s           | 0.40         | A bullet, which sets players on fire. Starandus is immune to it.                                      |
+| Unstable | ![SE3_image](../../static/img/items/Nn48.png) | 35.71   | 0.28s           | 0.35         | The strongest, but the rarest bullet. Degenrator and players with unstable artefact are immune to it. |
 
 \* Fire bullet deals 18.18 DPS to players, but they set them on fire dealing 2 dmg every second. Fire bullet gives that effect for 2 cycles.
+
+## Potions
+
+There are 6 potions in the game. They give you some very useful instant effects. You can obtain them by combining common materials
+with magic ingredients in crafting or getting them from cementery treasures. You can use your potion by clicking RMB on a screen when
+holding it. If you can't use a potion because of no future effect there will appear text "Potion blocked" so that you won't waste it.
+Here is the list of all potions and their properties:
+
+| Potion  | Icon                                           | Description                                                                                                           |
+| ------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Healing | ![SE3_image](../../static/img/items/Nn55A.png) | Adds 20 hp to your health bar.                                                                                        |
+| Turbo   | ![SE3_image](../../static/img/items/Nn57A.png) | Refills your turbo bar.                                                                                               |
+| Power   | ![SE3_image](../../static/img/items/Nn59A.png) | Refills your power bar. Only available when wearing impulse, illusion or unstable artefact.                           |
+| Blank   | ![SE3_image](../../static/img/items/Nn61A.png) | Adds 15 hp to your health bar. Removes effect like fire, poison or stickybulb.                                        |
+| Killing | ![SE3_image](../../static/img/items/Nn63A.png) | Removes 15 hp from your health bar. If you're wearing unstable artefact, it will also add 10 power to your power bar. |
+| Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills your health, turbo and power bars and removes effect. The only potion that can't be crafted.                  |
 
 ## Bosses
 
@@ -390,7 +425,7 @@ You can pick it up like other items and then move it to a special artefact slot 
 | ![SE3_image](../../static/img/items/Nn43.png) | Impulse     | Adecodron   | Allows you to make impulses, when you have enough power. You can use it for attack, defense or just for fun.                                         |
 | ![SE3_image](../../static/img/items/Nn44.png) | Illusion    | Octogone    | Allows you to become invisible to bosses and other players.                                                                                          |
 | ![SE3_image](../../static/img/items/Nn45.png) | Immortality | Starandus   | When you wear it and die, you won't die, but your artefact will turn gray. Recharge it using a star wind.                                            |
-| ![SE3_image](../../static/img/items/Nn47.png) | Unstable    | Degenerator | That's a mystery. All ancient notes were lost. Figure it out by yourself.                                                                            |
+| ![SE3_image](../../static/img/items/Nn47.png) | Unstable    | Degenerator | That's a mystery. All ancient notes were lost. Figure it out by yourself. Updated in Beta 2.1.                                                                            |
 
 ## Datapacks
 
@@ -399,7 +434,7 @@ when creating an universe in game settings. Just click on the button "DEFAULT" a
 You can reset your loaded datapack to default using "X" button.
 
 | ![SE3_image](../../static/img/ab/datapack1.png) | ![SE3_image](../../static/img/ab/datapack2.png) |
-| --------------------------------------------- | --------------------------------------------- |
+| ----------------------------------------------- | ----------------------------------------------- |
 | ![SE3_image](../../static/img/ab/datapack3.png) | ![SE3_image](../../static/img/ab/datapack4.png) |
 
 You can create your own datapack or download it from someone else. There is

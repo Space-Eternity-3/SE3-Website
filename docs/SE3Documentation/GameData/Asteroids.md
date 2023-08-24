@@ -5,6 +5,7 @@ title: "Asteroids"
 | ID  | Name     | Preview                          |
 | --- | -------- | -------------------------------- |
 | 0   | Stone    | ![](/img/asteroids/Stone-1.png)  |
+| 1   | Dark     | ![](/img/asteroids/Dark-X.png)   |
 | 3   | Copper   | ![](/img/asteroids/Copper.png)   |
 | 4   | Gold     | ![](/img/asteroids/Gold.png)     |
 | 5   | Grass    | ![](/img/asteroids/Grass.png)    |
