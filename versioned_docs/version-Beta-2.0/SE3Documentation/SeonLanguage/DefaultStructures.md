@@ -12,7 +12,6 @@ can still copy such code to edit it as a custom structure. All default structure
 - [Arena](#arena)
 - [Catastrophic Arena](#catastrophic-arena)
 - [Cementery](#cementery)
-- [Dark Cementery](#dark-cementery)
 - [Star](#star)
 
 ## Arena
@@ -215,15 +214,6 @@ summon #30 sphere 6 12 from #29 to #30 move 0 -2
 ```text showLineNumbers
 summon #1 asteroid 10 32 x scale 2 2 1,2
 summon #2 asteroid 10 32 x scale 2 2 1,2 asteroid hide
-catch children 0 19 from #1 to #2 scale children 0.5 0.5 0.8333
-catch #2 rotate 9
-```
-
-## Dark Cementery
-
-```text showLineNumbers
-summon #1 asteroid 10 1 x scale 2 2 1,2
-summon #2 asteroid 10 1 x scale 2 2 1,2 asteroid hide
 catch children 0 19 from #1 to #2 scale children 0.5 0.5 0.8333
 catch #2 rotate 9
 ```

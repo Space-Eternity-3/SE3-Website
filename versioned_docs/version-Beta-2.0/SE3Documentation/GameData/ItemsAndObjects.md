@@ -69,9 +69,3 @@ title: Items and Objects
 | 63  | Killing Potion           | ![](/img/items/Nn63A.png) ![](/img/items/Nn63U.png) |
 | 64  | Coal Bullet              | ![](/img/items/Nn64.png)                            |
 | 65  | Fire Bullet              | ![](/img/items/Nn65.png)                            |
-| 66  | Dark Stone               | ![](/img/items/Nn66.png)                            |
-| 67  | Packed Dark Stone        | ![](/img/items/Nn67.png)                            |
-| 68  | Dark Treasure            | ![](/img/items/Empty.png)                           |
-| 69  | Dark Tomb                | ![](/img/items/Nn69.png)                            |
-| 70  | Lava Geyzer              | ![](/img/items/Nn70.png)                            |
-| 71  | Max Potion               | ![](/img/items/Nn71A.png) ![](/img/items/Nn71U.png) |
