@@ -91,8 +91,8 @@ at_protection_health_regenerate_multiplier: 1,5;
 
 | Variable                  | Default value | Data type | Description                                                                                                             |
 | ------------------------- | ------------- | --------- | ----------------------------------------------------------------------------------------------------------------------- |
-| boss_fire_effectivity     | 2             | float     | Damage to bosses is multiplied by this value when dealt using fire bullet. Remember, that bosses don't get fire effect. |
-| boss_unstable_effectivity | 1,3125        | float     | Damage to bosses is multiplied by this value when dealt using unstable matter.                                          |
+| boss_fire_effectivity     | 1,3125        | float     | Damage to bosses is multiplied by this value when dealt using fire bullet. Remember, that bosses don't get fire effect. |
+| boss_unstable_effectivity | 1             | float     | Damage to bosses is multiplied by this value when dealt using unstable matter.                                          |
 
 ### Healing
 
@@ -157,11 +157,11 @@ at_protection_health_regenerate_multiplier: 1,5;
 
 | Variable                 | Default value | Data type | Description                                      |
 | ------------------------ | ------------- | --------- | ------------------------------------------------ |
-| copper_bullet_cooldown   | 7             | integer   | Copper bullet default shooting frequency.        |
-| red_bullet_cooldown      | 7             | integer   | Red bullet default shooting frequency.           |
-| coal_bullet_cooldown     | 7             | integer   | Coal bullet default shooting frequency.          |
-| fire_bullet_cooldown     | 11            | integer   | Fire bullet default shooting frequency.          |
-| unstable_bullet_cooldown | 14            | integer   | Unstable bullet default shooting frequency.      |
+| copper_bullet_cooldown   | 7             | integer   | Copper bullet default shooting cooldown.        |
+| red_bullet_cooldown      | 7             | integer   | Red bullet default shooting cooldown.           |
+| coal_bullet_cooldown     | 7             | integer   | Coal bullet default shooting cooldown.          |
+| fire_bullet_cooldown     | 11            | integer   | Fire bullet default shooting cooldown.          |
+| unstable_bullet_cooldown | 14            | integer   | Unstable bullet default shooting cooldown.      |
 | impulse_cooldown         | 10            | integer   | Impulse cooldown before making the next impulse. |
 
 ### Cyclic damages
