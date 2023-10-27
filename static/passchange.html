@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SE3 Password Change</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #received {
+            width: 400px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SE3 Password Change</h1>
+    <form id="passwordChangeForm">
+        <label for="nickname">Nickname:</label>
+        <input id="nickname" type="text" placeholder="Nickname" required><br>
+
+        <label for="oldpassword">Old Password:</label>
+        <input id="oldpassword" type="password" placeholder="Old password" required><br>
+
+        <label for="newpassword">New Password:</label>
+        <input id="newpassword" type="password" placeholder="New password" required><br>
+
+        <label for="newpassword2">Confirm New Password:</label>
+        <input id="newpassword2" type="password" placeholder="Confirm new password" required><br>
+
+        <button id="butcon" type="button" onclick="passwordChangeTry()">Change Password</button><br>
+    </form>
+    
+    <div>
+        <h2>Response</h2>
+        <textarea id="received"></textarea>
+    </div>
+
+    <script>
+        function passwordChangeTry() {
+            const receivedTextbox = document.getElementById("received");
+            const nickname = document.getElementById("nickname").value;
+            const oldPassword = document.getElementById("oldpassword").value;
+            const newPassword = document.getElementById("newpassword").value;
+            const newPassword2 = document.getElementById("newpassword2").value;
+
+            if (!nickname || !oldPassword || !newPassword || !newPassword2) {
+                receivedTextbox.value = "All fields are required.";
+                return;
+            }
+
+            if (newPassword !== newPassword2) {
+                receivedTextbox.value = "Passwords do not match.";
+                return;
+            }
+			
+			if((nickname+oldPassword+newPassword+newPassword2).includes(" ")) {
+				receivedTextbox.value = "You can't use space character anywhere.";
+                return;
+			}
+
+            document.getElementById("butcon").disabled = true;
+            let socket = new WebSocket("wss://comp.se3.page:27684");
+
+            socket.onmessage = (message) => {
+                const arg = message.data.split(' ');
+                if (arg[0] === "/RetChangePassword") {
+                    switch (arg[1]) {
+                        case "1":
+                            msgAdd("Password changed successfully!");
+                            break;
+                        case "2":
+                            msgAdd("Wrong nickname format.");
+                            break;
+                        case "4":
+                            msgAdd("Wrong username");
+                            break;
+                        case "5":
+                            msgAdd("Wrong old password");
+                            break;
+                        case "8":
+                            msgAdd("Wrong password length (must be 7-32 characters)");
+                            break;
+                        default:
+                            msgAdd("Wrong message received.");
+                    }
+                } else {
+                    msgAdd("Wrong message received.");
+                }
+                socket.close();
+            }
+
+            socket.onopen = () => {
+                receivedTextbox.value = "Established connection\n";
+                socket.send(`/ChangePassword ${nickname} ${oldPassword} ${newPassword}`);
+            }
+
+            socket.onclose = () => {
+                msgAdd("Closed connection");
+                document.getElementById("butcon").disabled = false;
+            }
+
+            socket.onerror = (err) => {
+                console.error(err);
+                receivedTextbox.value = "Error establishing connection\n";
+                document.getElementById("butcon").disabled = false;
+            }
+        }
+
+        function msgAdd(s) {
+            const receivedTextbox = document.getElementById("received");
+            receivedTextbox.value += s + "\n";
+        }
+    </script>
+</body>
+</html>
