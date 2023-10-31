@@ -14,9 +14,8 @@
 .download-button {
     color: white;
     padding: 7px 13px;
-    margin: 10px 0;
-    margin-right: 10px;
-    border-radius: 3px;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
     display: inline-block;
     font-size: 22px;
     text-decoration: none !important;

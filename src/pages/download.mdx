@@ -1,4 +1,4 @@
-import BrowserOnly from "@docusaurus/BrowserOnly";
+import DownloadButton from "@site/src/components/DownloadButton";
 
 # Download page
 
@@ -6,32 +6,34 @@ export const System = () => {
     if (window.navigator.userAgent.indexOf("Windows") != -1) return "Windows";
     if (window.navigator.userAgent.indexOf("Mac") != -1) return "Mac";
     if (window.navigator.userAgent.indexOf("Linux") != -1) return "Linux";
+    return null;
 };
 
 export const DownloadLink = () => {
-    if (System() === "Windows")
-        return "https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/v3.0.2/SE3.Launcher-3.0.2-win-x64.exe";
-    if (System() === "Linux")
-        return "https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/v3.0.2/SE3.Launcher-3.0.2-linux-x86_64.AppImage";
+    switch (System()) {
+        case "Windows":
+            return "https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/v3.0.2/SE3.Launcher-3.0.2-win-x64.exe";
+        case "Linux":
+            return "https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/v3.0.2/SE3.Launcher-3.0.2-linux-x86_64.AppImage";
+    }
+    return null;
 };
 
 export const GetMessage = () => {
-    if (System() === "Windows") return "Download for Windows x64";
-    if (System() === "Linux") return "Download for Linux";
-    if (System() === "Mac") return "MacOS is unsupported";
+    const system = System();
+    switch (system) {
+        case "Windows":
+        case "Linux":
+            return `Download for ${system}`;
+    }
+    return "Your system is unsupported";
 };
 
 ## SE3 Launcher v3.0.2 (latest)
 
 ![SE3 Launcher - home tab](https://user-images.githubusercontent.com/81181783/185487380-715fa7d4-40d1-448e-8cf6-5b145e575505.png)
 
-<BrowserOnly>
-    {() => (
-        <a className="download-button" href={DownloadLink()}>
-            {GetMessage()}
-        </a>
-    )}
-</BrowserOnly>
+<DownloadButton text={GetMessage()} url={DownloadLink()} />
 
 ### Other downloads
 
