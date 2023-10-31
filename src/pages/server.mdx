@@ -1,18 +1,35 @@
+import DownloadButton from "@site/src/components/DownloadButton";
+import AllServerDownloads from "@site/src/components/AllServerDownloads";
+
 # SE3 Server Beta-2.1
 
-<a
-    className="download-button"
-    href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.zip"
->
-    Download as .zip
-</a>
+## Download
 
-<a
-    className="download-button"
-    href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.tar.gz"
->
-    Download as .tar.gz
-</a>
+<DownloadButton
+    text="Download as .zip"
+    url="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.zip"
+/>
+<DownloadButton
+    text="Download as .tar.gz"
+    url="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.tar.gz"
+/>
+
+## All downloads
+
+<details>
+    <summary>Click to expand...</summary>
+    <div>
+        <AllServerDownloads
+            versions={[
+                "Beta-1.13",
+                "Beta-1.14",
+                "Beta-1.15",
+                "Beta-2.0",
+                "Beta-2.1",
+            ]}
+        />
+    </div>
+</details>
 
 ## Running server on Windows
 
