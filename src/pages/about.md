@@ -1,41 +1,14 @@
 # How to play
 
 Space Eternity 3 is a PC game created by Kamiloso in Unity. Visit our universe and explore
-the infinite area full of asteroids and other interesting stuff! There are so many things to discover!
+the infinite area full of amazing places and challenges!
 
-![SE3_image](../../static/img/Space-Eternity-3.webp)
+| ![SE3_image](../../static/img/Space-Eternity-3.webp) |
+| ---------------------------------------------------- |
 
-## Creating an universe
+If you want to learn how to play, read this tutorial:
 
-When you download the game, you will be in the main menu. From here you can
-create new universe or join a multiplayer server.
-
-| ![SE3_image](../../static/img/ab/menu1.png) |
-| ------------------------------------------- |
-
-We recommend playing singleplayer the first time. Multiplayer needs a server, which you can
-download [here](./server). To create the universe, you have to click "create" and "play" button.
-
-| ![SE3_image](../../static/img/ab/menu2.png) | ![SE3_image](../../static/img/ab/menu3.png) |
-| ------------------------------------------- | ------------------------------------------- |
-
-## Engine and items
-
-After joining your first universe you will appear at spawn. This is the center of your procedurally generated world.
-
-| ![SE3_image](../../static/img/ab/spawn0.png) |
-| -------------------------------------------- |
-
-Just hold space or shift (turbo) to activate your engine. You choose your fly direction using your mouse coursor.
-Turbo uses turbo bar energy, which regenerates when you don't use it.
-You can also break and place items on asteroids using your mouse buttons. Your items will appear in the
-inventory bar in the bottom of your screen. You extend and retract your drill by pressing R. By holding LMB you can drill some objects from asteroids.
-
-| ![SE3_image](../../static/img/ab/spawn1.png) | ![SE3_image](../../static/img/ab/spawn2.jpg) |
-| -------------------------------------------- | -------------------------------------------- |
-| ![SE3_image](../../static/img/ab/spawn3.png) | ![SE3_image](../../static/img/ab/spawn4.png) |
-
-## Other controls
+## All controls
 
 | Input         | Action                                       |
 | ------------- | -------------------------------------------- |
@@ -56,12 +29,40 @@ inventory bar in the bottom of your screen. You extend and retract your drill by
 | F11           | Enable / Disable full screen mode.           |
 | Tab           | Open multiplayer info menu.                  |
 
+## Creating an universe
+
+When you download the game, you will be in the main menu. From here you can
+create a new universe or join a multiplayer server.
+
+| ![SE3_image](../../static/img/ab/menu1.png) |
+| ------------------------------------------- |
+
+We recommend playing singleplayer the first time. Multiplayer needs a server, which you can
+download [here](./server). To create the universe, you have to click "create" and "play" button.
+
+| ![SE3_image](../../static/img/ab/menu2.png) | ![SE3_image](../../static/img/ab/menu3.png) |
+| ------------------------------------------- | ------------------------------------------- |
+
+## Engine and items
+
+After joining your first universe you will appear at spawn. This is the center of your procedurally generated world.
+
+| ![SE3_image](../../static/img/ab/spawn0.png) |
+| -------------------------------------------- |
+
+Hold space or shift (turbo) to activate your engine. You choose fly direction using your mouse cursor.
+
+| ![SE3_image](../../static/img/ab/spawn1.png) | ![SE3_image](../../static/img/ab/spawn2.jpg) |
+| -------------------------------------------- | -------------------------------------------- |
+
+You can obtain items by picking them up or by drilling them from asteroids. (press R to extend a drill)
+
+| ![SE3_image](../../static/img/ab/spawn3.png) | ![SE3_image](../../static/img/ab/spawn4.png) |
+| -------------------------------------------- | -------------------------------------------- |
+
 ## Crafting
 
-When you pick up enough items, you can create other things using crafting. To do that
-just press E and look at the left UI segment. You will see a crafting window. You
-can choose item categories and when you have enough items for a specified crafting
-just click it. You can also hold to craft faster.
+You can open crafting by pressing E. All recipes will appear in the left UI segment.
 
 | ![SE3_image](../../static/img/ab/crafting1.png) |
 | ----------------------------------------------- |
@@ -71,14 +72,12 @@ just click it. You can also hold to craft faster.
 
 ## Upgrades
 
-It is possible to find some gold and amethyst. They are a bit rarer than other stones, but
-can help you upgrading your spaceship.
+Gold and amethyst can be used to upgrade your spaceship.
 
 | ![SE3_image](../../static/img/ab/value1.png) | ![SE3_image](../../static/img/ab/value2.png) |
 | -------------------------------------------- | -------------------------------------------- |
 
-To do that, look at the right UI segment. You will see a backpack window. All your slots are locked
-now, but you can unlock them using upgrades. Click the small "U" button. You will see the upgrade window. Just choose the right upgrade and buy it.
+To open upgrade window, press E and look at the right UI segment. Upgrades are in the 'U' category.
 
 | ![SE3_image](../../static/img/ab/upgrades1.png) |
 | ----------------------------------------------- |
@@ -109,25 +108,25 @@ now, but you can unlock them using upgrades. Click the small "U" button. You wil
 
 ## Backpack
 
-To use your backpack, you can press the small "B" button again in the right UI segment.
-When you unlock your first 3 slots you can move some of your items into the backpack.
-By clicking the arrow button over a specified slot.
+To open backpack window, press E and look at the right UI segment. Backpack is in the 'B' category.
+You can unlock your slots by upgrading backpack in the upgrade window.
 
 | ![SE3_image](../../static/img/ab/backpack1.png) |
 | ----------------------------------------------- |
+
+To insert item into a backpack, press the '^' button over an item slot.
+- RMB - to move all items
+- LMB - to move only one item
 
 | ![SE3_image](../../static/img/ab/backpack2.png) | ![SE3_image](../../static/img/ab/backpack3.png) |
 | ----------------------------------------------- | ----------------------------------------------- |
 
 When you want to get this item back, just click the slot in the backpack.
-RMB - moving all items from a slot, LMB - moving only one item.
 
 ## Junkyard
 
-When you don't have enough space in your inventory, it must be required to
-get rid of some items. Just do not place them on some random asteroids. You can
-destroy them using the built-in junkyard. Just press the small "J" button, move
-your junk into a special slot and click "discard". After that, you will receive a short humoristic message generated by ChatGPT.
+You can discard some items using junkyard. It's in the 'J' category of the right UI segment.
+After doing so, you will receive a short humoristic message generated by ChatGPT.
 
 | ![SE3_image](../../static/img/ab/junkyard1.png) |
 | ----------------------------------------------- |
@@ -137,9 +136,9 @@ your junk into a special slot and click "discard". After that, you will receive 
 
 ## Health
 
-You need to know, that you are not indestructible and you have a limited health.
-You get damage by various activities such as crashing into asteroids and boss attacks. It regenerates quite fast,
-but when it reaches 0, you will lose all of your items and upgrades and you will be teleported to your respawn point.
+You have a health bar, which you can see in the upper UI segment.
+You get damage from various activities such as crashing into asteroids and boss attacks. Your health regenerates quite fast,
+but when it reaches 0, your spaceship will explode and you will lose everything. Then you will respawn.
 
 | ![SE3_image](../../static/img/ab/crash1.png) | ![SE3_image](../../static/img/ab/crash2.png) |
 | -------------------------------------------- | -------------------------------------------- |
@@ -160,51 +159,55 @@ will help you know, where you are.
 
 ## Places to visit
 
-Well, now you know all the basics required for space exploration. There is a lot of things you can find in your universe
-and some of them are biomes. Currently, there are 4 biomes and 3 types of structures, two of them having an additional variant.
+It's time to explore! In the SE3 universe you can find various biomes and structures, which are described below.
 
 ### Default biome
 
 | ![SE3_image](../../static/img/ab/biome_default.png) |
 | --------------------------------------------------- |
 
-Default biome is the most common and the biggest biome in the entire game. It can be called
-a mega biome, because it doesn't have to generate to exist. It's just everywhere, where there is no biomes.
-You can find here things like stone, copper, gold, amethyst, grass, coal and magnetic stones.
+Default biome is the most common biome.
+It contains stone, copper, gold, amethyst, grass, coal and magnetic stones.
 
 ### Hell biome
 
 | ![SE3_image](../../static/img/ab/biome_hell.png) |
 | ------------------------------------------------ |
 
-Hell biomes (8% generation) contain mainly coal and red stones and it's the only place, where you can find diamond asteroid, the
-rarest asteroid in the entire game.
+| Rarity: (8%) |
+|---|
+
+Hell biomes contain mainly coal and red stones. It's the only place, where you can find a diamond asteroid.
 
 ### Geyzer biome
 
 | ![SE3_image](../../static/img/ab/biome_geyzer.png) |
 | -------------------------------------------------- |
 
-Geyzer biomes (8% generation) are the only place in the game, where geyzers naturally generate. You can find here stone and
-magnetic stones, but also geyzers on the majority of asteroids.
+| Rarity: (8%) |
+|---|
+
+Geyzer biomes consist mainly of normal and magnetic stone. You can find geyzers there.
 
 ### Alien biome
 
 | ![SE3_image](../../static/img/ab/biome_alien.png) |
 | ------------------------------------------------- |
 
-Alien biomes (8% generation) are the natural ecosystem for all good aliens. You can find 2 times
-more gold here, than in the default biome and that's one of the reasons, why aliens
-decided to settle down here.
+| Rarity: (8%) |
+|---|
+
+Alien biomes contain mainly good-alien asteroids (grass, magnetic). You can find 2 times more gold there.
 
 ### Cementeries
 
 | ![SE3_image](../../static/img/ab/struct_cementery.png) |
 | ------------------------------------------------------ |
 
-Cementeries (2% generation) generate less frequently than biomes, but they contain some really
-useful items due to treasures, which you can find there. In the middle of a biome,
-there is a giant asteroid of size 20, normally impossible to generate. Here is a loottable for every treasure:
+| Rarity: (2%) |
+|---|
+
+Cementeries contain treasures with some really useful items. Here is a loottable for every treasure:
 
 | Icon                                           | Item            | Amount | Chance |
 | ---------------------------------------------- | --------------- | ------ | ------ |
@@ -223,7 +226,10 @@ there is a giant asteroid of size 20, normally impossible to generate. Here is a
 | ![SE3_image](../../static/img/ab/struct_cementery2.png) |
 | ------------------------------------------------------- |
 
-Dark cementeries (1% generation) are a rarer and more powerful cementery variant. Treasures
+| Rarity: (1%) |
+|---|
+
+Dark cementeries are a rarer and more powerful cementery variant. Treasures
 here contain a bit different and in some cases better loot:
 
 | Icon                                           | Item            | Amount | Chance |
@@ -245,9 +251,12 @@ here contain a bit different and in some cases better loot:
 | ![SE3_image](../../static/img/ab/struct_star.png) |
 | ------------------------------------------------- |
 
-Stars (1,5% generation) are quite rare, but they offer fire bullets, which
-you can duplicate using coal. They are always surrounded by coal asteroids
-with fire bullets on them. You can also regenerate immortality artefact with the star wind.
+| Rarity: (1.5%) |
+|---|
+
+There are always coal asteroids around stars
+with fire bullets on them. You can duplicate this resource using coal.
+It is possible regenerate immortality artefact with the star wind.
 More about artefacts later in this article.
 
 ### Arenas
@@ -255,9 +264,10 @@ More about artefacts later in this article.
 | ![SE3_image](../../static/img/ab/struct_arena1.png) |
 | --------------------------------------------------- |
 
-Arenas (4% generation) are the most important element of SE3 and they contain
-the most powerful items in the entire universe, the artefacts. To get
-access to them, you first need to defeat a boss, which protects them.
+| Rarity: (4%) |
+|---|
+
+Arenas contain bosses, which you can defeat and obtain one of 5 powerful artefacts.
 More about battles in the second next segment.
 
 ### Arenas (catastrophic variant)
@@ -265,16 +275,16 @@ More about battles in the second next segment.
 | ![SE3_image](../../static/img/ab/struct_arena2.png) |
 | --------------------------------------------------- |
 
-Catastrophic arenas (0.5% generation) are the rarest structure in
-the game. No one knows, what happened here, but one thing we know for sure.
-That ancient event generated an enormous amount of unstable matter.
-The artefact and the boss are both missing.
+| Rarity: (0.5%) |
+|---|
+
+Rare arena variant without boss and artefact. It contains a lot of unstable matter.
 
 ## Boss fights
 
 Boss fights are the main element of the entire gameplay. You can manage
-them using an in-world UI in the center of arena. To summon a boss, you
-need 10 amethyst. Just put it into a special bedrock storage and click "battle".
+them using an in-world UI in the center of the arena. To summon a boss, you
+need 10 amethyst. Put it into a special bedrock storage and click "battle".
 
 | ![SE3_image](../../static/img/ab/fight1.png) | ![SE3_image](../../static/img/ab/fight2.png) |
 | -------------------------------------------- | -------------------------------------------- |
@@ -291,8 +301,8 @@ that by pressing "escape" button and clicking "Give Up". The battle will end, bu
 
 ## Bullets
 
-To defeat a boss, you need a way to deal damage. You can do that with bullets. There are currently 5 types of bullets
-available for player use. Damage presented in the table can be improved through upgrades.
+Bullets are used to deal damage. There are currently 5 types of them
+available for player use. Damage presented in the table can be increased through upgrades.
 
 | Bullet   | Icon                                          | DPS     | Bullet cooldown | Bullet speed | Description                                                                                           |
 | -------- | --------------------------------------------- | ------- | --------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
@@ -306,8 +316,8 @@ available for player use. Damage presented in the table can be improved through 
 
 ## Potions
 
-There are 6 potions in the game. They give you some very useful instant effects. You can obtain them by combining common materials
-with magic ingredients in crafting or getting them from cementery treasures. You can use your potion by clicking RMB on a screen when
+There are currently 6 types of potions available. They give you some very useful effects. You can obtain them by combining common materials
+with magic ingredients in crafting or by getting them from cementery treasures. You can use your potion by clicking RMB on a screen when
 holding it. If you can't use a potion because of no future effect there will appear text "Potion blocked" so that you won't waste it.
 Here is the list of all potions and their properties:
 
@@ -337,8 +347,8 @@ Here is a list of all bosses and their mechanics:
 
 | Attack ID | Name     | Description                                                        |
 | --------- | -------- | ------------------------------------------------------------------ |
-| 0         | -        | Protector shoots copper bullets. It aims.                          |
-| 1         | Electron | Protector shoots one electron. It aims.                            |
+| 0         | -        | Protector shoots copper bullets.                                   |
+| 1         | Electron | Protector shoots one electron.                                     |
 | 2         | Shield   | Protector activates a shield, which makes it immune to all damage. |
 | 3         | Rockets  | Protector sends two kamikadze rockets to chase the player.         |
 | 4         | Ufoquake | Protector moves and shoots faster.                                 |
@@ -353,9 +363,9 @@ Here is a list of all bosses and their mechanics:
 
 | Attack ID | Name       | Description                                                                |
 | --------- | ---------- | -------------------------------------------------------------------------- |
-| 0         | -          | Adecodron doesn't shoot anything. It attacks you using spikes on its body. |
-| 1         | Spikes     | Adecodron shots a circle of poisoned spikes.                               |
-| 2         | Guns       | Adecodron activates its guns, which shoot red bullets. It aims.            |
+| 0         | -          | Adecodron flies around and attacks you using spikes on its body.           |
+| 1         | Spikes     | Adecodron creates a circle of poisoned spikes.                             |
+| 2         | Guns       | Adecodron activates its guns, which shoot red bullets.                     |
 | 3         | Spikeballs | Adecodron sends four poisoned spikeballs to chase the player.              |
 | 4         | Adecoquake | Adecodron moves faster.                                                    |
 
@@ -369,11 +379,11 @@ Here is a list of all bosses and their mechanics:
 
 | Attack ID | Name          | Description                                                                                                       |
 | --------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| 0         | -             | Octogone shoots brainwaves and pushes you with its tentacles. It aims.                                            |
+| 0         | -             | Octogone shoots brainwaves and pushes you with its tentacles.                                                     |
 | 1         | Thinking      | Octogone sends a lot of brainwave bullets in all directions.                                                      |
-| 2         | Stickybulb    | Octogone shoots one stickybulb, which can slow down a target for some time and prevent it from shooting. It aims. |
+| 2         | Stickybulb    | Octogone shoots one stickybulb, which can slow down a target for some time and prevent it from shooting.          |
 | 3         | Teleportation | Octogone teleports randomly.                                                                                      |
-| 4         | Octoquake     | Octogone moves and shoots faster. It creates virtual spikes on its body, which deal damage same as Adecodron's.   |
+| 4         | Octoquake     | Octogone moves and shoots faster. It creates invisible spikes on its body, which deal damage same as Adecodron's. |
 
 ### Starandus
 
@@ -385,7 +395,7 @@ Here is a list of all bosses and their mechanics:
 
 | Attack ID | Name       | Description                                                                                                                            |
 | --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| 0         | -          | Starandus shoots fire bullets. It aims.                                                                                                |
+| 0         | -          | Starandus shoots fire bullets.                                                                                                         |
 | 1         | Geyzers    | Starandus activates its fire geyzers, which deal damage, push players and set them on fire.                                            |
 | 2         | Supernova  | Starandus sends a lot of fire bullets in all directions. It creates a small fire-geyzer-type collider without attached pushing script. |
 | 3         | Graviting  | Starandus sends a lot of gravitons in all directions, which pull the player towards the boss.                                          |
@@ -401,7 +411,7 @@ Here is a list of all bosses and their mechanics:
 
 | Attack ID | Name       | Description                                                                                    |
 | --------- | ---------- | ---------------------------------------------------------------------------------------------- |
-| 0         | -          | Degenerator shoots red and unstable bullets. It aims.                                          |
+| 0         | -          | Degenerator shoots red and unstable bullets.                                                   |
 | 1         | Rockets    | Degenerator sends two kamikadze rockets to chase the player.                                   |
 | 2         | Degeshield | Degenerator tries to make a shield, but it ends up shooting unstable matter in all directions. |
 | 3         | Remote     | Degenerator attacks you with a laser impossible to dodge.                                      |
@@ -413,7 +423,7 @@ Artefacts are the most powerful items in the universe. They give you
 some special powers, when you wear them. You can obtain them by defeating bosses.
 Every boss gives you a specified artefact. After defeating boss in phase III, there
 will appear an asteroid with the artefact instead of battle menu in the center of arena.
-You can pick it up like other items and then move it to a special artefact slot using button "SET" instead of "^".
+You can pick it up like other items and then move it to a special artefact slot using button "SET".
 
 | ![SE3_image](../../static/img/ab/artefact1.png) | ![SE3_image](../../static/img/ab/artefact2.png) |
 | ----------------------------------------------- | ----------------------------------------------- |

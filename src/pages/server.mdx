@@ -1,35 +1,19 @@
 import DownloadButton from "@site/src/components/DownloadButton";
 import AllServerDownloads from "@site/src/components/AllServerDownloads";
 
-# SE3 Server Beta-2.1
+# Multiplayer server for SE3
 
-## Download
+To play SE3 with your friends, you need to download and run the server on your own computer.
 
-<DownloadButton
-    text="Download as .zip"
-    url="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.zip"
-/>
-<DownloadButton
-    text="Download as .tar.gz"
-    url="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.tar.gz"
-/>
+## Download server
 
-### All downloads
-
-<details>
-    <summary>Click to expand...</summary>
-    <div>
-        <AllServerDownloads
-            versions={[
-                "Beta-1.13",
-                "Beta-1.14",
-                "Beta-1.15",
-                "Beta-2.0",
-                "Beta-2.1",
-            ]}
-        />
-    </div>
-</details>
+| Version  | Download .zip  | Download .tar.gz  |
+|---|---|---|
+| Beta 2.1 (latest) 🚀 | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.zip">Beta 2.1 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.tar.gz">Beta 2.1 (.tar.gz)</a> |
+| Beta 2.0           | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.0.zip">Beta 2.0 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.0.tar.gz">Beta 2.0 (.tar.gz)</a> |
+| Beta 1.15          | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.15.zip">Beta 1.15 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.15.tar.gz">Beta 1.15 (.tar.gz)</a> |
+| Beta 1.14          | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.14.zip">Beta 1.14 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.14.tar.gz">Beta 1.14 (.tar.gz)</a> |
+| Beta 1.13          | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.13.zip">Beta 1.13 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.13.tar.gz">Beta 1.13 (.tar.gz)</a> |
 
 ## Running server on Windows
 
@@ -39,6 +23,7 @@ import AllServerDownloads from "@site/src/components/AllServerDownloads";
 -   Type `cmd` in the top bar of explorer.
 -   Run `npm i` to configure.
 -   Run `npm start` to start the server.
+-   You can create .bat file to run `npm start` for you.
 
 ![Starting the server](/img/server/running-the-server-windows.gif)
 
@@ -49,7 +34,7 @@ Prerequisites:
 -   Git
 -   Node.js
 
-Run the following commands:
+Go to the directory where you want to create your server and run the following commands:
 
 ```bash
 git clone https://github.com/Space-Eternity-3/SE3-Server.git
@@ -60,23 +45,12 @@ npm start
 
 ## Joining to your server
 
-If you want to join from the localhost, enter
-`ws://localhost:port` in the server address field.
-If you replace port with empty string (do not remove `:`), the port will be set to 27683 (the default SE3 port).
-You can also change the port in config to not be 27683.
+When you start your server, it will be visible for computers in your local network (LAN) on port 27683. You can type in the SE3 address
+field `ws://local.ip:27683` or `ws://local.ip:`, where local.ip is your local IP address, for example `192.168.0.10`. 
 
-If you want to join from a local network, enter the local IP of
-the server host, for example: `ws://192.168.0.10:port`.
+To join to your server from internet, you need to forward port 27683 on your router. Read more on [portforward.com](https://portforward.com).
+Then you need to check your public IP address on [whatismyip.com](https://whatismyip.com). When you forward a port, everyone can join to your
+server using address `ws://public.ip:27683` or `ws://public.ip:`, where public.ip is your public IP address.
 
-If you want to join from internet, it might be a bit more complicated.
-You need your public IP address. You can find it by searching
-`What is my IP?` in Google. Then you have to set port-forwarding
-on your router to redirect every connection on the specified port to your local computer.
-You can see all instructions here: [portforward.com](https://portforward.com/router.htm). It might in some cases
-require contacting with your internet provider. When it is ready, connect to
-a server using your public IP address for example by entering `ws://123.45.67.89:`.
-
-There are some alternatives if you can't use port-forwarding. You can find a free node.js
-hosting for example replit.com and run your server on it. (Replit servers
-are in San Francisco, which can cause some ping problems if you are away from that place).
-You can also use third-party proxy servers like Hamachi.
+If you can't for some reason forward ports, you can use page [playit.gg](https://playit.gg) to tunell TCP traffic through the external server with ports already forwarded.
+Note, that this way you will increase your server's ping.
