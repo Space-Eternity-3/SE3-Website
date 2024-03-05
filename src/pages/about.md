@@ -449,7 +449,7 @@ You can reset your loaded datapack to default using "X" button.
 
 You can create your own datapack or download it from someone else. There is
 a default datapack copy in Datapacks folder, so you can copy and edit it. More
-info about the jse3 format (SE3 datapack format) in [SE3 documentation](../Documentation).
+info about the jse3 format (SE3 datapack format) in [SE3 documentation](/documentation).
 It might be required to use a professional text editor like Notepad++ or Visual Studio to access
 datapack content.  
 
