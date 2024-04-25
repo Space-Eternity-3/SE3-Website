@@ -1,7 +1,7 @@
 # How to play
 
-Space Eternity 3 is a PC game created by Kamiloso in Unity. Visit our universe and explore
-the infinite area full of amazing places and challenges!
+Space Eternity 3 is a PC game created by Kamiloso in Unity. Visit this unique universe and explore
+infinite area full of amazing places and challenges!
 
 | ![SE3_image](../../static/img/Space-Eternity-3.webp) |
 | ---------------------------------------------------- |
@@ -157,128 +157,22 @@ will help you know, where you are.
 | --------------------------------------------- |
 | ![SE3_image](../../static/img/ab/coords2.png) |
 
-## Places to visit
+## Biomes and structures
 
-It's time to explore! In the SE3 universe you can find various biomes and structures, which are described below.
+In the SE3 universe you can find various biomes and structures:
 
-### Default biome
-
-| ![SE3_image](../../static/img/ab/biome_default.png) |
-| --------------------------------------------------- |
-
-Default biome is the most common biome.
-It contains stone, copper, gold, amethyst, grass, coal and magnetic stones.
-
-### Hell biome
-
-| ![SE3_image](../../static/img/ab/biome_hell.png) |
-| ------------------------------------------------ |
-
-| Rarity: (8%) |
-|---|
-
-Hell biomes contain mainly coal and red stones. It's the only place, where you can find a diamond asteroid.
-
-### Geyzer biome
-
-| ![SE3_image](../../static/img/ab/biome_geyzer.png) |
-| -------------------------------------------------- |
-
-| Rarity: (8%) |
-|---|
-
-Geyzer biomes consist mainly of normal and magnetic stone. You can find geyzers there.
-
-### Alien biome
-
-| ![SE3_image](../../static/img/ab/biome_alien.png) |
-| ------------------------------------------------- |
-
-| Rarity: (8%) |
-|---|
-
-Alien biomes contain mainly good-alien asteroids (grass, magnetic). You can find 2 times more gold there.
-
-### Cementeries
-
-| ![SE3_image](../../static/img/ab/struct_cementery.png) |
-| ------------------------------------------------------ |
-
-| Rarity: (2%) |
-|---|
-
-Cementeries contain treasures with some really useful items. Here is a loottable for every treasure:
-
-| Icon                                           | Item            | Amount | Chance |
-| ---------------------------------------------- | --------------- | ------ | ------ |
-| ![SE3_image](../../static/img/items/Nn8.png)   | stone           | 3-6    | 12,5%  |
-| ![SE3_image](../../static/img/items/Nn4.png)   | pumpkin         | 1      | 12,5%  |
-| ![SE3_image](../../static/img/items/Nn54.png)  | bone            | 2-4    | 12,5%  |
-| ![SE3_image](../../static/img/items/Nn40.png)  | dead alien      | 1      | 12,5%  |
-| ![SE3_image](../../static/img/items/Nn48.png)  | unstable matter | 1-2    | 6%     |
-| ![SE3_image](../../static/img/items/Nn55A.png) | healing potion  | 1-2    | 12%    |
-| ![SE3_image](../../static/img/items/Nn57A.png) | turbo potion    | 1-2    | 12%    |
-| ![SE3_image](../../static/img/items/Nn10.png)  | gold            | 3-7    | 10%    |
-| ![SE3_image](../../static/img/items/Nn5.png)   | small amethyst  | 3-7    | 10%    |
-
-### Cementeries (dark variant)
-
-| ![SE3_image](../../static/img/ab/struct_cementery2.png) |
-| ------------------------------------------------------- |
-
-| Rarity: (1%) |
-|---|
-
-Dark cementeries are a rarer and more powerful cementery variant. Treasures
-here contain a bit different and in some cases better loot:
-
-| Icon                                           | Item            | Amount | Chance |
-| ---------------------------------------------- | --------------- | ------ | ------ |
-| ![SE3_image](../../static/img/items/Nn66.png)  | dark stone      | 3-6    | 12%    |
-| ![SE3_image](../../static/img/items/Nn70.png)  | lava geyzer     | 1      | 12%    |
-| ![SE3_image](../../static/img/items/Nn54.png)  | bone            | 2-4    | 12%    |
-| ![SE3_image](../../static/img/items/Nn40.png)  | dead alien      | 1      | 12%    |
-| ![SE3_image](../../static/img/items/Nn33.png)  | small diamond   | 1-3    | 1,5%   |
-| ![SE3_image](../../static/img/items/Nn48.png)  | unstable matter | 1-3    | 8,5%   |
-| ![SE3_image](../../static/img/items/Nn61A.png) | blank potion    | 1-2    | 10%    |
-| ![SE3_image](../../static/img/items/Nn59A.png) | power potion    | 1-2    | 10%    |
-| ![SE3_image](../../static/img/items/Nn71A.png) | max potion      | 1      | 4%     |
-| ![SE3_image](../../static/img/items/Nn10.png)  | gold            | 2-6    | 11%    |
-| ![SE3_image](../../static/img/items/Nn5.png)   | small amethyst  | 3-7    | 7%     |
-
-### Stars
-
-| ![SE3_image](../../static/img/ab/struct_star.png) |
-| ------------------------------------------------- |
-
-| Rarity: (1.5%) |
-|---|
-
-There are always coal asteroids around stars
-with fire bullets on them. You can duplicate this resource using coal.
-It is possible regenerate immortality artefact with the star wind.
-More about artefacts later in this article.
-
-### Arenas
-
-| ![SE3_image](../../static/img/ab/struct_arena1.png) |
-| --------------------------------------------------- |
-
-| Rarity: (4%) |
-|---|
-
-Arenas contain bosses, which you can defeat and obtain one of 5 powerful artefacts.
-More about battles in the second next segment.
-
-### Arenas (catastrophic variant)
-
-| ![SE3_image](../../static/img/ab/struct_arena2.png) |
-| --------------------------------------------------- |
-
-| Rarity: (0.5%) |
-|---|
-
-Rare arena variant without boss and artefact. It contains a lot of unstable matter.
+| ID | Biome | Chance | Preview | Description |
+|---|---|---|---|---|
+| 0 | Default Biome | - | ![SE3_image](../../static/img/ab/biome_default.png) | The default universe generation. |
+| 1 | Hell Biome | 8% | ![SE3_image](../../static/img/ab/biome_hell.png) | The hellish biome with coal and evil aliens everywhere. |
+| 2 | Geyzer Biome | 8% | ![SE3_image](../../static/img/ab/biome_geyzer.png) | The windy biome really hard to navigate through. |
+| 3 | Alien Biome | 8% | ![SE3_image](../../static/img/ab/biome_alien.png) | The fascinating location full of cosmic friends. |
+| 4 | Arena | 4% | ![SE3_image](../../static/img/ab/struct_arena1.png) | Home for the boss and the challenge for players. |
+| 5 | Catastrophic Arena | 0.4% | ![SE3_image](../../static/img/ab/struct_arena2.png) | It should probably remain a mystery. |
+| 6 | Cementery | 2.7% | ![SE3_image](../../static/img/ab/struct_cementery1.png) | Aliens are buried here along with their treasures. |
+| 7 | Dark Cementery | 1.3% | ![SE3_image](../../static/img/ab/struct_cementery2.png) | The more hellish cementery variant. |
+| 8 | Star | 1.5% | ![SE3_image](../../static/img/ab/struct_star.png) | The mysterious source of heat and power. |
+| 9 | Copper Facilities | 0% | Image not available | Coming soon! |
 
 ## Boss fights
 
@@ -291,50 +185,19 @@ need 10 amethyst. Put it into a special bedrock storage and click "battle".
 
 To get access to the artefact, you need to defeat a boss 3 times. Every battle activation requires 10 amethyst.
 Every boss appears in 3 phases: I, II and III. They are marked in the arena UI and as the part of a boss nick.
-After defeating boss in one phase, you will upgrade your arena to the next. When you defeat boss in phase III,
+After defeating boss in one phase, you will upgrade your arena to the next. When you defeat a boss in phase III,
 you will get access to the artefact. Boss gains more hp every phase and it has access to more types of attacks.
 When you are about to die or you can't defeat an activated boss in time, you can always give up. Do
-that by pressing "escape" button and clicking "Give Up". The battle will end, but you will lose your amethyst.
+this by pressing `escape` button and by clicking `Give Up`. The battle will end, but you will lose your amethyst.
 
 | ![SE3_image](../../static/img/ab/fight3.png) |
 | -------------------------------------------- |
 
-## Bullets
-
-Bullets are used to deal damage. There are currently 5 types of them
-available for player use. Damage presented in the table can be increased through upgrades.
-
-| Bullet   | Icon                                          | DPS     | Bullet cooldown | Bullet speed | Description                                                                                           |
-| -------- | --------------------------------------------- | ------- | --------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
-| Coal     | ![SE3_image](../../static/img/items/Nn64.png) | 14.29   | 0.14s           | 0.45         | A weaker bullet, made of coal, mainly for fire bullet production.                                     |
-| Copper   | ![SE3_image](../../static/img/items/Nn24.png) | 21.43   | 0.14s           | 0.45         | A default bullet, made of copper.                                                                     |
-| Red      | ![SE3_image](../../static/img/items/Nn39.png) | 28.57   | 0.14s           | 0.45         | A stronger bullet, made of red stone.                                                                 |
-| Fire     | ![SE3_image](../../static/img/items/Nn65.png) | 23.86\* | 0.22s           | 0.40         | A bullet, which sets players on fire. Starandus is immune to it.                                      |
-| Unstable | ![SE3_image](../../static/img/items/Nn48.png) | 35.71   | 0.28s           | 0.35         | The strongest, but the rarest bullet. Degenrator and players with unstable artefact are immune to it. |
-
-\* Fire bullet deals 18.18 DPS to players, but they set them on fire dealing 2 dmg every second. Fire bullet gives that effect for 2 cycles.
-
-## Potions
-
-There are currently 6 types of potions available. They give you some very useful effects. You can obtain them by combining common materials
-with magic ingredients in crafting or by getting them from cementery treasures. You can use your potion by clicking RMB on a screen when
-holding it. If you can't use a potion because of no future effect there will appear text "Potion blocked" so that you won't waste it.
-Here is the list of all potions and their properties:
-
-| Potion  | Icon                                           | Description                                                                                                           |
-| ------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Healing | ![SE3_image](../../static/img/items/Nn55A.png) | Adds 20 hp to your health bar.                                                                                        |
-| Turbo   | ![SE3_image](../../static/img/items/Nn57A.png) | Refills your turbo bar.                                                                                               |
-| Power   | ![SE3_image](../../static/img/items/Nn59A.png) | Refills your power bar. Only available when wearing impulse, illusion or unstable artefact.                           |
-| Blank   | ![SE3_image](../../static/img/items/Nn61A.png) | Adds 15 hp to your health bar. Removes effect like fire, poison or stickybulb.                                        |
-| Killing | ![SE3_image](../../static/img/items/Nn63A.png) | Removes 15 hp from your health bar. If you're wearing unstable artefact, it will also add 10 power to your power bar. |
-| Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills your health, turbo and power bars and removes effect. The only potion that can't be crafted.                  |
-
 ## Bosses
 
-There are 5 types of bosses. Every one of them drops a different artefact.
-Every boss has 5 attack states. One of them is a default state. Two next are unlocked
-in phase I. When boss enters a new phase, it unlocks a new attack state.
+There are currently 5 types of bosses. Every one of them drops a different artefact
+and can be in 5 attack states. State `0` is a default state. States `1` and `2` are
+always unlocked. Leveling up your arena to next phases will unlock states `3` and `4`.
 Here is a list of all bosses and their mechanics:
 
 ### Protector
@@ -417,13 +280,44 @@ Here is a list of all bosses and their mechanics:
 | 3         | Remote     | Degenerator attacks you with a laser impossible to dodge.                                      |
 | 4         | Degequake  | Degenerator moves and shoots faster. It sometimes has unstable pulses.                         |
 
+## Bullets
+
+Bullets are used to deal damage. There are currently 5 types of them
+available for player use. Damage presented in the table can be increased through upgrades.
+
+| Bullet   | Icon                                          | DPS     | Bullet cooldown | Bullet speed | Description                                                                                           |
+| -------- | --------------------------------------------- | ------- | --------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
+| Coal     | ![SE3_image](../../static/img/items/Nn64.png) | 14.29   | 0.14s           | 0.45         | A weaker bullet, made of coal, mainly for fire bullet production.                                     |
+| Copper   | ![SE3_image](../../static/img/items/Nn24.png) | 21.43   | 0.14s           | 0.45         | A default bullet, made of copper.                                                                     |
+| Red      | ![SE3_image](../../static/img/items/Nn39.png) | 28.57   | 0.14s           | 0.45         | A stronger bullet, made of red stone.                                                                 |
+| Fire     | ![SE3_image](../../static/img/items/Nn65.png) | 23.86\* | 0.22s           | 0.40         | A bullet, which sets players on fire. Starandus is immune to it.                                      |
+| Unstable | ![SE3_image](../../static/img/items/Nn48.png) | 35.71   | 0.28s           | 0.35         | The strongest, but the rarest bullet. Degenrator and players with unstable artefact are immune to it. |
+
+\* Fire bullet deals 18.18 DPS to players, but they set them on fire dealing 2 dmg every second. Fire bullet gives that effect for 2 cycles.
+
+## Potions
+
+There are currently 6 types of potions available. They give you some very useful effects. You can obtain them by combining common materials
+with magic ingredients in crafting or by getting them from cementery treasures. You can use your potion by clicking RMB on a screen when
+holding it. If you can't use a potion because of no future effect there will appear text "Potion blocked" so that you won't waste it.
+Here is the list of all potions and their properties:
+
+| Potion  | Icon                                           | Description                                                                                                           |
+| ------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Healing | ![SE3_image](../../static/img/items/Nn55A.png) | Adds 20 hp to your health bar.                                                                                        |
+| Turbo   | ![SE3_image](../../static/img/items/Nn57A.png) | Refills your turbo bar.                                                                                               |
+| Power   | ![SE3_image](../../static/img/items/Nn59A.png) | Refills your power bar. Only available when wearing impulse, illusion or unstable artefact.                           |
+| Blank   | ![SE3_image](../../static/img/items/Nn61A.png) | Adds 15 hp to your health bar. Removes effect like fire, poison or stickybulb.                                        |
+| Killing | ![SE3_image](../../static/img/items/Nn63A.png) | Removes 15 hp from your health bar. If you're wearing unstable artefact, it will also add 10 power to your power bar. |
+| Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills your health, turbo and power bars and removes effect. The only potion that can't be crafted.                  |
+
 ## Artefacts
 
 Artefacts are the most powerful items in the universe. They give you
 some special powers, when you wear them. You can obtain them by defeating bosses.
 Every boss gives you a specified artefact. After defeating boss in phase III, there
 will appear an asteroid with the artefact instead of battle menu in the center of arena.
-You can pick it up like other items and then move it to a special artefact slot using button "SET".
+You can pick it up like other items and then move it into a special artefact slot using button "SET".
 
 | ![SE3_image](../../static/img/ab/artefact1.png) | ![SE3_image](../../static/img/ab/artefact2.png) |
 | ----------------------------------------------- | ----------------------------------------------- |
@@ -433,31 +327,31 @@ You can pick it up like other items and then move it to a special artefact slot 
 | --------------------------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![SE3_image](../../static/img/items/Nn42.png) | Protection  | Protector   | The super health bar upgrade. It improves your health by 25%, speeds up health regeneration by 1.5 and reduces health regeneration cooldown by half. |
 | ![SE3_image](../../static/img/items/Nn43.png) | Impulse     | Adecodron   | Allows you to make impulses, when you have enough power. You can use it for attack, defense or just for fun.                                         |
-| ![SE3_image](../../static/img/items/Nn44.png) | Illusion    | Octogone    | Allows you to become invisible to bosses and other players.                                                                                          |
-| ![SE3_image](../../static/img/items/Nn45.png) | Immortality | Starandus   | When you wear it and die, you won't die, but your artefact will turn gray. Recharge it using a star wind.                                            |
-| ![SE3_image](../../static/img/items/Nn47.png) | Unstable    | Degenerator | That's a mystery. All ancient notes were lost. Figure it out by yourself. Updated in Beta 2.1.                                                                            |
+| ![SE3_image](../../static/img/items/Nn44.png) | Illusion    | Octogone    | Allows you to become invisible to bosses and other players. It makes you 20% faster and immune to crash damage when active.                                                                                          |
+| ![SE3_image](../../static/img/items/Nn45.png) | Immortality | Starandus   | When you wear it and die, you won't die, but your artefact will turn gray. Recharge it using star wind near the star.                                            |
+| ![SE3_image](../../static/img/items/Nn47.png) | Unstable    | Degenerator | That's a mystery. All ancient notes were lost. Figure it out by yourself, but do not kill anyone by accident.                                                                            |
 
 ## Datapacks
 
 Datapacks allow you to customize your gameplay in the specified universe. You can select a datapack, which will be used
-when creating an universe in game settings. Just click on the button "DEFAULT" and select your datapack from your file selector.
+when creating the universe. Just click on the button "DEFAULT" and select your datapack from the file selector.
 You can reset your loaded datapack to default using "X" button.
 
-| ![SE3_image](../../static/img/ab/datapack1.png) | ![SE3_image](../../static/img/ab/datapack2.png) |
-| ----------------------------------------------- | ----------------------------------------------- |
-| ![SE3_image](../../static/img/ab/datapack3.png) | ![SE3_image](../../static/img/ab/datapack4.png) |
+| ![SE3_image](../../static/img/ab/datapack1.png) |
+| ----------------------------------------------- |
 
 You can create your own datapack or download it from someone else. There is
-a default datapack copy in Datapacks folder, so you can copy and edit it. More
+a default datapack copy in `Datapacks` folder, so you can copy and edit it. More
 info about the jse3 format (SE3 datapack format) in [SE3 documentation](/documentation).
 It might be required to use a professional text editor like Notepad++ or Visual Studio to access
 datapack content.  
 
-To use a datapack on your server just swap the Datapack.jse3 file in your server folder with a datapack,
-which you want to use. Be sure, that ServerUniverse folder doesn't exist. Remember to change datapack name to "Datapack.jse3".
+To use a datapack on the server just put the file into the analogous `Datapacks` folder.
+Be sure that `ServerUniverse` folder and especially file `ServerUniverse/UniverseInfo.se3`
+(it stores the imported datapack) doesn't exist.
 
-- You can't change datapack of the universe after it is created.  
 - Universes with custom datapack will have "Custom data" subtitle.  
+- You shouldn't change datapack of the universe after it is created, unless it doesn't affect SEON code.  
 - Universes with custom datapack can't be easily updated to newer versions.  
 
 ## Contact
