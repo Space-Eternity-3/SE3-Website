@@ -1,178 +1,134 @@
 # How to play
 
-Space Eternity 3 is a PC game created by Kamiloso in Unity. Visit this unique universe and explore
-infinite area full of amazing places and challenges!
+You should read this tutorial before starting your gameplay. You will learn
+how to play, what you can find in the universe and how to use it properly.
 
-| ![SE3_image](../../static/img/Space-Eternity-3.webp) |
-| ---------------------------------------------------- |
+| ![SE3_image](../../static/img/ab/a.png) |
+| -------------------------------------------- |
 
-If you want to learn how to play, read this tutorial:
+## Basics
 
-## All controls
-
-| Input         | Action                                       |
-| ------------- | -------------------------------------------- |
-| Mouse         | Set direction of movement and shooting.      |
-| LMB           | Take item or activate drill.                 |
-| RMB           | Place / Use item.                            |
-| Space         | Use engine.                                  |
-| Left Shift    | Use turbo.                                   |
-| Left Alt      | Use brake.                                   |
-| E             | Open / Close inventory.                      |
-| R             | Extend / Retract drill.                      |
-| A             | Use artefact.                                |
-| Scroll        | Change selected inventory slot.              |
-| Ctrl + Scroll | Change camera zoom.                          |
-| Ctrl + RMB    | Place special bullets without shooting them. |
-| Escape        | Close inventory or open pause menu.          |
-| F1            | Hide / Show UI.                              |
-| F11           | Enable / Disable full screen mode.           |
-| Tab           | Open multiplayer info menu.                  |
-
-## Creating an universe
-
-When you download the game, you will be in the main menu. From here you can
-create a new universe or join a multiplayer server.
-
-| ![SE3_image](../../static/img/ab/menu1.png) |
-| ------------------------------------------- |
-
-We recommend playing singleplayer the first time. Multiplayer needs a server, which you can
-download [here](./server). To create the universe, you have to click "create" and "play" button.
-
-| ![SE3_image](../../static/img/ab/menu2.png) | ![SE3_image](../../static/img/ab/menu3.png) |
-| ------------------------------------------- | ------------------------------------------- |
-
-## Engine and items
-
-After joining your first universe you will appear at spawn. This is the center of your procedurally generated world.
+After joining your first universe you will appear at spawn. This is the center of your procedurally generated world and
+the default respawn point.
 
 | ![SE3_image](../../static/img/ab/spawn0.png) |
 | -------------------------------------------- |
 
-Hold space or shift (turbo) to activate your engine. You choose fly direction using your mouse cursor.
+Hold space, left shift (turbo) or left alt (brake) to activate your engine. The spaceship will always rotate towards your cursor.
 
 | ![SE3_image](../../static/img/ab/spawn1.png) | ![SE3_image](../../static/img/ab/spawn2.jpg) |
 | -------------------------------------------- | -------------------------------------------- |
 
-You can obtain items by picking them up or by drilling them from asteroids. (press R to extend a drill)
+You can obtain items by picking them up or by drilling in asteroids.
+Items are collected using LMB and placed using RMB. You can extend/retract your drill by pressing `R`.
 
 | ![SE3_image](../../static/img/ab/spawn3.png) | ![SE3_image](../../static/img/ab/spawn4.png) |
 | -------------------------------------------- | -------------------------------------------- |
 
+You can learn more controls [here](/controls).
+
 ## Crafting
 
-You can open crafting by pressing E. All recipes will appear in the left UI segment.
+You can open crafting by pressing `E`. All available recipes will appear in the left UI segment.
 
-| ![SE3_image](../../static/img/ab/crafting1.png) |
+| ![SE3_image](../../static/img/ab/crafting2.png) |
 | ----------------------------------------------- |
-
-| ![SE3_image](../../static/img/ab/crafting2.png) | ![SE3_image](../../static/img/ab/crafting3.png) |
-| ----------------------------------------------- | ----------------------------------------------- |
 
 ## Upgrades
 
-Gold and amethyst can be used to upgrade your spaceship.
+Upgrades can be found in the right UI segment along with [backpack](#backpack) and [junkyard](#junkyard).
+They allow you to make your spaceship better and stronger.
 
-| ![SE3_image](../../static/img/ab/value1.png) | ![SE3_image](../../static/img/ab/value2.png) |
-| -------------------------------------------- | -------------------------------------------- |
-
-To open upgrade window, press E and look at the right UI segment. Upgrades are in the 'U' category.
-
-| ![SE3_image](../../static/img/ab/upgrades1.png) |
+| ![SE3_image](../../static/img/ab/upgrades3.png) |
 | ----------------------------------------------- |
 
-| ![SE3_image](../../static/img/ab/upgrades2.png) | ![SE3_image](../../static/img/ab/upgrades3.png) |
-| ----------------------------------------------- | ----------------------------------------------- |
+| Feature  | Description                                        |
+| -------- | -------------------------------------------------- |
+| Health   | Improves health by 10% per upgrade.           |
+| Turbo    | Improves turbo max speed by 8% per upgrade.   |
+| Drill    | Improves drill efficiency by 12% per upgrade. |
+| Bullets  | Improves bullet damage by 8% per upgrade.     |
+| Backpack | Unlocks 3 backpack slots every upgrade.    |
 
-### All possible upgrades
-
-| Upgrade  | Description                                       |
-| -------- | ------------------------------------------------- |
-| Health   | Improves your health by 10% per upgrade           |
-| Turbo    | Improves your turbo max speed by 8% per upgrade   |
-| Drill    | Improves your drill efficiency by 15% per upgrade |
-| Bullets  | Improves your bullet damage by 8% per upgrade     |
-| Backpack | Unlocks 3 slots in your backpack every upgrade    |
-
-### Upgrade prices
-
-| Level | Price       |
-| ----- | ----------- |
-| 0     | free        |
-| 1     | 3 gold      |
-| 2     | 6 gold      |
-| 3     | 10 gold     |
-| 4     | 12 amethyst |
-| 5     | 20 amethyst |
+Every feature can be upgraded 5 times. The first upgrade costs 5 gold,
+then 10, 15, 20 and 25.
 
 ## Backpack
 
-To open backpack window, press E and look at the right UI segment. Backpack is in the 'B' category.
-You can unlock your slots by upgrading backpack in the upgrade window.
+You can find backpack in the right UI segment. To unlock it, you need to upgrade backpack in the [upgrade window](#upgrades).
+Every upgrade unlocks 3 slots. Backpack contains the [artefact](#artefacts) slot too, which is always unlocked.
 
-| ![SE3_image](../../static/img/ab/backpack1.png) |
+| ![SE3_image](../../static/img/ab/backpack3.png) |
 | ----------------------------------------------- |
 
-To insert item into a backpack, press the '^' button over an item slot.
+To insert item into backpack press the `^` button over the item slot.
 - RMB - to move all items
 - LMB - to move only one item
 
-| ![SE3_image](../../static/img/ab/backpack2.png) | ![SE3_image](../../static/img/ab/backpack3.png) |
-| ----------------------------------------------- | ----------------------------------------------- |
-
-When you want to get this item back, just click the slot in the backpack.
+When you want to get the item back, click the slot in the backpack.  
 
 ## Junkyard
 
-You can discard some items using junkyard. It's in the 'J' category of the right UI segment.
-After doing so, you will receive a short humoristic message generated by ChatGPT.
+You can discard items using junkyard. It can be found in the right UI segment.
+The discard slot works pretty much like slots in [backpack](#backpack), but after
+pressing discard button, all items from this slot will be removed.
 
-| ![SE3_image](../../static/img/ab/junkyard1.png) |
+| ![SE3_image](../../static/img/ab/junkyard2.png) |
 | ----------------------------------------------- |
-
-| ![SE3_image](../../static/img/ab/junkyard2.png) | ![SE3_image](../../static/img/ab/junkyard3.png) |
-| ----------------------------------------------- | ----------------------------------------------- |
 
 ## Health
 
-You have a health bar, which you can see in the upper UI segment.
-You get damage from various activities such as crashing into asteroids and boss attacks. Your health regenerates quite fast,
-but when it reaches 0, your spaceship will explode and you will lose everything. Then you will respawn.
+You can see your health bar in the upper UI segment. When you lose health, it will regenerate quite fast,
+but you can use some [potions](#potions) to regain part of it instantly.
 
 | ![SE3_image](../../static/img/ab/crash1.png) | ![SE3_image](../../static/img/ab/crash2.png) |
 | -------------------------------------------- | -------------------------------------------- |
 
-Respawn can be crafted using gold and copper.
+Note: Exploding will result in losing all of your items and upgrades! It can be prevented by using keep inventory
+or playing more carefully.
+
+## Respawn
+
+The respawn point can be set using respawn item, craftable from copper and gold.
 
 | ![SE3_image](../../static/img/ab/respawn1.png) | ![SE3_image](../../static/img/ab/respawn2.png) |
 | ---------------------------------------------- | ---------------------------------------------- |
 
-## Localizing yourself
+## Storages
 
-There is a compass between bars, which points you to a respawn point. When you click it, it will be replaced with coordinates. These 2 things
-will help you know, where you are.
+If you want to store your treasures in a safe location, you can craft and place a storage.
+Using LMB and RMB you will be able to transfer items between storage and your inventory.
+
+| ![SE3_image](../../static/img/ab/respawn1.png) |
+| --------------------------------------------- |
+
+## Navigation
+
+The universe in SE3 is procedurally generated, which means, that it feels infinite.
+There are some features, that can help you know, where you are.
+Compass between health and turbo bar points you to a respawn point.
+When you click it, it will turn into coordinates.
 
 | ![SE3_image](../../static/img/ab/coords1.png) |
 | --------------------------------------------- |
 | ![SE3_image](../../static/img/ab/coords2.png) |
 
-## Biomes and structures
+## Locations
 
-In the SE3 universe you can find various biomes and structures:
+In the SE3 universe you can find various locations:
 
-| ID | Biome | Chance | Preview | Description |
+| ID | Location | Chance | Preview | Description |
 |---|---|---|---|---|
 | 0 | Default Biome | - | ![SE3_image](../../static/img/ab/biome_default.png) | The default universe generation. |
 | 1 | Hell Biome | 8% | ![SE3_image](../../static/img/ab/biome_hell.png) | The hellish biome with coal and evil aliens everywhere. |
 | 2 | Geyzer Biome | 8% | ![SE3_image](../../static/img/ab/biome_geyzer.png) | The windy biome really hard to navigate through. |
 | 3 | Alien Biome | 8% | ![SE3_image](../../static/img/ab/biome_alien.png) | The fascinating location full of cosmic friends. |
 | 4 | Arena | 4% | ![SE3_image](../../static/img/ab/struct_arena1.png) | Home for the boss and the challenge for players. |
-| 5 | Catastrophic Arena | 0.4% | ![SE3_image](../../static/img/ab/struct_arena2.png) | It should probably remain a mystery. |
+| 5 | Catastrophic Arena | 0.4% | ![SE3_image](../../static/img/ab/struct_arena2.png) | ??? |
 | 6 | Cementery | 2.7% | ![SE3_image](../../static/img/ab/struct_cementery1.png) | Aliens are buried here along with their treasures. |
 | 7 | Dark Cementery | 1.3% | ![SE3_image](../../static/img/ab/struct_cementery2.png) | The more hellish cementery variant. |
 | 8 | Star | 1.5% | ![SE3_image](../../static/img/ab/struct_star.png) | The mysterious source of heat and power. |
-| 9 | Copper Facilities | 0% | Image not available | Coming soon! |
+| 9 | Copper Facilities | 0% | Image not available yet | Coming soon! |
 
 ## Boss fights
 
@@ -185,7 +141,8 @@ need 10 amethyst. Put it into a special bedrock storage and click "battle".
 
 To get access to the artefact, you need to defeat a boss 3 times. Every battle activation requires 10 amethyst.
 Every boss appears in 3 phases: I, II and III. They are marked in the arena UI and as the part of a boss nick.
-After defeating boss in one phase, you will upgrade your arena to the next. When you defeat a boss in phase III,
+After defeating boss in one phase, you will upgrade your arena to the next, which means, that boss will have
+more health and more available attacks in the next battle. When you defeat a boss in phase III,
 you will get access to the artefact. Boss gains more hp every phase and it has access to more types of attacks.
 When you are about to die or you can't defeat an activated boss in time, you can always give up. Do
 this by pressing `escape` button and by clicking `Give Up`. The battle will end, but you will lose your amethyst.
@@ -193,92 +150,15 @@ this by pressing `escape` button and by clicking `Give Up`. The battle will end,
 | ![SE3_image](../../static/img/ab/fight3.png) |
 | -------------------------------------------- |
 
-## Bosses
+There are currently 5 types of bosses. Every one of them is presented in the table below.
 
-There are currently 5 types of bosses. Every one of them drops a different artefact
-and can be in 5 attack states. State `0` is a default state. States `1` and `2` are
-always unlocked. Leveling up your arena to next phases will unlock states `3` and `4`.
-Here is a list of all bosses and their mechanics:
-
-### Protector
-
-| ![SE3_image](../../static/img/ab/boss1.png) |
-| ------------------------------------------- |
-
-| Protector speed: NORMAL |
-| ----------------------- |
-
-| Attack ID | Name     | Description                                                        |
-| --------- | -------- | ------------------------------------------------------------------ |
-| 0         | -        | Protector shoots copper bullets.                                   |
-| 1         | Electron | Protector shoots one electron.                                     |
-| 2         | Shield   | Protector activates a shield, which makes it immune to all damage. |
-| 3         | Rockets  | Protector sends two kamikadze rockets to chase the player.         |
-| 4         | Ufoquake | Protector moves and shoots faster.                                 |
-
-### Adecodron
-
-| ![SE3_image](../../static/img/ab/boss2.png) |
-| ------------------------------------------- |
-
-| Adecodron speed: VERY FAST |
-| -------------------------- |
-
-| Attack ID | Name       | Description                                                                |
-| --------- | ---------- | -------------------------------------------------------------------------- |
-| 0         | -          | Adecodron flies around and attacks you using spikes on its body.           |
-| 1         | Spikes     | Adecodron creates a circle of poisoned spikes.                             |
-| 2         | Guns       | Adecodron activates its guns, which shoot red bullets.                     |
-| 3         | Spikeballs | Adecodron sends four poisoned spikeballs to chase the player.              |
-| 4         | Adecoquake | Adecodron moves faster.                                                    |
-
-### Octogone
-
-| ![SE3_image](../../static/img/ab/boss3.png) |
-| ------------------------------------------- |
-
-| Octogone speed: FAST |
-| -------------------- |
-
-| Attack ID | Name          | Description                                                                                                       |
-| --------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| 0         | -             | Octogone shoots brainwaves and pushes you with its tentacles.                                                     |
-| 1         | Thinking      | Octogone sends a lot of brainwave bullets in all directions.                                                      |
-| 2         | Stickybulb    | Octogone shoots one stickybulb, which can slow down a target for some time and prevent it from shooting.          |
-| 3         | Teleportation | Octogone teleports randomly.                                                                                      |
-| 4         | Octoquake     | Octogone moves and shoots faster. It creates invisible spikes on its body, which deal damage same as Adecodron's. |
-
-### Starandus
-
-| ![SE3_image](../../static/img/ab/boss4.png) |
-| ------------------------------------------- |
-
-| Starandus speed: SLOW |
-| --------------------- |
-
-| Attack ID | Name       | Description                                                                                                                            |
-| --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| 0         | -          | Starandus shoots fire bullets.                                                                                                         |
-| 1         | Geyzers    | Starandus activates its fire geyzers, which deal damage, push players and set them on fire.                                            |
-| 2         | Supernova  | Starandus sends a lot of fire bullets in all directions. It creates a small fire-geyzer-type collider without attached pushing script. |
-| 3         | Graviting  | Starandus sends a lot of gravitons in all directions, which pull the player towards the boss.                                          |
-| 4         | Neutroning | Starandus starts sending neutronium bullets and activates safe blue geyzers.                                                           |
-
-### Degenerator
-
-| ![SE3_image](../../static/img/ab/boss6.png) |
-| ------------------------------------------- |
-
-| Degenerator speed: NORMAL |
-| ------------------------- |
-
-| Attack ID | Name       | Description                                                                                    |
-| --------- | ---------- | ---------------------------------------------------------------------------------------------- |
-| 0         | -          | Degenerator shoots red and unstable bullets.                                                   |
-| 1         | Rockets    | Degenerator sends two kamikadze rockets to chase the player.                                   |
-| 2         | Degeshield | Degenerator tries to make a shield, but it ends up shooting unstable matter in all directions. |
-| 3         | Remote     | Degenerator attacks you with a laser impossible to dodge.                                      |
-| 4         | Degequake  | Degenerator moves and shoots faster. It sometimes has unstable pulses.                         |
+| ID | Name | Image | Description |
+|---|---|---|---|
+| 1 | Protector  | ![SE3_image](../../static/img/ab/boss1.png) | There are gosspis, that it is Protector, which is regularly seen on Earth. Anyway, it's just a regular UFO, nothing too spectacular... right? |
+| 2 | Adecodron | ![SE3_image](../../static/img/ab/boss2.png) | It's neither the machine, nor the alien, but it's certainly very dangerous with its spikes, poisonous attacks and the very high speed. |
+| 3 | Octogone | ![SE3_image](../../static/img/ab/boss3.png) | The giant octopus-like monster from the other dimension. However, this giant creature really dislikes being called a space octopus. |
+| 4 | Starandus | ![SE3_image](../../static/img/ab/boss4.png) | The machine so advanced, that it was able to compress a star and use the nuclear fusion as an unlimited source of power. |
+| 6 | Degenerator | ![SE3_image](../../static/img/ab/boss6.png) | It is said, that Degenerator is actually the evil version of Protector, but no one knows how it exactly became such. |
 
 ## Bullets
 
@@ -287,13 +167,13 @@ available for player use. Damage presented in the table can be increased through
 
 | Bullet   | Icon                                          | DPS     | Bullet cooldown | Bullet speed | Description                                                                                           |
 | -------- | --------------------------------------------- | ------- | --------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
-| Coal     | ![SE3_image](../../static/img/items/Nn64.png) | 14.29   | 0.14s           | 0.45         | A weaker bullet, made of coal, mainly for fire bullet production.                                     |
 | Copper   | ![SE3_image](../../static/img/items/Nn24.png) | 21.43   | 0.14s           | 0.45         | A default bullet, made of copper.                                                                     |
 | Red      | ![SE3_image](../../static/img/items/Nn39.png) | 28.57   | 0.14s           | 0.45         | A stronger bullet, made of red stone.                                                                 |
-| Fire     | ![SE3_image](../../static/img/items/Nn65.png) | 23.86\* | 0.22s           | 0.40         | A bullet, which sets players on fire. Starandus is immune to it.                                      |
-| Unstable | ![SE3_image](../../static/img/items/Nn48.png) | 35.71   | 0.28s           | 0.35         | The strongest, but the rarest bullet. Degenrator and players with unstable artefact are immune to it. |
+| Wind     | ![SE3_image](../../static/img/items/Nn64.png) | 14.29   | 0.14s           | ?         | A weaker bullet, made of coal, mainly for fire bullet production.                                     |
+| Fire     | ![SE3_image](../../static/img/items/Nn65.png) | 23.86\* | 0.22s           | 0.40         | A bullet, which sets enemies on fire. Starandus is immune to it.                                      |
+| Unstable | ![SE3_image](../../static/img/items/Nn48.png) | 35.71   | 0.28s           | 0.40         | The strongest, but the rarest bullet. Degenrator and players with unstable artefact are immune to it. |
 
-\* Fire bullet deals 18.18 DPS to players, but they set them on fire dealing 2 dmg every second. Fire bullet gives that effect for 2 cycles.
+\* Fire damage to other players is reduced to +?.
 
 ## Potions
 
@@ -309,7 +189,7 @@ Here is the list of all potions and their properties:
 | Power   | ![SE3_image](../../static/img/items/Nn59A.png) | Refills your power bar. Only available when wearing impulse, illusion or unstable artefact.                           |
 | Blank   | ![SE3_image](../../static/img/items/Nn61A.png) | Adds 15 hp to your health bar. Removes effect like fire, poison or stickybulb.                                        |
 | Killing | ![SE3_image](../../static/img/items/Nn63A.png) | Removes 15 hp from your health bar. If you're wearing unstable artefact, it will also add 10 power to your power bar. |
-| Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills your health, turbo and power bars and removes effect. The only potion that can't be crafted.                  |
+| Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills your health, turbo and power bars and removes effect. Only obtainable from dark cementeries.                  |
 
 ## Artefacts
 
@@ -330,31 +210,3 @@ You can pick it up like other items and then move it into a special artefact slo
 | ![SE3_image](../../static/img/items/Nn44.png) | Illusion    | Octogone    | Allows you to become invisible to bosses and other players. It makes you 20% faster and immune to crash damage when active.                                                                                          |
 | ![SE3_image](../../static/img/items/Nn45.png) | Immortality | Starandus   | When you wear it and die, you won't die, but your artefact will turn gray. Recharge it using star wind near the star.                                            |
 | ![SE3_image](../../static/img/items/Nn47.png) | Unstable    | Degenerator | That's a mystery. All ancient notes were lost. Figure it out by yourself, but do not kill anyone by accident.                                                                            |
-
-## Datapacks
-
-Datapacks allow you to customize your gameplay in the specified universe. You can select a datapack, which will be used
-when creating the universe. Just click on the button "DEFAULT" and select your datapack from the file selector.
-You can reset your loaded datapack to default using "X" button.
-
-| ![SE3_image](../../static/img/ab/datapack1.png) |
-| ----------------------------------------------- |
-
-You can create your own datapack or download it from someone else. There is
-a default datapack copy in `Datapacks` folder, so you can copy and edit it. More
-info about the jse3 format (SE3 datapack format) in [SE3 documentation](/documentation).
-It might be required to use a professional text editor like Notepad++ or Visual Studio to access
-datapack content.  
-
-To use a datapack on the server just put the file into the analogous `Datapacks` folder.
-Be sure that `ServerUniverse` folder and especially file `ServerUniverse/UniverseInfo.se3`
-(it stores the imported datapack) doesn't exist.
-
-- Universes with custom datapack will have "Custom data" subtitle.  
-- You shouldn't change datapack of the universe after it is created, unless it doesn't affect SEON code.  
-- Universes with custom datapack can't be easily updated to newer versions.  
-
-## Contact
-
-Join our [discord server](https://discord.gg/e4ppBTRKhg).  
-Found some bugs? Contact with the game developer: kamiloso.skoposo@gmail.com.

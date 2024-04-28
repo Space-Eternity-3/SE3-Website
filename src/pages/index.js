@@ -8,7 +8,7 @@ export default function () {
             <Head>
                 <meta
                     name="description"
-                    content="Space Eternity 3 - A PC game created by Kamiloso in Unity. Visit our universe and explore the infinite area full of asteroids and other interesting stuff! There are so many things to discover!"
+                    content="The official page for Space Eternity 3 - Download and read about the game!"
                 />
             </Head>
             <div className={styles.background}></div>
