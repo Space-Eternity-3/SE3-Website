@@ -1,10 +1,10 @@
 # Datapacks
 
-Datapacks allow you to customize your gameplay in the specified universe. You can select a datapack, which will be used
+Datapacks allow you to customize gameplay in the specified universe. You can select a datapack, which will be used
 when creating the universe. Just click on the button "DEFAULT" and select your datapack from the file selector.
 You can reset your loaded datapack to default using "X" button.
 
-| ![SE3_image](../../static/img/ab/datapack1.png) |
+| ![SE3_image](../../static/img/pages/datapack1.png) |
 | ----------------------------------------------- |
 
 You can create your own datapack or download it from someone else. There is

@@ -8,18 +8,22 @@ sidebar_position: 5
 
 ---
 
-Generator settings is a place, where you can customize asteroid generation.
+:::info
+In `generator_settings` segment you can customize biomes and structures, which will generate in
+the universe.
+:::
 
 ## Contents
 
--   [Contents](#contents)
--   [Biome separation](#biome-separation)
--   [Construction rules](#construction-rules)
+- [Contents](#contents)
+- [Biome separation](#biome-separation)
+- [Biome configuration](#biome-configuration)
+- [Biome example](#biome-example)
 
 ## Biome separation
 
-Se3 generator consists of default generator and up to 31 biomes or structures. These are separated using jse3 hierarchy.
-Default generation has always ID = 0. Biomes and structures might have IDs from 1 to 31. You can add biome name in comments,
+SE3 generator consists of default generation and up to 31 biomes. These are separated using jse3 hierarchy.
+Default generation has always ID = 0. Biomes might have IDs from 1 to 31. You can add biome name in comments,
 but it's not necessary.
 
 ```text showLineNumbers
@@ -37,22 +41,31 @@ but it's not necessary.
 }
 ```
 
-## Construction rules
+:::tip
+Structures are basically biomes with `structural` and `struct=X` tag. Every structure is a biome, but not every biome is a structure.
+:::
 
-There is a lot of variables in generator settings, so there is an array with all information.
+## Biome configuration
 
-| Variable part | Value part                                                            | Value example            | In default | Description                                                                                                              | Note                                       |
-| ------------- | --------------------------------------------------------------------- | ------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
-| chance        | Percentage                                                            | 8%                       | no         | Sets biome appear chance.                                                                                                | -                                          |
-| all_sizes     | Asteroid names with probability in round brackets separated with `+`. | stone(80%) + copper(20%) | yes        | Sets [asteroid type](../../GameData/Asteroids) generate chances in a given biome for all sizes.                          | Variable part can be 0 as well.            |
-| int <4;10>    | Asteroid names with probability in round brackets separated with `+`. | stone(80%) + copper(20%) | yes        | Sets [asteroid type](../../GameData/Asteroids) generate chances in a given biome for size selected by the variable part. | Overwrites `all_sizes` if used after that. |
-| settings      | Biome settings. More info [here](./BiomeSettings).                    | [radius=50]              | yes        | Customizes advanced generator settings.                                                                                  | -                                          |
+There is a lot of variables in generator settings, so here is a table with all information:
+
+| Variable   | Data type                                                          | Value example            | In default | Description                                                                                                   | Note                                            |
+| ---------- | ------------------------------------------------------------------ | ------------------------ | ---------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| chance     | Percentage                                                         | 0,4%                     | no         | Sets biome appear chance.                                                                                     | -                                               |
+| all_sizes  | Asteroid names with probability in round brackets separated by `+` | stone(80%) + copper(20%) | yes        | Sets [asteroid type](../../GameData/Asteroids) generation chances for all asteroid sizes.                     | You can use `0` instead of `all_sizes` as well. |
+| int <4;10> | Asteroid names with probability in round brackets separated by `+` | stone(80%) + copper(20%) | yes        | Sets [asteroid type](../../GameData/Asteroids) generation chances for asteroid size selected by the variable. | Can overwrite `all_sizes`.                      |
+| settings   | [Biome settings](./BiomeSettings)                                  | [radius=50]              | yes        | Customizes advanced generator settings.                                                                       | -                                               |
+
+## Biome example
 
 ```text showLineNumbers
+
 <Geyzer biome> 2
 {
 	chance: 8%;
-	settings: [];
+	settings: [
+		bgcolor-255-252-220,
+	];
 
 	all_sizes: stoneA(100%);
 	<Size>5: stoneA(70%) + magneticA(30%);

@@ -3,25 +3,33 @@ title: "Drill loot"
 sidebar_position: 2
 ---
 
-Drill loot is a place, where you can customize a drill loottable
-depending on asteroid type. Every jse3 line is a different asteroid.
+:::info
+In `drill_loot` segment you can customize drill loottables for specific asteroids.
+:::
 
 ## Contents
 
--   [Contents](#contents)
--   [Construction rules](#construction-rules)
+- [Contents](#contents)
+- [Construction rules](#construction-rules)
 
 ## Construction rules
 
-Variable part sets, which loottable will be modified.
-Value part contains objects with drop probability in round brackets. These are separated using `+`.
+Items, which can be drilled from asteroids can be
+customized like it is shown below:
 
 ```text showLineNumbers
-stone: stone(100%);
-gold: gold(30%);
-amethyst: small_amethyst(20%);
+drill_loot
+{
+    stone: stone(100%);
+    gold: gold(30%);
+    copper: copper(92%) + turbo_element(8%);
+}
 ```
 
-Note: In default datapack one asteroid means one object, but it's not a rule.  
-Note: Drillers can only drill the first object from loottable.
-Note: You can't access asteroid variants here.
+:::note
+Only one item at a time can be drilled.
+:::
+
+:::note
+All [asteroid variants](../GameData/Asteroids#asteroid-variants) with the same texture will always have the same drill loot.
+:::

@@ -1,7 +1,7 @@
 ---
 slug: ./
-title: "Datapack Info"
-sidebar_position: 1
+title: "Datapacks"
+sidebar_position: 2
 ---
 
 -   [Craftings](./Craftings)
@@ -15,14 +15,16 @@ sidebar_position: 1
 
 ---
 
-Datapacks are used to change in-game rules, when playing SE3 starts to get boring or you want to become a creator.
+:::info
+Datapacks are used to change game rules in a specific universe. See how to import them [here](../../../../datapacks).
+:::
 
 ## Contents
 
--   [Contents](#contents)
--   [Construction rules](#construction-rules)
+- [Contents](#contents)
+- [Introduction](#introduction)
 
-## Construction rules
+## Introduction
 
 Every datapack consists of variable-value combos in jse3 hierarchy.
 
@@ -31,7 +33,7 @@ variable: value;
 grandparent
 {
     variable: value;
-    variable2: 'value with a white char';
+    variable2: 'value with a white character';
     parent
     {
         variable: value;
@@ -40,25 +42,31 @@ grandparent
 ```
 
 Jse3 compiler does some actions to simplify code before compilation.
-It removes all spaces, tabs and new lines, so these chars have only
-cosmetical meaning by default. You can change it by using char `'`,
-then all these chars will be replaced with space.
+It removes all spaces, tabs and new lines, so these characters have only
+cosmetical meaning by default. However if you writte something `'like this'`, it
+will have spaces included and other white characters replaced with space.
 
-Note: Datapack parser works on `,` based floats.  
-Note: All probability floats have 0,1% precision, because of a 1000-based probability system.
+:::tip
+When writing decimals in datapack values you can use both `,` and `.`
+:::
 
-Functional chars:
+:::note
+All probability floats have 0,1% precision, because of a 1000-based probability system. That means,
+you shouldn't use numbers like `0,05%` in your datapack when it comes to probability or rarity.
+:::
+
+Functional characters:
 
 ```text showLineNumbers
 < > - comments
 { } - variable tree operators
 [ ] - decoration where it looks nice :)
  :  - variable/value separator
- ;  - value end char
- '  - on/off remove white chars
+ ;  - value end character
+ '  - on/off remove white characters
 ```
 
-Dennied chars in variable names and values:
+Dennied characters in variable names and values:
 
 ```text showLineNumbers
 { } < : ; ~ '

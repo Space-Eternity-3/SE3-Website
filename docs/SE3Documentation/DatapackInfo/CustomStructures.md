@@ -3,39 +3,43 @@ title: "Custom structures"
 sidebar_position: 8
 ---
 
-Custom structures is a place, where you can create your
-own structures using [seon](#seon-language). They can be loaded into your biome by
-tag struct=X in [biome settings](./GeneratorSettings/BiomeSettings) segment, where X is a strucutre ID.
+:::info
+In `custom_structures` segment you can design and modify existing structures such as stars, arenas and cementeries
+using [seon language](../SeonLanguage/).
+:::
 
 ## Contents
 
--   [Contents](#contents)
--   [Structure separation](#structure-separation)
--   [Seon language](#seon-language)
+- [Contents](#contents)
+- [Structures](#structures)
 
-## Structure separation
+## Structures
 
-Structures are separated using jse3 hierarchy. Every structure has its own ID. They might have IDs from 1 to 31. You can add structure name in comments,
+:::note
+If you are not familiar with the [biome settings](./GeneratorSettings/BiomeSettings), please read about it, as this article is some sort of continuation.
+:::
+
+In `custom_structures` segment structure codes are separated using jse3 hierarchy.
+Every structure has its own ID. They might have IDs from 1 to 31. You can add structure name in comments,
 but it's not necessary.
 
 ```text showLineNumbers
 1<My structure>: '[
 
-    <space for seon>
+    <structure code>
 
 ]';
 2<Your structure>: '[
 
-    <space for seon>
+    <structure code>
 
 ]';
 3<My friend's structure>: '[
 
-    <space for seon>
+    <structure code>
 
 ]';
 ```
 
-## Seon language
-
-Seon - Space Eternity Objects Notation. It's a scripting language designed to create strucutres in SE3 easily. More info [here](../SeonLanguage/).
+Every structure must be written in the Seon Language. This is a powerful
+tool, which allows you to build structures. Read more in the [Seon Documentation](../SeonLanguage/).

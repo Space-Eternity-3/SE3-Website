@@ -1,9 +1,10 @@
 ---
-title: Items and Objects
+title: Items and objects
 ---
 
 | ID  | Name                     | Preview                                             |
 | --- | ------------------------ | --------------------------------------------------- |
+| 0   | Empty Space              | ![](/img/items/Empty.png)                           |
 | 1   | Stone With Crystals      | ![](/img/items/Nn1.png)                             |
 | 2   | Driller                  | ![](/img/items/Nn2.png)                             |
 | 3   | Mega Geyzer              | ![](/img/items/Nn3.png)                             |
@@ -18,7 +19,7 @@ title: Items and Objects
 | 12  | Bush                     | ![](/img/items/Nn12.png)                            |
 | 13  | Alien                    | ![](/img/items/Nn13.png)                            |
 | 14  | Big Bush                 | ![](/img/items/Nn14.png)                            |
-| 15  | Old Pumpkin              | ![](/img/items/Empty.png)                           |
+| 15  | Copper Chimney           | ![](/img/items/Empty.png)                           |
 | 16  | Magnetic Stone           | ![](/img/items/Nn16.png)                            |
 | 17  | Packed Stone             | ![](/img/items/Nn17.png)                            |
 | 18  | Packed Copper            | ![](/img/items/Nn18.png)                            |
@@ -67,7 +68,7 @@ title: Items and Objects
 | 61  | Blank Potion             | ![](/img/items/Nn61A.png) ![](/img/items/Nn61U.png) |
 | 62  | Blank Element            | ![](/img/items/Nn62.png)                            |
 | 63  | Killing Potion           | ![](/img/items/Nn63A.png) ![](/img/items/Nn63U.png) |
-| 64  | Coal Bullet              | ![](/img/items/Nn64.png)                            |
+| 64  | Coal Bullet              | ![](/img/items/Nn64b.png)                           |
 | 65  | Fire Bullet              | ![](/img/items/Nn65.png)                            |
 | 66  | Dark Stone               | ![](/img/items/Nn66.png)                            |
 | 67  | Packed Dark Stone        | ![](/img/items/Nn67.png)                            |
@@ -75,3 +76,10 @@ title: Items and Objects
 | 69  | Dark Tomb                | ![](/img/items/Nn69.png)                            |
 | 70  | Lava Geyzer              | ![](/img/items/Nn70.png)                            |
 | 71  | Max Potion               | ![](/img/items/Nn71A.png) ![](/img/items/Nn71U.png) |
+| 72  | Total Vacuum             | ![](/img/items/Empty.png)                           |
+| 73  | Metal Treasure           | ![](/img/items/Empty.png)                           |
+| 74  | Soft Treasure            | ![](/img/items/Empty.png)                           |
+| 75  | Hard Treasure            | ![](/img/items/Empty.png)                           |
+| 76  | Small Copper Chimney     | ![](/img/items/Empty.png)                           |
+| 77  | Copper Diode             | ![](/img/items/Nn77.png)                           |
+| 78  | Tiger Gem                | ![](/img/items/Empty.png)                           |

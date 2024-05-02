@@ -5,6 +5,9 @@ import AllServerDownloads from "@site/src/components/AllServerDownloads";
 
 To play SE3 with your friends, you need to download and run the server on your own computer.
 
+| ![SE3_image](../../static/img/pages/server.png) |
+| ----------------------------------------------- |
+
 ## Download server
 
 | Version  | Download .zip  | Download .tar.gz  |
@@ -26,7 +29,8 @@ To play SE3 with your friends, you need to download and run the server on your o
 -   Run `npm start` to start the server.
 -   You can create .bat file to run `npm start` for you.
 
-![Starting the server](/img/server/running-the-server-windows.gif)
+| ![Starting the server](/img/pages/running-the-server-windows.gif) |
+| --- |
 
 ## Running server on Linux
 
@@ -53,8 +57,10 @@ To join to your server from internet, you need to forward port 27683 on your rou
 Then you need to check your public IP address on [whatismyip.com](https://whatismyip.com). When you forward a port, everyone will be able to join to your
 server using address `ws://public.ip:27683` or `ws://public.ip:`, where public.ip is your public IP address.
 
+:::tip
 If you can't for some reason forward ports, you can use page [playit.gg](https://playit.gg) to tunell TCP traffic through the external server with ports already forwarded.
 Note, that this way you will increase your server's ping.
+:::
 
 ## Protecting your server
 
@@ -64,4 +70,6 @@ To fix this, you'll need to enable nickname protection by following the instruct
 You will need the registered SE3 account, which you can create in the game main menu, to submit its login data into `authConfig.json` file.
 Every player who wants to join will have to log in to their SE3 account and use the special `se3://` redirect address.
 
-Note: This system is fully safe only when you use the SSL protocol. (`wss://` instead of `ws://`) However you need to set it up first.
+:::warning
+This system is fully safe only when you use the SSL protocol. (`wss://` instead of `ws://`) However you need to set it up first.
+:::

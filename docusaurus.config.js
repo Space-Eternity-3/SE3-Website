@@ -109,11 +109,6 @@ const config = {
                     },
                     {
                         position: "left",
-                        to: "/controls",
-                        label: "Controls",
-                    },
-                    {
-                        position: "left",
                         to: "/datapacks",
                         label: "Datapacks",
                     },
@@ -130,11 +125,6 @@ const config = {
                     {
                         href: "https://discord.gg/e4ppBTRKhg",
                         label: "Discord",
-                        position: "right",
-                    },
-                    {
-                        to: "/contact",
-                        label: "Contact",
                         position: "right",
                     },
                     {
