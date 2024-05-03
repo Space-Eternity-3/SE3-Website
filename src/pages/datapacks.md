@@ -17,6 +17,8 @@ To use a datapack on the server just put the file into the analogous `Datapacks`
 Be sure that `ServerUniverse` folder and especially file `ServerUniverse/UniverseInfo.se3`
 (it stores the imported datapack) doesn't exist.
 
+:::note
 - Universes with custom datapack will have "Custom data" subtitle.  
 - You shouldn't change datapack of the universe after it is created, unless it doesn't affect SEON code.  
 - Universes with custom datapack can't be easily updated to newer versions.  
+:::

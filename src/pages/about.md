@@ -3,10 +3,9 @@
 You should read this tutorial before starting your gameplay. You will learn
 how to play, what you can find in the universe and how to use it properly.  
 
+:::note
 This tutorial was created for version: `Beta 2.2`
-
-| ![SE3_image](../../static/img/Background.webp) |
-| ---------------------------------------------- |
+:::
 
 ## Basics
 
@@ -67,7 +66,7 @@ They allow you to make your spaceship better and stronger.
 | ![SE3_image](../../static/img/ab/upgrades3.png) |
 | ----------------------------------------------- |
 
-| Aspect   | Description                                   |
+| Upgrade  | Description                                   |
 | -------- | --------------------------------------------- |
 | Health   | Improves health by 10% per upgrade.           |
 | Turbo    | Improves turbo max speed by 8% per upgrade.   |
@@ -116,15 +115,15 @@ enabled or playing more carefully.
 
 The respawn point can be set using respawn item craftable from copper and gold.
 
-| ![SE3_image](../../static/img/ab/respawn1.png) | ![SE3_image](../../static/img/ab/respawn2.png) |
-| ---------------------------------------------- | ---------------------------------------------- |
+| ![SE3_image](../../static/img/ab/respawn.png) |
+| --------------------------------------------- |
 
 ## Storages
 
 If you want to store your treasures in a safe location, you can craft and place a storage.
 Using LMB and RMB you will be able to transfer items between storage and your inventory.
 
-| ![SE3_image](../../static/img/ab/respawn1.png) |
+| ![SE3_image](../../static/img/ab/storages.png) |
 | ---------------------------------------------- |
 
 ## Bullets
@@ -170,20 +169,20 @@ and turbo bar points you to a respawn point. When you click it, it will display 
 
 ## Locations
 
-In the SE3 universe you can find various biomes and structures:
+In the SE3 universe you can find a variety of biomes and structures:
 
-| ID  | Location           | Chance | Preview                                                 | Description                                                 |
-| --- | ------------------ | ------ | ------------------------------------------------------- | ----------------------------------------------------------- |
-| 0   | Default Biome      | -      | ![SE3_image](../../static/img/ab/biome_default.png)     | The default universe generation.                            |
-| 1   | Hell Biome         | 8%     | ![SE3_image](../../static/img/ab/biome_hell.png)        | The hellish biome with coal and evil aliens everywhere.     |
-| 2   | Geyzer Biome       | 8%     | ![SE3_image](../../static/img/ab/biome_geyzer.png)      | The windy biome really hard to navigate through.            |
-| 3   | Alien Biome        | 8%     | ![SE3_image](../../static/img/ab/biome_alien.png)       | The fascinating location full of friendly aliens.           |
-| 4   | Arena              | 4%     | ![SE3_image](../../static/img/ab/struct_arena1.png)     | A place, where you can fight a boss and get the artefact.   |
-| 5   | Catastrophic Arena | 0.4%   | ![SE3_image](../../static/img/ab/struct_arena2.png)     | Well, it should probably remain a mystery.                  |
-| 6   | Cementery          | 2.7%   | ![SE3_image](../../static/img/ab/struct_cementery1.png) | Aliens are buried here along with their treasures.          |
-| 7   | Dark Cementery     | 1.3%   | ![SE3_image](../../static/img/ab/struct_cementery2.png) | The more hellish cementery variant.                         |
-| 8   | Star               | 1.5%   | ![SE3_image](../../static/img/ab/struct_star.png)       | The mysterious source of heat and power.                    |
-| 9   | Copper Facilities  | 0%     | Image not available yet                                 | Coming soon!                                                |
+| ID  | Location           | Chance | Preview                                                 | Description                                                                            |
+| --- | ------------------ | ------ | ------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 0   | Default Biome      | -      | ![SE3_image](../../static/img/ab/biome_default.png)     | The default universe generation. Sometimes contains amethyst.                                                      |
+| 1   | Hell Biome         | 8%     | ![SE3_image](../../static/img/ab/biome_hell.png)        | The hellish biome with evil aliens everywhere. Sometimes contains diamonds.            |
+| 2   | Geyzer Biome       | 8%     | ![SE3_image](../../static/img/ab/biome_geyzer.png)      | The windy biome, really hard to make your way through. Wind bullets can be found here. |
+| 3   | Alien Biome        | 8%     | ![SE3_image](../../static/img/ab/biome_alien.png)       | The fascinating location full of friendly aliens. Gold is more common here.            |
+| 4   | Arena              | 4%     | ![SE3_image](../../static/img/ab/struct_arena1.png)     | A place, where you can fight a boss and get the artefact.                              |
+| 5   | Catastrophic Arena | 0.4%   | ![SE3_image](../../static/img/ab/struct_arena2.png)     | Well, it should probably remain a mystery.                                             |
+| 6   | Cementery          | 2.7%   | ![SE3_image](../../static/img/ab/struct_cementery1.png) | Aliens are buried here along with their treasures.                                     |
+| 7   | Dark Cementery     | 1.3%   | ![SE3_image](../../static/img/ab/struct_cementery2.png) | The more hellish and richer cementery variant.                                         |
+| 8   | Star               | 1.5%   | ![SE3_image](../../static/img/ab/struct_star.png)       | The mysterious source of heat and power. Fire bullets can be obtained here.            |
+| 9   | Copper Facilities  | 0%     | Image not available yet                                 | Coming soon!                                                                           |
 
 ## Boss fights
 
@@ -209,7 +208,7 @@ Every one of them is presented in the table below.
 | --- | ----------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Protector   | ![SE3_image](../../static/img/ab/boss1.png) | There are gosspis, that it is Protector, which is regularly seen on Earth. Anyway, it's just a regular UFO, nothing too spectacular... right? |
 | 2   | Adecodron   | ![SE3_image](../../static/img/ab/boss2.png) | It's neither the machine, nor the alien, but it's certainly very dangerous with its spikes, poisonous attacks and the very high speed.        |
-| 3   | Octogone    | ![SE3_image](../../static/img/ab/boss3.png) | The giant octopus-like monster from the other dimension. However, this creature really dislikes being called a space octopus.           |
+| 3   | Octogone    | ![SE3_image](../../static/img/ab/boss3.png) | The giant octopus-like monster from the other dimension. However, this creature really dislikes being called a space octopus.                 |
 | 4   | Starandus   | ![SE3_image](../../static/img/ab/boss4.png) | The machine so advanced, that it was able to compress a star and use the nuclear fusion as the unlimited source of power.                     |
 | 6   | Degenerator | ![SE3_image](../../static/img/ab/boss6.png) | It is said, that Degenerator is actually the evil version of Protector, but nobody knows how it exactly became such.                          |
 
