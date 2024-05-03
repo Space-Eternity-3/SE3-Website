@@ -5,15 +5,6 @@ sidebar_position: 4
 
 Technical commands are used to make some actions not connected with any object.
 
-## Contents
-
--   [Contents](#contents)
--   [Loop system](#loop-system)
--   [Random system](#random-system)
-    -   [Setrandom](#setrandom)
-    -   [Ifrandom](#ifrandom)
--   [Usage examples](#usage-examples)
-
 ## Loop
 
 Seon language contains a primitive type of loop. You can access it by
