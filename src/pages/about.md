@@ -86,8 +86,8 @@ Backpack contains the [artefact](#artefacts) slot too, which is always unlocked.
 | ----------------------------------------------- |
 
 To insert item into backpack press the `^` button over the item slot.
-- RMB - to move all items
-- LMB - to move only one item
+- LMB - to move all items
+- RMB - to move only one item
 
 When you want to get the item back, click the slot in the backpack.
 
@@ -131,20 +131,20 @@ Using LMB and RMB you will be able to transfer items between storage and your in
 Bullets are commonly used to deal damage. There are currently 5 types of them
 available for player use. Damage presented in the table can be increased through [upgrades](#upgrades).
 
-| Name     | Icon                                           | Damage | Cooldown | Speed | DPS     | Description                                                                                              |
-| -------- | ---------------------------------------------- | ------ | -------- | ----- | ------- | -------------------------------------------------------------------------------------------------------- |
-| Copper   | ![SE3_image](../../static/img/items/Nn24.png)  | 3      | 0.14s    | 0.45  | 21.42   | A default bullet made of copper.                                                                         |
-| Red      | ![SE3_image](../../static/img/items/Nn39.png)  | 4      | 0.14s    | 0.45  | 28.57   | A stronger bullet made of red stone.                                                                     |
-| Wind     | ![SE3_image](../../static/img/items/Nn64b.png) | 3      | 0.20s    | 0.60  | 15.00   | A bullet, which pushes enemies away.                                                                     |
-| Fire     | ![SE3_image](../../static/img/items/Nn65.png)  | 3      | 0.20s    | 0.40  | 15.00\* | A bullet, which sets enemies on fire. Starandus is immune to it.                                         |
-| Unstable | ![SE3_image](../../static/img/items/Nn48.png)  | 10     | 0.28s    | 0.40  | 35,71   | The strongest, but the rarest bullet. Degenrator and players wearing unstable artefact are immune to it. |
+| Name     | Icon                                           | Damage | Cooldown | Speed | DPS     | Description                                                                                            |
+| -------- | ---------------------------------------------- | ------ | -------- | ----- | ------- | ------------------------------------------------------------------------------------------------------ |
+| Copper   | ![SE3_image](../../static/img/items/Nn24.png)  | 3      | 0.14s    | 0.45  | 21.42   | A default bullet made out of copper.                                                                   |
+| Red      | ![SE3_image](../../static/img/items/Nn39.png)  | 4      | 0.14s    | 0.45  | 28.57   | A stronger bullet made out of red stone.                                                               |
+| Wind     | ![SE3_image](../../static/img/items/Nn64b.png) | 3      | 0.20s    | 0.60  | 15.00   | A bullet, which pushes enemies away.                                                                   |
+| Fire     | ![SE3_image](../../static/img/items/Nn65.png)  | 3\*    | 0.20s    | 0.40  | 15.00\* | A bullet, which sets enemies on fire. Starandus is immune to it.                                       |
+| Unstable | ![SE3_image](../../static/img/items/Nn48.png)  | 10     | 0.28s    | 0.40  | 35.71   | A piece of unstable matter, very dangerous. Degenerator and players wearing unstable artefact are immune to it. |
 
 \* Fire bullets set enemies on fire, which deals additional damage.
 
 ## Potions
 
 Potions can give you some very useful effects. They can be obtained by combining common materials with
-magic ingredients in [crafting](#crafting), but this is also possible to get them from treasures. See all of them
+magic ingredients in [crafting](#crafting), but it is also possible to get them from treasures. See all of them
 in the table below:
 
 | Potion  | Icon                                           | Description                                                                                                           |
@@ -173,14 +173,14 @@ In the SE3 universe you can find a variety of biomes and structures:
 
 | ID  | Location           | Chance | Preview                                                 | Description                                                                            |
 | --- | ------------------ | ------ | ------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| 0   | Default Biome      | -      | ![SE3_image](../../static/img/ab/biome_default.png)     | The default universe generation. Sometimes contains amethyst.                                                      |
+| 0   | Default Biome      | -      | ![SE3_image](../../static/img/ab/biome_default.png)     | The default universe generation. Sometimes contains amethyst.                          |
 | 1   | Hell Biome         | 8%     | ![SE3_image](../../static/img/ab/biome_hell.png)        | The hellish biome with evil aliens everywhere. Sometimes contains diamonds.            |
 | 2   | Geyzer Biome       | 8%     | ![SE3_image](../../static/img/ab/biome_geyzer.png)      | The windy biome, really hard to make your way through. Wind bullets can be found here. |
 | 3   | Alien Biome        | 8%     | ![SE3_image](../../static/img/ab/biome_alien.png)       | The fascinating location full of friendly aliens. Gold is more common here.            |
 | 4   | Arena              | 4%     | ![SE3_image](../../static/img/ab/struct_arena1.png)     | A place, where you can fight a boss and get the artefact.                              |
 | 5   | Catastrophic Arena | 0.4%   | ![SE3_image](../../static/img/ab/struct_arena2.png)     | Well, it should probably remain a mystery.                                             |
 | 6   | Cementery          | 2.7%   | ![SE3_image](../../static/img/ab/struct_cementery1.png) | Aliens are buried here along with their treasures.                                     |
-| 7   | Dark Cementery     | 1.3%   | ![SE3_image](../../static/img/ab/struct_cementery2.png) | The more hellish and richer cementery variant.                                         |
+| 7   | Dark Cementery     | 1.3%   | ![SE3_image](../../static/img/ab/struct_cementery2.png) | The darker and richer cementery variant.                                               |
 | 8   | Star               | 1.5%   | ![SE3_image](../../static/img/ab/struct_star.png)       | The mysterious source of heat and power. Fire bullets can be obtained here.            |
 | 9   | Copper Facilities  | 0%     | Image not available yet                                 | Coming soon!                                                                           |
 
