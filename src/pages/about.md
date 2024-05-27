@@ -4,7 +4,7 @@ You should read this tutorial before starting your gameplay. You will learn
 how to play, what you can find in the universe and how to use it properly.  
 
 :::note
-This tutorial was created for version: `Beta 2.2`
+This tutorial was created for version `Beta 2.2`
 :::
 
 ## Basics
@@ -155,7 +155,6 @@ in the table below:
 | Blank   | ![SE3_image](../../static/img/items/Nn61A.png) | Adds 15 hp to your health bar and removes effects like fire, poison or stickybulb.                                    |
 | Killing | ![SE3_image](../../static/img/items/Nn63A.png) | Removes 15 hp from your health bar. If you're wearing unstable artefact, it will also add 10 power to your power bar. |
 | Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills all your bars and removes effect. Only obtainable from dark cementeries.                                      |
-| Shield  | ![SE3_image](../../static/img/items/Nn79A.png) | Coming soon!                                                                                                          |
 
 ## Navigation
 
