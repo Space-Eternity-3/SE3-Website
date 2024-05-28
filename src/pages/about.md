@@ -131,12 +131,12 @@ Using LMB and RMB you will be able to transfer items between storage and your in
 Bullets are commonly used to deal damage. There are currently 5 types of them
 available for player use. Damage presented in the table can be increased through [upgrades](#upgrades).
 
-| Name     | Icon                                           | Damage | Cooldown | Speed | DPS     | Description                                                                                            |
-| -------- | ---------------------------------------------- | ------ | -------- | ----- | ------- | ------------------------------------------------------------------------------------------------------ |
-| Copper   | ![SE3_image](../../static/img/items/Nn24.png)  | 3      | 0.14s    | 0.45  | 21.42   | A default bullet made out of copper.                                                                   |
-| Red      | ![SE3_image](../../static/img/items/Nn39.png)  | 4      | 0.14s    | 0.45  | 28.57   | A stronger bullet made out of red stone.                                                               |
-| Wind     | ![SE3_image](../../static/img/items/Nn64b.png) | 3      | 0.20s    | 0.60  | 15.00   | A bullet, which pushes enemies away.                                                                   |
-| Fire     | ![SE3_image](../../static/img/items/Nn65.png)  | 3\*    | 0.20s    | 0.40  | 15.00\* | A bullet, which sets enemies on fire. Starandus is immune to it.                                       |
+| Name     | Icon                                           | Damage | Cooldown | Speed | DPS     | Description                                                                                                     |
+| -------- | ---------------------------------------------- | ------ | -------- | ----- | ------- | --------------------------------------------------------------------------------------------------------------- |
+| Copper   | ![SE3_image](../../static/img/items/Nn24.png)  | 3      | 0.14s    | 0.45  | 21.42   | A default bullet made out of copper.                                                                            |
+| Red      | ![SE3_image](../../static/img/items/Nn39.png)  | 4      | 0.14s    | 0.45  | 28.57   | A stronger bullet made out of red stone.                                                                        |
+| Wind     | ![SE3_image](../../static/img/items/Nn64b.png) | 3      | 0.20s    | 0.60  | 15.00   | A bullet, which pushes enemies away.                                                                            |
+| Fire     | ![SE3_image](../../static/img/items/Nn65.png)  | 3\*    | 0.20s    | 0.40  | 15.00\* | A bullet, which sets enemies on fire. Starandus is immune to it.                                                |
 | Unstable | ![SE3_image](../../static/img/items/Nn48.png)  | 10     | 0.28s    | 0.40  | 35.71   | A piece of unstable matter, very dangerous. Degenerator and players wearing unstable artefact are immune to it. |
 
 \* Fire bullets set enemies on fire, which deals additional damage.
@@ -155,6 +155,7 @@ in the table below:
 | Blank   | ![SE3_image](../../static/img/items/Nn61A.png) | Adds 15 hp to your health bar and removes effects like fire, poison or stickybulb.                                    |
 | Killing | ![SE3_image](../../static/img/items/Nn63A.png) | Removes 15 hp from your health bar. If you're wearing unstable artefact, it will also add 10 power to your power bar. |
 | Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills all your bars and removes effect. Only obtainable from dark cementeries.                                      |
+| Shield  | ![SE3_image](../../static/img/items/Nn79A.png) | Coming soon!                                                                                                          |
 
 ## Navigation
 
