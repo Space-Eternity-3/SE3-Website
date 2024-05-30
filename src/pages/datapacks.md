@@ -19,6 +19,6 @@ Be sure that `ServerUniverse` folder and especially file `ServerUniverse/Univers
 
 :::note
 - Universes with custom datapack will have "Custom data" subtitle.  
-- You shouldn't change datapack of the universe after it is created, unless it doesn't affect SEON code.  
+- You shouldn't change datapack of the universe after it is created, unless it doesn't affect universe generation.  
 - Universes with custom datapack can't be easily updated to newer versions.  
 :::
