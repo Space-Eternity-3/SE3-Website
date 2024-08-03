@@ -16,9 +16,8 @@ In `gameplay` segment you can customize a variety of gameplay variables.
   - [Crash damage](#crash-damage)
   - [Player bullet and static collider damages](#player-bullet-and-static-collider-damages)
   - [Other boss settings](#other-boss-settings)
-  - [Potions](#potions)
+  - [Healing](#healing)
   - [Grow times](#grow-times)
-  - [Factory](#factory)
   - [Upgrades](#upgrades)
   - [Artefacts](#artefacts)
   - [Bullet speeds](#bullet-speeds)
@@ -92,14 +91,13 @@ Here is a list of them all and their short descriptions:
 | boss_fire_damage | 4             | float     | Fire damage every second when boss has fire effect.                |
 | wind_boss_push   | 25            | float     | Force by which boss gets pushed after being shot by a wind bullet. |
 
-### Potions
+### Healing
 
-| Variable               | Default value | Data type | Description                                            |
-| ---------------------- | ------------- | --------- | ------------------------------------------------------ |
-| healing_potion_hp      | 20            | float     | Heal size when using healing potion.                   |
-| blank_potion_hp        | 15            | float     | Heal size when using blank potion.                     |
-| killing_potion_hp      | 15            | float     | Damage size when using killing potion.                 |
-| shield_potion_duration | 2,5           | float     | Shield duration (in seconds) when using shield potion. |
+| Variable          | Default value | Data type | Description                            |
+| ----------------- | ------------- | --------- | -------------------------------------- |
+| healing_potion_hp | 20            | float     | Heal size when using healing potion.   |
+| blank_potion_hp   | 15            | float     | Heal size when using blank potion.     |
+| killing_potion_hp | 15            | float     | Damage size when using killing potion. |
 
 ### Grow times
 
@@ -108,13 +106,6 @@ Here is a list of them all and their short descriptions:
 | amethyst_grow_time_min   | 60            | integer   | Minimum time (in seconds) after which amethyst grows.                         |
 | amethyst_grow_time_max   | 180           | integer   | Maximum time (in seconds) after which amethyst grows.                         |
 | magnetic_alien_grow_time | 3             | integer   | Time (in seconds) after which flat magnetic alien turns into its normal form. |
-
-### Factory
-| Variable                     | Default value | Data type | Description                                                                                                                         |
-| ---------------------------- | ------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| factory_default_diode_chance | 0,03165       | float     | The default chance for treasure base to update its state in one diode cycle. Can be increased by activating diamond bases.          |
-| factory_diamond_modifier     | 1,35          | float     | The modifier, by which every activated diamond base multiplies `factory_default_diode_chance`.                                      |
-| active_diamond_base_chance   | 0,2           | float     | The chance, which diamond base has to generate already activated. Note, that always at least one diamond base will remain inactive. |
 
 ### Upgrades
 
@@ -244,13 +235,13 @@ Here is a list of them all and their short descriptions:
 
 ### Treasure loottables
 
-| Variable            | Default value                                                                                                                                                                  | Data type                           | Description                           |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------- | ------------------------------------- |
-| treasure_loot       | 8-3-6-0-1249-54-2-4-1250-2499-55-1-2-2500-4299-57-1-2-4300-6099-10-4-8-6100-7599-5-4-8-7600-9099-48-1-2-9100-9849-33-1-3-9850-9999                                             | [treasure string](#treasure-string) | Determines normal treasure loottable. |
-| dark_treasure_loot  | 66-3-6-0-1249-54-2-4-1250-2499-59-1-2-2500-4099-61-1-2-4100-5699-10-4-8-5700-7399-5-4-8-7400-9099-71-1-2-9100-9699-33-1-3-9700-9999                                            | [treasure string](#treasure-string) | Determines dark treasure loottable.   |
-| metal_treasure_loot | 80-2-4-0-1249-63-1-1-1250-2499-24-30-60-2500-4699-39-20-40-4700-6499-5-5-10-6500-8099-48-3-6-8100-9179-85-1-1-9180-9199-79-1-2-9200-9799-33-1-1-9800-9929-33-2-2-9930-9999 + 3 | [treasure string](#treasure-string) | Determines metal treasure loottable.  |
-| soft_treasure_loot  | 8-1-3-0-9999                                                                                                                                                                   | [treasure string](#treasure-string) | Determines soft treasure loottable.   |
-| hard_treasure_loot  | 11-1-3-0-9999                                                                                                                                                                  | [treasure string](#treasure-string) | Determines hard treasure loottable.   |
+| Variable            | Default value                                                                                                                                        | Data type                           | Description                           |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------- |
+| treasure_loot       | 8-3-6-0-1249-54-2-4-1250-2499-48-1-2-2500-3399-55-1-2-3400-5199-57-1-2-5200-6999-10-4-8-7000-8499-5-4-8-8500-9999                                    | [treasure string](#treasure-string) | Determines normal treasure loottable. |
+| dark_treasure_loot  | 66-3-6-0-1199-54-2-4-1200-2399-48-1-3-2400-3299-59-1-2-3300-4849-61-1-2-4850-6399-71-1-2-6400-6999-10-4-8-7000-8399-5-4-8-8400-9799-33-1-3-9800-9999 | [treasure string](#treasure-string) | Determines dark treasure loottable.   |
+| metal_treasure_loot | 9-1-3-0-9999                                                                                                                                         | [treasure string](#treasure-string) | Determines metal treasure loottable.  |
+| soft_treasure_loot  | 8-1-3-0-9999                                                                                                                                         | [treasure string](#treasure-string) | Determines soft treasure loottable.   |
+| hard_treasure_loot  | 11-1-3-0-9999                                                                                                                                        | [treasure string](#treasure-string) | Determines hard treasure loottable.   |
 
 ## Treasure string
 
@@ -278,15 +269,3 @@ In this example loottable looks like this:
 :::note
 If no items are chosen or there is an error interpreting treasure string, player will get 1 stone from a treasure.
 :::
-
-Treasure string can also feature character `+` with the [asteroid ID](../GameData/Asteroids) list separated by `-` (variant system is not included, only base IDs 0-15),
-for example:
-
-```
-8-3-6-0-2999-
-10-2-5-3000-9899-
-71-1-1-9900-9999 + 0-3-10
-```
-
-This means, that every treasure base on stone, copper or diamond asteroid will have this treasure loot assigned. Normal treasures
-will all work as usual, still having their normal loottable.

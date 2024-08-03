@@ -130,13 +130,6 @@ You can read more about specific objects here:
 | Animator  | Other                | Can be configured to [animate](./BossAnimations) other objects during boss battles.                     |
 | Boss      | Root                 | The boss object. It will automatically link with the bedrock storage, if both present in the structure. |
 
-:::tip
-There is no such thing as factory object. Copper facility factories are generated automatically, when asteroid contains at least one
-`treasure_base` object (ID = 81). To make a custom factory, create the asteroid and make sure, that it will contain at least one treasure base.
-You can use [ObjectsGenerate](../DatapackInfo/ObjectsGenerate) settings or [fobcode](#fobcode). Lastly, choose the [loottable](../DatapackInfo/Gameplay/#treasure-loottables), which you
-want to use and modify the [treasure string](../DatapackInfo/Gameplay/#treasure-string) in such way to include treasure bases of the asteroid type, that you are using.
-:::
-
 ### Fobcode
 
 Fobcode is a special format, which allows you to place specific objects on
