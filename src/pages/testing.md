@@ -12,9 +12,9 @@ will work correctly on them. It is highly recommended to create
 backups of your universes before playing on them.
 :::
 
-| Version         | Windows | Linux | MacOS       | Universal server |
-| --------------- | ------- | ----- | ----------- | ---------------- |
-| Snapshot 2.3-02 |         |       | Unsupported |                  |
+| Version         | Windows                                                                                                | Linux                                                                                 | MacOS       | Universal server                                                                      |
+| --------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------- |
+| Snapshot 2.3-02 | [SE3 Windows 2.3-02 (.rar)](https://drive.google.com/file/d/1AnlgX62VAF8SXn69PnXVQVd22vshMX1H/view?usp=drive_link) | [SE3 Linux 2.3-02 (.rar)](https://drive.google.com/file/d/1rNCcm6S9V54eFtiZPGWkuK7aPaq8AD9a/view?usp=drive_link) | Unsupported | [SE3 Server 2.3-02 (.rar)](https://drive.google.com/file/d/12lbZ5xMadPsRT1QZlVywG5xphEDlYk35/view?usp=drive_link) |
 
 ## Other information
 
