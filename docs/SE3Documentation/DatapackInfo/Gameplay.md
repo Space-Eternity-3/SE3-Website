@@ -235,13 +235,13 @@ Here is a list of them all and their short descriptions:
 
 ### Treasure loottables
 
-| Variable            | Default value                                                                                                                                                                          | Data type                           | Description                           |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------- |
-| treasure_loot       | 8-3-6-0-1249-4-1-1-1250-2499-54-2-4-2500-3749-40-1-1-3750-4999-48-1-2-5000-5599-55-1-2-5600-6799-57-1-2-6800-7999-10-3-7-8000-8999-5-3-7-9000-9999                                     | [treasure string](#treasure-string) | Determines normal treasure loottable. |
-| dark_treasure_loot  | 66-3-6-0-1199-70-1-1-1200-2399-54-2-4-2400-3599-40-1-1-3600-4799-33-1-3-4800-4949-48-1-3-4950-5799-61-1-2-5800-6799-59-1-2-6800-7799-71-1-1-7800-8199-10-2-6-8200-9299-5-3-7-9300-9999 | [treasure string](#treasure-string) | Determines dark treasure loottable.   |
-| metal_treasure_loot | 9-1-3-0-9999                                                                                                                                                                           | [treasure string](#treasure-string) | Determines metal treasure loottable.  |
-| soft_treasure_loot  | 8-1-3-0-9999                                                                                                                                                                           | [treasure string](#treasure-string) | Determines soft treasure loottable.   |
-| hard_treasure_loot  | 11-1-3-0-9999                                                                                                                                                                          | [treasure string](#treasure-string) | Determines hard treasure loottable.   |
+| Variable            | Default value                                                                                                                                        | Data type                           | Description                           |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------- |
+| treasure_loot       | 8-3-6-0-1249-54-2-4-1250-2499-48-1-2-2500-3399-55-1-2-3400-5199-57-1-2-5200-6999-10-4-8-7000-8499-5-4-8-8500-9999                                    | [treasure string](#treasure-string) | Determines normal treasure loottable. |
+| dark_treasure_loot  | 66-3-6-0-1199-54-2-4-1200-2399-48-1-3-2400-3299-59-1-2-3300-4849-61-1-2-4850-6399-71-1-2-6400-6999-10-4-8-7000-8399-5-4-8-8400-9799-33-1-3-9800-9999 | [treasure string](#treasure-string) | Determines dark treasure loottable.   |
+| metal_treasure_loot | 9-1-3-0-9999                                                                                                                                         | [treasure string](#treasure-string) | Determines metal treasure loottable.  |
+| soft_treasure_loot  | 8-1-3-0-9999                                                                                                                                         | [treasure string](#treasure-string) | Determines soft treasure loottable.   |
+| hard_treasure_loot  | 11-1-3-0-9999                                                                                                                                        | [treasure string](#treasure-string) | Determines hard treasure loottable.   |
 
 ## Treasure string
 

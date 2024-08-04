@@ -25,6 +25,11 @@ const config = {
                     sidebarPath: require.resolve("./sidebars.js"),
                     lastVersion: "current",
                     versions: {
+                        "Release-2.3": {
+                            label: "Release-2.3",
+                            path: "Release-2.3",
+                            banner: "unreleased",
+                        },
                         current: {
                             label: "Beta-2.2",
                             path: "Beta-2.2",
@@ -116,6 +121,11 @@ const config = {
                         position: "left",
                         to: "/server",
                         label: "Server",
+                    },
+                    {
+                        position: "left",
+                        to: "/testing",
+                        label: "Testing",
                     },
                     {
                         position: "left",

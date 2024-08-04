@@ -68,7 +68,7 @@ title: Items and objects
 | 61  | Blank Potion             | ![](/img/items/Nn61A.png) ![](/img/items/Nn61U.png) |
 | 62  | Blank Element            | ![](/img/items/Nn62.png)                            |
 | 63  | Killing Potion           | ![](/img/items/Nn63A.png) ![](/img/items/Nn63U.png) |
-| 64  | Coal Bullet              | ![](/img/items/Nn64b.png)                           |
+| 64  | Wind Bullet              | ![](/img/items/Nn64b.png)                           |
 | 65  | Fire Bullet              | ![](/img/items/Nn65.png)                            |
 | 66  | Dark Stone               | ![](/img/items/Nn66.png)                            |
 | 67  | Packed Dark Stone        | ![](/img/items/Nn67.png)                            |

@@ -15,6 +15,8 @@ Here you can learn about objects available in Seon and how to manage them.
   - [$IDs](#ids-1)
 - [Catch](#catch)
 - [Summon](#summon)
+  - [Physical objects](#physical-objects)
+  - [Technical objects](#technical-objects)
   - [Fobcode](#fobcode)
 
 ## ID system
@@ -81,15 +83,17 @@ The structure of `summon` command is different for every object. Here is a list 
 summon parameters:
 
 ```text showLineNumbers
-summon hole [range]
 summon asteroid [size-4-10] [type] [fobcode]
 summon wall [size-X] [size-Y] [type]
 summon sphere [size-X] [size-Y] [type]
 summon piston [size-X] [size-Y] [type]
-summon boss [type]
 summon star
 summon monster
+
+summon hole [range]
+summon respblock
 summon animator
+summon boss [type]
 ```
 
 :::note
@@ -106,17 +110,25 @@ the default value will be chosen for them.
 
 You can read more about specific objects here:
 
-| Name      | Preview                     | Recommended #ID type | Notes                                                                                                   |
-| --------- | --------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------- |
-| Hole      | -                           | Other                | Creates empty space in a specific range                                                                 |
-| Asteroid  | ![](/img/seon/asteroid.png) | Data                 | Just a normal asteroid. Fobs are summoned along with it.                                                |
-| Wall      | ![](/img/seon/wall.png)     | Other                | The customizable arena wall.                                                                            |
-| Sphere    | ![](/img/seon/sphere.png)   | Other                | The customizable asteroid-like sphere without fobs.                                                     |
-| Piston    | ![](/img/seon/piston.png)   | Other                | The customizable piston.                                                                                |
-| Star      | ![](/img/seon/star.png)     | Other                | Just a normal star.                                                                                     |
-| Boss      | -                           | Root                 | The boss object. It will automatically link with the bedrock storage, if both present in the structure. |
-| Respblock | -                           | Other                | Disables respawns in a specific range.                                                                  |
-| Animator  | -                           | Other                | Can be configured to animate other objects during boss battles.                                         |
+### Physical objects
+
+| Name     | Preview                     | Recommended #ID type | Notes                                                        |
+| -------- | --------------------------- | -------------------- | ------------------------------------------------------------ |
+| Asteroid | ![](/img/seon/asteroid.png) | Data                 | Just a normal asteroid. Fobs are summoned along with it.     |
+| Wall     | ![](/img/seon/wall.png)     | Other                | The customizable arena wall.                                 |
+| Sphere   | ![](/img/seon/sphere.png)   | Other                | The customizable asteroid-like sphere without fobs.          |
+| Piston   | ![](/img/seon/piston.png)   | Other                | The customizable piston.                                     |
+| Star     | ![](/img/seon/star.png)     | Other                | Just a normal star.                                          |
+| Monster  | -                           | Other                | Unfinished and unsupported object. It is never used in game. |
+
+### Technical objects
+
+| Name      | Recommended #ID type | Notes                                                                                                   |
+| --------- | -------------------- | ------------------------------------------------------------------------------------------------------- |
+| Hole      | Other                | Creates empty space in a specific range                                                                 |
+| Respblock | Other                | Disables respawns in a specific range.                                                                  |
+| Animator  | Other                | Can be configured to [animate](./BossAnimations) other objects during boss battles.                     |
+| Boss      | Root                 | The boss object. It will automatically link with the bedrock storage, if both present in the structure. |
 
 ### Fobcode
 
