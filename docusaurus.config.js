@@ -114,13 +114,13 @@ const config = {
                     },
                     {
                         position: "left",
-                        to: "/datapacks",
-                        label: "Datapacks",
+                        to: "/server",
+                        label: "Server",
                     },
                     {
                         position: "left",
-                        to: "/server",
-                        label: "Server",
+                        to: "/datapacks",
+                        label: "Datapacks",
                     },
                     {
                         position: "left",
