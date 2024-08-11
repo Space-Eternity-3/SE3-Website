@@ -312,6 +312,10 @@ You need to dodge boss attacks and attack it with your own bullets.
 | ![SE3_image](../../static/img/ab/fight1.png) | ![SE3_image](../../static/img/ab/fight2.png) |
 | -------------------------------------------- | -------------------------------------------- |
 
+:::tip
+Small amethyst pieces will grow into larger ones if left on the amethyst asteroid.
+:::
+
 If for some reason you want to
 stop the battle, you can resign by pressing `escape` and clicking button `Give Up`. However, this way you will
 waste your amethyst.

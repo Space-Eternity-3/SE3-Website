@@ -114,13 +114,13 @@ const config = {
                     },
                     {
                         position: "left",
-                        to: "/server",
-                        label: "Server",
+                        to: "/testing",
+                        label: "Testing",
                     },
                     {
                         position: "left",
-                        to: "/testing",
-                        label: "Testing",
+                        to: "/server",
+                        label: "Server",
                     },
                     {
                         position: "left",
