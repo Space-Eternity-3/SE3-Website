@@ -54,5 +54,5 @@ move -35 0 mod 10 0
 | --- |
 
 :::tip
-Biome IDs can be found in your datapack in the [generator_settings](../DatapackInfo/GeneratorSettings) segment.
+Biome IDs can be found in your datapack in the [generator_settings](../DatapackInfo/GeneratorSettings/) segment.
 :::
