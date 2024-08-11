@@ -8,8 +8,7 @@ on our [discord server](https://discord.gg/e4ppBTRKhg).
 
 :::danger
 These builds are experimental and there is no guarantee, that everything
-will work correctly on them. It is highly recommended to create
-backups of your universes before playing on them.
+will work correctly on them. Create backups before playing on your universes.
 :::
 
 | Version         | Windows                                                                                                | Linux                                                                                 | MacOS       | Universal server                                                                      |
