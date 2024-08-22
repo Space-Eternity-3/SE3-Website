@@ -41,7 +41,7 @@ Here is the list of all controls in the game:
 | R             | Extend / Retract drill.                      |
 | A             | Use artefact.                                |
 | E             | Open / Close inventory.                      |
-| Scroll        | Change selected inventory slot.              |
+| Scroll / 1-9  | Change selected inventory slot.              |
 | Ctrl + Scroll | Change camera zoom.                          |
 | Ctrl + RMB    | Place special bullets without shooting them. |
 | Escape        | Close inventory or open pause menu.          |
