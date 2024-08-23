@@ -4,7 +4,7 @@ You should read this tutorial before starting your gameplay. You will learn
 how to play, what you can find in the universe and how to use it properly.  
 
 :::note
-This tutorial was created for version `Beta 2.2`
+This tutorial was created for upcoming version `Release 2.3`
 :::
 
 ## Basics
@@ -41,7 +41,7 @@ Here is the list of all controls in the game:
 | R             | Extend / Retract drill.                      |
 | A             | Use artefact.                                |
 | E             | Open / Close inventory.                      |
-| Scroll        | Change selected inventory slot.              |
+| Scroll or 1-9 | Change selected inventory slot.              |
 | Ctrl + Scroll | Change camera zoom.                          |
 | Ctrl + RMB    | Place special bullets without shooting them. |
 | Escape        | Close inventory or open pause menu.          |
@@ -155,7 +155,7 @@ in the table below:
 | Blank   | ![SE3_image](../../static/img/items/Nn61A.png) | Adds 15 hp to your health bar and removes effects like fire, poison or stickybulb.                                    |
 | Killing | ![SE3_image](../../static/img/items/Nn63A.png) | Removes 15 hp from your health bar. If you're wearing unstable artefact, it will also add 10 power to your power bar. |
 | Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills all your bars and removes effect. Only obtainable from dark cementeries.                                      |
-| Shield  | ![SE3_image](../../static/img/items/Nn79A.png) | Coming soon!                                                                                                          |
+| Shield  | ![SE3_image](../../static/img/items/Nn79A.png) | Gives you a temporary shield, which makes you immune to all damage. Only obtainable from copper facilities.           |
 
 ## Navigation
 
@@ -169,20 +169,140 @@ and turbo bar points you to a respawn point. When you click it, it will display 
 
 ## Locations
 
-In the SE3 universe you can find a variety of biomes and structures:
+In the SE3 universe, you can find a variety of locations, some containing treasures and others featuring structures:
 
-| ID  | Location           | Chance | Preview                                                 | Description                                                                            |
-| --- | ------------------ | ------ | ------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| 0   | Default Biome      | -      | ![SE3_image](../../static/img/ab/biome_default.png)     | The default universe generation. Sometimes contains amethyst.                          |
-| 1   | Hell Biome         | 8%     | ![SE3_image](../../static/img/ab/biome_hell.png)        | The hellish biome with evil aliens everywhere. Sometimes contains diamonds.            |
-| 2   | Geyzer Biome       | 8%     | ![SE3_image](../../static/img/ab/biome_geyzer.png)      | The windy biome, really hard to make your way through. Wind bullets can be found here. |
-| 3   | Alien Biome        | 8%     | ![SE3_image](../../static/img/ab/biome_alien.png)       | The fascinating location full of friendly aliens. Gold is more common here.            |
-| 4   | Arena              | 4%     | ![SE3_image](../../static/img/ab/struct_arena1.png)     | A place, where you can fight a boss and get the artefact.                              |
-| 5   | Catastrophic Arena | 0.4%   | ![SE3_image](../../static/img/ab/struct_arena2.png)     | Well, it should probably remain a mystery.                                             |
-| 6   | Cementery          | 2.7%   | ![SE3_image](../../static/img/ab/struct_cementery1.png) | Aliens are buried here along with their treasures.                                     |
-| 7   | Dark Cementery     | 1.3%   | ![SE3_image](../../static/img/ab/struct_cementery2.png) | The darker and richer cementery variant.                                               |
-| 8   | Star               | 1.5%   | ![SE3_image](../../static/img/ab/struct_star.png)       | The mysterious source of heat and power. Fire bullets can be obtained here.            |
-| 9   | Copper Facilities  | 0%     | Image not available yet                                 | Coming soon!                                                                           |
+<table>
+  <tr></tr>
+  <tr>
+    <th style="width: 50%;">Default generation</th>
+    <th style="width: 50%;">Hell biome (8%)</th>
+  </tr>
+  <tr>
+    <td style="width: 50%;"><img src="/img/ab/biome_default.png" style="width: 100%;" alt="Default Generation"></td>
+    <td style="width: 50%;"><img src="/img/ab/biome_hell.png" style="width: 100%;" alt="Hell Biome"></td>
+  </tr>
+  <tr>
+    <td style="width: 50%;">The default universe generation. Nothing special, unless you include amethyst.</td>
+    <td style="width: 50%;">The hellish biome with evil aliens everywhere. Diamond asteroid can be found here.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr></tr>
+  <tr>
+    <th style="width: 50%;">Geyzer biome (8%)</th>
+    <th style="width: 50%;">Alien biome (8%)</th>
+  </tr>
+  <tr>
+    <td style="width: 50%;"><img src="/img/ab/biome_geyzer.png" style="width: 100%;" alt="Geyzer Biome"></td>
+    <td style="width: 50%;"><img src="/img/ab/biome_alien.png" style="width: 100%;" alt="Alien Biome"></td>
+  </tr>
+  <tr>
+    <td style="width: 50%;">Geyzers are present everywhere in this biome. Wind bullets can sometimes be found here.</td>
+    <td style="width: 50%;">The perfect place for your vacation. There are friendly aliens and a lot of gold around.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr></tr>
+  <tr>
+    <th style="width: 50%;">Cementery (2.5%)</th>
+    <th style="width: 50%;">Dark cementery (1.5%)</th>
+  </tr>
+  <tr>
+    <td style="width: 50%;"><img src="/img/ab/struct_cementery1.png" style="width: 100%;" alt="Cementery"></td>
+    <td style="width: 50%;"><img src="/img/ab/struct_cementery2.png" style="width: 100%;" alt="Dark Cementery"></td>
+  </tr>
+  <tr>
+    <td style="width: 50%;">The space cementery, where you can find very valuable items.</td>
+    <td style="width: 50%;">The darker and richer cementery variant.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr></tr>
+  <tr>
+    <th style="width: 50%;">Copper facilities (2%)</th>
+    <th style="width: 50%;">Star (1.5%)</th>
+  </tr>
+  <tr>
+    <td style="width: 50%;"><img src="/img/ab/biome_copper_facilities.png" style="width: 100%;" alt="Copper Facilities"></td>
+    <td style="width: 50%;"><img src="/img/ab/struct_star.png" style="width: 100%;" alt="Star"></td>
+  </tr>
+  <tr>
+    <td style="width: 50%;">A complex, which produces treasures. Speed up this process using diamonds.</td>
+    <td style="width: 50%;">The mysterious source of heat and power. Fire bullets can be obtained here.</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr></tr>
+  <tr>
+    <th style="width: 50%;">Arena (4%)</th>
+    <th style="width: 50%;">Catastrophic arena (0.4%)</th>
+  </tr>
+  <tr>
+    <td style="width: 50%;"><img src="/img/ab/struct_arena1.png" style="width: 100%;" alt="Arena"></td>
+    <td style="width: 50%;"><img src="/img/ab/struct_arena2.png" style="width: 100%;" alt="Catastrophic Arena"></td>
+  </tr>
+  <tr>
+    <td style="width: 50%;">A place, where you can fight a boss and get the artefact.</td>
+    <td style="width: 50%;">No one knows, what happened here. Time for speculations.</td>
+  </tr>
+</table>
+
+## Treasures
+
+Treasures can be found on cementeries, dark cementeries and copper facilities. They contain various items depending on
+their location. Copper facility treasures are renewable due to factories.
+
+<table>
+  <tr></tr>
+  <tr>
+    <th style="width: 33%;">Cementery treasure</th>
+    <th style="width: 33%;">Dark cementery treasure</th>
+    <th style="width: 33%;">Copper facility treasure</th>
+  </tr>
+  <tr>
+    <td style="width: 33%;"><img src="/img/ab/treasure1.png" style="width: 100%;" alt="Treasure1"></td>
+    <td style="width: 33%;"><img src="/img/ab/treasure2.png" style="width: 100%;" alt="Treasure2"></td>
+    <td style="width: 33%;"><img src="/img/ab/treasure3.png" style="width: 100%;" alt="Treasure3"></td>
+  </tr>
+</table>
+
+:::tip
+To speed up treasure production, you can place your diamonds on special bases.
+Note, that they can't be removed after that.
+:::
+
+<h3> Cementery treasures </h3>
+
+| ![SE3_image](../../static/img/items/Nn8.png) | ![SE3_image](../../static/img/items/Nn54.png) | ![SE3_image](../../static/img/items/Nn55A.png) | ![SE3_image](../../static/img/items/Nn57A.png) | ![SE3_image](../../static/img/items/Nn10.png) | ![SE3_image](../../static/img/items/Nn5.png) | ![SE3_image](../../static/img/items/Nn48.png) | ![SE3_image](../../static/img/items/Nn33.png) |
+| -------------------------------------------- | --------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- | --------------------------------------------- | -------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| 12.5%                                        | 12.5%                                         | 18%                                            | 18%                                            | 15%                                           | 15%                                          | 7.5%                                          | 1.5%                                          |
+| 3-6                                          | 2-4                                           | 1-2                                            | 1-2                                            | 4-8                                           | 4-8                                          | 1-2                                           | 1-3                                           |
+
+<h3> Dark cementery treasures </h3>
+
+| ![SE3_image](../../static/img/items/Nn66.png) | ![SE3_image](../../static/img/items/Nn54.png) | ![SE3_image](../../static/img/items/Nn59A.png) | ![SE3_image](../../static/img/items/Nn61A.png) | ![SE3_image](../../static/img/items/Nn10.png) | ![SE3_image](../../static/img/items/Nn5.png) | ![SE3_image](../../static/img/items/Nn71A.png) | ![SE3_image](../../static/img/items/Nn33.png) |
+| --------------------------------------------- | --------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- | --------------------------------------------- | -------------------------------------------- | ---------------------------------------------- | --------------------------------------------- |
+| 12.5%                                         | 12.5%                                         | 16%                                            | 16%                                            | 17%                                           | 17%                                          | 6%                                             | 3%                                            |
+| 3-6                                           | 2-4                                           | 1-2                                            | 1-2                                            | 4-8                                           | 4-8                                          | 1-2                                            | 1-3                                           |
+
+<h3> Copper facility treasures </h3>
+
+| ![SE3_image](../../static/img/items/Nn80.png) | ![SE3_image](../../static/img/items/Nn63A.png) | ![SE3_image](../../static/img/items/Nn24.png) | ![SE3_image](../../static/img/items/Nn39.png) | ![SE3_image](../../static/img/items/Nn48.png) | ![SE3_image](../../static/img/items/Nn5.png) | ![SE3_image](../../static/img/items/Nn79A.png) | ![SE3_image](../../static/img/items/Nn33.png) | ![SE3_image](../../static/img/items/Nn85.png) |
+| --------------------------------------------- | ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- | --------------------------------------------- | -------------------------------------------- | ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| 12.5%                                         | 12.5%                                          | 22%                                           | 18%                                           | 10.8%                                         | 16%                                          | 6%                                             | 2%                                            | 0.2%                                          |
+| 2-4                                           | 1                                              | 30-60                                         | 20-40                                         | 3-6                                           | 5-10                                         | 1-2                                            | 1-2                                           | 1                                             |
 
 ## Boss fights
 
