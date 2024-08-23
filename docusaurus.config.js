@@ -104,8 +104,8 @@ const config = {
                 items: [
                     {
                         position: "left",
-                        to: "/download",
-                        label: "Download",
+                        to: "/testing",
+                        label: "Testing",
                     },
                     {
                         position: "left",
@@ -114,8 +114,8 @@ const config = {
                     },
                     {
                         position: "left",
-                        to: "/testing",
-                        label: "Testing",
+                        to: "/download",
+                        label: "Launcher",
                     },
                     {
                         position: "left",

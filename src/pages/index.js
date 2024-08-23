@@ -17,8 +17,8 @@ export default function () {
                     <span className={styles.title}>Space Eternity 3</span>
                     <br />
                     <div style={{ textAlign: "center" }}>
-                        <a className={styles.contentButton} href="/download">
-                            Download
+                        <a className={styles.contentButton} href="/testing">
+                            Testing
                         </a>
                         <a className={styles.contentButton} href="/about">
                             How to play
