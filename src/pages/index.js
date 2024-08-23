@@ -17,10 +17,10 @@ export default function () {
                     <span className={styles.title}>Space Eternity 3</span>
                     <br />
                     <div style={{ textAlign: "center" }}>
-                        <a className={styles.contentButton} href="/testing">
+                        <a className={styles.contentButton} href="./testing">
                             Testing
                         </a>
-                        <a className={styles.contentButton} href="/about">
+                        <a className={styles.contentButton} href="./about">
                             How to play
                         </a>
                     </div>
