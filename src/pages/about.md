@@ -26,6 +26,15 @@ Items are collected using LMB and placed using RMB. You can extend/retract your 
 | ![SE3_image](../../static/img/ab/spawn3.png) | ![SE3_image](../../static/img/ab/spawn4.png) |
 | -------------------------------------------- | -------------------------------------------- |
 
+## Navigation
+
+There are some features that can help you know where you are. A compass between the health
+and turbo bar points you to a respawn point. When you click it, it will display coordinates.
+
+| ![SE3_image](../../static/img/ab/coords1.png) |
+| --------------------------------------------- |
+| ![SE3_image](../../static/img/ab/coords2.png) |
+
 ## Controls
 
 Here is the list of all controls in the game:
@@ -156,16 +165,6 @@ in the table below:
 | Killing | ![SE3_image](../../static/img/items/Nn63A.png) | Removes 15 hp from your health bar. If you're wearing unstable artefact, it will also add 10 power to your power bar. |
 | Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills all your bars and removes effect. Only obtainable from dark cementeries.                                      |
 | Shield  | ![SE3_image](../../static/img/items/Nn79A.png) | Gives you a temporary shield, which makes you immune to all damage. Only obtainable from copper facilities.           |
-
-## Navigation
-
-The universe in SE3 is procedurally generated, which means that it feels infinite.
-There are some features that can help you know where you are. A compass between the health
-and turbo bar points you to a respawn point. When you click it, it will display coordinates.
-
-| ![SE3_image](../../static/img/ab/coords1.png) |
-| --------------------------------------------- |
-| ![SE3_image](../../static/img/ab/coords2.png) |
 
 ## Locations
 
