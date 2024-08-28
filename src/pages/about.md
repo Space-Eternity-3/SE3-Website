@@ -209,8 +209,8 @@ In the SE3 universe, you can find a variety of locations, some containing treasu
 <table>
   <tr></tr>
   <tr>
-    <th style="width: 50%;">Cementery (2.5%)</th>
-    <th style="width: 50%;">Dark cementery (1.5%)</th>
+    <th style="width: 50%;">Cementery (2%)</th>
+    <th style="width: 50%;">Dark cementery (1%)</th>
   </tr>
   <tr>
     <td style="width: 50%;"><img src="/img/ab/struct_cementery1.png" style="width: 100%;" alt="Cementery"></td>
@@ -227,7 +227,7 @@ In the SE3 universe, you can find a variety of locations, some containing treasu
 <table>
   <tr></tr>
   <tr>
-    <th style="width: 50%;">Copper facilities (2%)</th>
+    <th style="width: 50%;">Copper facilities (1.5%)</th>
     <th style="width: 50%;">Star (1.5%)</th>
   </tr>
   <tr>

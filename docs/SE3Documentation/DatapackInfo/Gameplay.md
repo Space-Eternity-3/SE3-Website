@@ -131,7 +131,7 @@ Here is a list of them all and their short descriptions:
 | at_impulse_power_regenerate_multiplier     | 1             | float     | Power regeneration speed when wearing impulse artefact.                                       |
 | at_impulse_time                            | 0,4           | float     | Impulse time when wearing impulse artefact.                                                   |
 | at_impulse_speed                           | 70            | float     | Impulse speed when wearing impulse artefact.                                                  |
-| at_impulse_damage                          | 10            | float     | Impulse damage when wearing impulse artefact.                                                 |
+| at_impulse_damage                          | 8             | float     | Impulse damage when wearing impulse artefact.                                                 |
 | at_illusion_power_regenerate_multiplier    | 1             | float     | Power regeneration speed when wearing illusion artefact.                                      |
 | at_illusion_power_use_multiplier           | 2             | float     | Power use speed when wearing illusion artefact.                                               |
 | at_illusion_speed_multiplier               | 1,2           | float     | The invisibility speed boost when wearing illusion artefact.                                  |
