@@ -26,6 +26,15 @@ Items are collected using LMB and placed using RMB. You can extend/retract your 
 | ![SE3_image](../../static/img/ab/spawn3.png) | ![SE3_image](../../static/img/ab/spawn4.png) |
 | -------------------------------------------- | -------------------------------------------- |
 
+## Navigation
+
+There are some features that can help you know where you are. A compass between the health
+and turbo bar points you to a respawn point. When you click it, it will display coordinates.
+
+| ![SE3_image](../../static/img/ab/coords1.png) |
+| --------------------------------------------- |
+| ![SE3_image](../../static/img/ab/coords2.png) |
+
 ## Controls
 
 Here is the list of all controls in the game:
@@ -157,16 +166,6 @@ in the table below:
 | Max     | ![SE3_image](../../static/img/items/Nn71A.png) | Refills all your bars and removes effect. Only obtainable from dark cementeries.                                      |
 | Shield  | ![SE3_image](../../static/img/items/Nn79A.png) | Gives you a temporary shield, which makes you immune to all damage. Only obtainable from copper facilities.           |
 
-## Navigation
-
-The universe in SE3 is procedurally generated, which means that it feels infinite.
-There are some features that can help you know where you are. A compass between the health
-and turbo bar points you to a respawn point. When you click it, it will display coordinates.
-
-| ![SE3_image](../../static/img/ab/coords1.png) |
-| --------------------------------------------- |
-| ![SE3_image](../../static/img/ab/coords2.png) |
-
 ## Locations
 
 In the SE3 universe, you can find a variety of locations, some containing treasures and others featuring structures:
@@ -210,8 +209,8 @@ In the SE3 universe, you can find a variety of locations, some containing treasu
 <table>
   <tr></tr>
   <tr>
-    <th style="width: 50%;">Cementery (2.5%)</th>
-    <th style="width: 50%;">Dark cementery (1.5%)</th>
+    <th style="width: 50%;">Cementery (2%)</th>
+    <th style="width: 50%;">Dark cementery (1%)</th>
   </tr>
   <tr>
     <td style="width: 50%;"><img src="/img/ab/struct_cementery1.png" style="width: 100%;" alt="Cementery"></td>
@@ -228,7 +227,7 @@ In the SE3 universe, you can find a variety of locations, some containing treasu
 <table>
   <tr></tr>
   <tr>
-    <th style="width: 50%;">Copper facilities (2%)</th>
+    <th style="width: 50%;">Copper facilities (1.5%)</th>
     <th style="width: 50%;">Star (1.5%)</th>
   </tr>
   <tr>
