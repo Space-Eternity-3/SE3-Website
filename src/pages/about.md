@@ -28,12 +28,12 @@ Items are collected using LMB and placed using RMB. You can extend/retract your 
 
 ## Navigation
 
-There are some features that can help you know where you are. A compass between the health
-and turbo bar points you to a respawn point. When you click it, it will display coordinates.
+You can find coordinates on top of the screen. When you click on the rectangle,
+it will switch to compass and display direction of your respawn point.
 
-| ![SE3_image](../../static/img/ab/coords1.png) |
-| --------------------------------------------- |
 | ![SE3_image](../../static/img/ab/coords2.png) |
+| --------------------------------------------- |
+| ![SE3_image](../../static/img/ab/coords1.png) |
 
 ## Controls
 
