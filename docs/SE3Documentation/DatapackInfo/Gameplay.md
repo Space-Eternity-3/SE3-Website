@@ -137,7 +137,7 @@ Here is a list of them all and their short descriptions:
 | ------------------------------------------ | ------------- | --------- | --------------------------------------------------------------------------------------------- |
 | at_protection_health_level_add             | 2,272         | float     | Value added to health level when wearing protection artefact.                                 |
 | at_protection_health_regenerate_multiplier | 1,5           | float     | Value by which `health_regenerate_multiplier` is multiplied when wearing protection artefact. |
-| at_impulse_power_regenerate_multiplier     | 1             | float     | Power regeneration speed when wearing impulse artefact.                                       |
+| at_impulse_power_regenerate_multiplier     | 0,75          | float     | Power regeneration speed when wearing impulse artefact.                                       |
 | at_impulse_time                            | 0,4           | float     | Impulse time when wearing impulse artefact.                                                   |
 | at_impulse_speed                           | 70            | float     | Impulse speed when wearing impulse artefact.                                                  |
 | at_impulse_damage                          | 8             | float     | Impulse damage when wearing impulse artefact.                                                 |
