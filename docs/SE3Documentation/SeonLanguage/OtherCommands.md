@@ -12,6 +12,7 @@ Here you can learn about other commands, which do not fit into any category.
 - [Contents](#contents)
 - [Hide](#hide)
 - [Setbiome](#setbiome)
+- [Instant](#instant)
 
 ## Hide
 
@@ -56,3 +57,9 @@ move -35 0 mod 10 0
 :::tip
 Biome IDs can be found in your datapack in the [generator_settings](../DatapackInfo/GeneratorSettings/) segment.
 :::
+
+## Instant
+
+Command `instant` forces the object to always spawn in the same frame as the whole structure.
+Note, that using this on many objects may cause some lag spikes.
+This command doesn't have any parameters.
