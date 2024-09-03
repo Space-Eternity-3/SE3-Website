@@ -83,8 +83,12 @@
     backdrop-filter: blur(3px);
     transition: 0.3s;
     border: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.253);
+    width: 50%;
+    height: auto;
 }
 
 .mainContent .contentButton:hover {
-    background-color: #26334199;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.521);
 }
+

@@ -15,12 +15,14 @@ export default function () {
             <div className={styles.background}></div>
             <div className={styles.mainContent}>
                 <div>
+                    <br style={{userSelect: 'none'}} />
+                    <br style={{userSelect: 'none'}} />
                     <img 
                         src="/img/logo.png" 
                         alt="Space Eternity 3 - official logo" 
                         style={{ width: '75%', height: 'auto', display: 'block', margin: '0 auto', userSelect: `none` }} 
                     />
-                    <br />
+                    <br style={{userSelect: 'none'}} />
                     <div style={{ textAlign: "center" }}>
                         <a className={styles.contentButton} href="/download">
                             Download
