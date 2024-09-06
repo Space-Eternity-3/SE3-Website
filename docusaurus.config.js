@@ -133,6 +133,11 @@ const config = {
                         position: "right",
                     },
                     {
+                        href: "https://github.com/Space-Eternity-3/",
+                        label: "GitHub",
+                        position: "right",
+                    },
+                    {
                         to: "blog",
                         label: "Blog",
                         position: "right",

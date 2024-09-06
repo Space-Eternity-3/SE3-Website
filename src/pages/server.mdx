@@ -10,18 +10,13 @@ To play SE3 with your friends, you need to download and run the server on your o
 
 ## Download server
 
-| Version  | Server (.zip)  | Server (.tar.gz)  |
+| Version  | Download (.zip)  | Download (.tar.gz)  |
 |---|---|---|
-| Release 2.3 (latest) | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Release-2.3.zip">Server 2.3 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Release-2.3.tar.gz">Server 2.3 (.tar.gz)</a> |
-| Beta 2.2           | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.2.zip">Server 2.2 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.2.tar.gz">Server 2.2 (.tar.gz)</a> |
-| Beta 2.1           | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.zip">Server 2.1 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.1.tar.gz">Server 2.1 (.tar.gz)</a> |
-| Beta 2.0           | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.0.zip">Server 2.0 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-2.0.tar.gz">Server 2.0 (.tar.gz)</a> |
-| Beta 1.15          | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.15.zip">Server 1.15 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.15.tar.gz">Server 1.15 (.tar.gz)</a> |
-| Beta 1.14          | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.14.zip">Server 1.14 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.14.tar.gz">Server 1.14 (.tar.gz)</a> |
-| Beta 1.13          | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.13.zip">Server 1.13 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Beta-1.13.tar.gz">Server 1.13 (.tar.gz)</a> |
+| Release 2.3 (latest) | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Release-2.3.zip">SE3 Server - Release 2.3 (.zip)</a> | <a href="https://github.com/Space-Eternity-3/SE3-Server/archive/refs/heads/Release-2.3.tar.gz">SE3 Server - Release 2.3 (.tar.gz)</a> |
 
-:::note
-Older servers can be found in game files all the way back to `Beta 1.3`.
+:::info
+Older servers can be found in [this repository](https://github.com/Space-Eternity-3/SE3-Server/).
+Ancient servers from before `Beta 1.13` are present in game files all the way back to `Beta 1.3`.
 :::
 
 ## Running server on Windows
@@ -56,26 +51,27 @@ Then [join to your server](#joining-to-your-server).
 
 ## Joining to your server
 
-When you start your server, it will be visible for computers in your local network (LAN) on port 27683. You can type in the SE3 address
-field `ws://local.ip:27683` or `ws://local.ip:`, where local.ip is your local IP address, for example `192.168.0.10`. 
+When you start your server, it will be visible for computers in your local network (LAN) on port 27683. To join, you should type `ws://local.ip:27683` or `ws://local.ip:` in the
+server address field, where local.ip is your local IP address, for example `192.168.0.10`. 
 
-To join to your server from internet, you need to forward port 27683 on your router. Read more on [portforward.com](https://portforward.com).
+To allow joining to your server from the internet, you need to forward port 27683 on your router. Read more on [portforward.com](https://portforward.com).
 Then you need to check your public IP address on [whatismyip.com](https://whatismyip.com). When you forward a port, everyone will be able to join to your
 server using address `ws://public.ip:27683` or `ws://public.ip:`, where public.ip is your public IP address.
 
 :::tip
-If you can't for some reason forward ports, you can use page [playit.gg](https://playit.gg) to tunell TCP traffic through the external server with ports already forwarded.
+If you can't for some reason forward ports, you can use page [playit.gg](https://playit.gg) or any similar page to tunell TCP traffic through the external server with ports already forwarded.
 Note, that this way you will increase your server's ping.
 :::
 
 ## Protecting your server
 
-
-Servers don't automatically have nickname protection enabled, so anyone can join using any nickname just by submitting it.
-To fix this, you'll need to enable nickname protection by following the instructions after starting the server.
-You will need the registered SE3 account, which you can create in the game main menu, to submit its login data into `authConfig.json` file.
-Every player who wants to join will have to log in to their SE3 account and use the special `se3://` redirect address.
+Servers don't automatically have nickname protection enabled, so anyone can join using any nickname.
+To fix this, follow instructions after starting the server.
+You will need the registered SE3 account, which can be created in the game main menu.
+Every player who wants to join will have to log in to their SE3 account and use the special `se3://` redirect address, which you
+can customize for your server during configuration.
 
 :::warning
-This system is fully safe only when you use the SSL protocol (`wss://` instead of `ws://`). However you need to set it up first.
+This system is fully safe only when you use the SSL protocol (`wss://` instead of `ws://`), however if you
+just want to play with your friends, it should be enough.
 :::
