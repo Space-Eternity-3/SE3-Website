@@ -4,7 +4,7 @@ You should read this tutorial before starting your gameplay. You will learn
 how to play, what you can find in the universe and how to use it properly.  
 
 :::note
-This tutorial was created for upcoming version `Release 2.3`
+This tutorial was created for version `Release 2.3`
 :::
 
 ## Basics

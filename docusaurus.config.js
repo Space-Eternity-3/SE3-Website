@@ -25,14 +25,14 @@ const config = {
                     sidebarPath: require.resolve("./sidebars.js"),
                     lastVersion: "current",
                     versions: {
-                        "Release-2.3": {
+                        current: {
                             label: "Release-2.3",
                             path: "Release-2.3",
-                            banner: "unreleased",
                         },
-                        current: {
+                        "Beta-2.2": {
                             label: "Beta-2.2",
                             path: "Beta-2.2",
+                            banner: "unmaintained",
                         },
                         "Beta-2.1": {
                             label: "Beta-2.1",
@@ -104,18 +104,13 @@ const config = {
                 items: [
                     {
                         position: "left",
-                        to: "/testing",
-                        label: "Testing",
+                        to: "/download",
+                        label: "Download",
                     },
                     {
                         position: "left",
                         to: "/about",
                         label: "How to play",
-                    },
-                    {
-                        position: "left",
-                        to: "/download",
-                        label: "Launcher",
                     },
                     {
                         position: "left",
@@ -135,6 +130,11 @@ const config = {
                     {
                         href: "https://discord.gg/e4ppBTRKhg",
                         label: "Discord",
+                        position: "right",
+                    },
+                    {
+                        href: "https://github.com/Space-Eternity-3/",
+                        label: "GitHub",
                         position: "right",
                     },
                     {

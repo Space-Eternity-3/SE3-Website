@@ -14,7 +14,7 @@ sidebar_position: 3
 
 :::info
 Seon - Space Eternity Objects Notation. It's a scripting language designed to create strucutres in SE3.
-Can be used through [datapacks](../DatapackInfo/).
+Can be used through [datapacks](../DatapackInfo).
 :::
 
 ## Contents

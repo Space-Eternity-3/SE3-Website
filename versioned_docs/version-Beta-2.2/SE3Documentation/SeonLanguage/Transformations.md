@@ -122,8 +122,8 @@ steal fromdelta -1
 
 ## Spreading
 
-Spreading system is not finished and probably never will.
-The only command it currently contains is `move ... offset`.
+Spread system is not available yet, but
+`move ... offset` command is ready to use just now.
 It has the following structure:
 
 ```text
@@ -136,3 +136,8 @@ size `2*x` x `2*y`, with the center in its current position and relatively to it
 :::note
 This command can not affect fobs. It doesn't exists in the `$` variant.
 :::
+
+:::caution
+This command is currently experimental and may change in future versions.
+:::
+

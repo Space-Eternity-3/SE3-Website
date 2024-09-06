@@ -1,7 +1,7 @@
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import DownloadButton from "@site/src/components/DownloadButton";
 
-# Download launcher
+# Download page
 
 export const System = () => {
     if (window.navigator.userAgent.indexOf("Windows") != -1) return "Windows";
@@ -30,22 +30,21 @@ export const GetMessage = () => {
     return "Your system is unsupported";
 };
 
-## SE3 Launcher v3.0.3 (latest)
+## SE3 Launcher v3.0.5 (latest) {#launcher}
+
+Launcher makes updating SE3 much easier and gives you easy access to older versions of the game.
 
 :::note
-SE3 is only available on computers with Windows or Linux.
+SE3 is only available on computers with Windows or Linux. If you encounter any problems during
+installation, see [direct download](#direct-download).
 :::
 
 | ![SE3_image](../../static/img/pages/launcher.png) |
 | --- |
 
-:::info
-Only finished versions of the game are available through launcher. To play the latest snapshot, see [testing page](./testing).
-:::
-
 <BrowserOnly>{() => <DownloadButton text={GetMessage()} url={DownloadLink()} />}</BrowserOnly>
 
-### All downloads
+<h3> All downloads </h3>
 
 -   Windows x64
     -   [Installer](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/v3.0.3/se3-launcher-3.0.3-win-x64-portable.exe)
@@ -57,8 +56,14 @@ Only finished versions of the game are available through launcher. To play the l
     -   [AppImage](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/v3.0.3/se3-launcher-3.0.3-linux-x86_64.AppImage)
     -   [rpm](https://github.com/Space-Eternity-3/SE3-Launcher/releases/download/v3.0.3/se3-launcher-3.0.3-linux-x86_64.rpm)
 
-## Github links
+## Direct download + Source code {#direct-download}
 
-[View Space Eternity 3 on GitHub](https://github.com/Space-Eternity-3/Space-Eternity-3) (by Kamiloso)  
-[View SE3 Launcher on GitHub](https://github.com/Space-Eternity-3/SE3-Launcher) (by Nadwey)  
-[View SE3 Website on GitHub](https://github.com/Space-Eternity-3/SE3-Website) (by Kamiloso & Nadwey)  
+:::info
+You can download the latest version of SE3 directly from [this page](https://github.com/Space-Eternity-3/Space-Eternity-3/releases/tag/release%2FRelease-2.3).
+Source code is also included. Note, that this way you will not be informed about future updates.
+:::
+
+## GitHub links
+
+[View Space Eternity 3 on GitHub](https://github.com/Space-Eternity-3/Space-Eternity-3) - by Kamiloso  
+[View SE3 Launcher on GitHub](https://github.com/Space-Eternity-3/SE3-Launcher) - by Nadwey  
