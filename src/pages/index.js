@@ -24,10 +24,10 @@ export default function () {
                     />
                     <br style={{userSelect: 'none'}} />
                     <div style={{ textAlign: "center" }}>
-                        <a className={styles.contentButton} href="./testing">
-                            Testing
+                        <a className={styles.contentButton} href="/download">
+                            Download
                         </a>
-                        <a className={styles.contentButton} href="./about">
+                        <a className={styles.contentButton} href="/about">
                             How to play
                         </a>
                     </div>
