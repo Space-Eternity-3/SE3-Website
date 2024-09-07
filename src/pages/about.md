@@ -10,12 +10,8 @@ This tutorial was created for version `Release 2.3`
 ## Basics
 
 After joining your first universe you will appear at spawn. This is the center of your procedurally generated world and
-the default respawn point.
-
-| ![SE3_image](../../static/img/ab/spawn0.png) |
-| -------------------------------------------- |
-
-Hold space, left shift (turbo) or left alt (brake) to activate your engine. The spaceship will always rotate towards your cursor.
+the default respawn point.  Hold space, left shift (turbo) or left alt (brake) to activate your engine.
+The spaceship will always rotate towards your cursor.
 
 | ![SE3_image](../../static/img/ab/spawn1.png) | ![SE3_image](../../static/img/ab/spawn2.jpg) |
 | -------------------------------------------- | -------------------------------------------- |
