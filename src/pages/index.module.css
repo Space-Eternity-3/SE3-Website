@@ -73,7 +73,7 @@
     background-color: #19212990;
     color: white;
     border-radius: 10px;
-    font-size: 33px;
+    font-size: clamp(16px, 4vw, 33px); /* Czcionka dostosowuje się do szerokości okna przeglądarki */
     text-decoration: none;
     margin: 7px 17px;
     padding: 1.5vh 2.5vw;
@@ -88,7 +88,15 @@
     height: auto;
 }
 
+@media (max-width: 850px) {
+    .mainContent .contentButton {
+        width: 50%; /* Zwiększenie szerokości przycisków na mniejszych ekranach */
+        font-size: clamp(14px, 5vw, 28px); /* Zmniejszenie fontu na mniejszych ekranach */
+    }
+}
+
 .mainContent .contentButton:hover {
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.521);
 }
+
 
