@@ -20,7 +20,7 @@ export default function () {
                     <img 
                         src="/img/logo.png" 
                         alt="Space Eternity 3 - official logo" 
-                        style={{ width: '75%', height: 'auto', display: 'block', margin: '0 auto', userSelect: `none` }} 
+                        style={{ width: '70%', height: 'auto', display: 'block', margin: '0 auto', userSelect: `none` }} 
                     />
                     <br style={{userSelect: 'none'}} />
                     <div style={{ textAlign: "center" }}>

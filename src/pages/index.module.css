@@ -73,9 +73,9 @@
     background-color: #19212990;
     color: white;
     border-radius: 10px;
-    font-size: 35px;
+    font-size: 33px;
     text-decoration: none;
-    margin: 8px 8px;
+    margin: 7px 17px;
     padding: 1.5vh 2.5vw;
     display: inline-block;
     user-select: none;
@@ -84,7 +84,7 @@
     transition: 0.3s;
     border: none;
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.253);
-    width: 50%;
+    width: 27%;
     height: auto;
 }
 
