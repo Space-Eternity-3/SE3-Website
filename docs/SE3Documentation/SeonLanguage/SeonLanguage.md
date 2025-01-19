@@ -35,7 +35,7 @@ catch # 2 summon wall 1 1 5
 catch # 1-2 move 10 0 mod 10 0
 
 <this is unconventional, but still correct>
-catch # 3
+catch # 3 summon
 piston 1 1
 5
 ```
