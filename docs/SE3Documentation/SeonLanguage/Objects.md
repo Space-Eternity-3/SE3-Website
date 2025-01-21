@@ -85,7 +85,7 @@ summon parameters:
 ```text showLineNumbers
 summon asteroid [size-4-10] [type] [fobcode]
 summon wall [size-X] [size-Y] [type]
-summon sphere [size-X] [size-Y] [type]
+summon sphere [size] [type]
 summon piston [size-X] [size-Y] [type]
 summon star
 summon monster
@@ -98,7 +98,7 @@ summon boss [type]
 
 :::note
 + `[type]` must be an integer.
-+ `[range]`, `[size-X]` and `[size-Y]` can be decimals.
++ `[range]`, `[size]`, `[size-X]` and `[size-Y]` can be decimals.
 + `[size-4-10]` must be an integer from <4;10>.
 + `[fobcode]` is a special format, which you can read about [here](#fobcode).
 :::
