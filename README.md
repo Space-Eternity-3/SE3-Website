@@ -4,9 +4,9 @@ This is a project that stores a source code of the official **Space Eternity 3 w
 
 ## Preview
 
-![Demo1](screenshots/demo1.png)
-![Demo2](screenshots/demo2.png)
-![Demo3](screenshots/demo3.png)
+| ![Demo1](screenshots/demo1.png) |
+| ------------------------------- |
+| ![Demo2](screenshots/demo2.png) |
 
 ## How to run?
 
